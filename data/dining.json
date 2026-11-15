@@ -1,0 +1,182 @@
+[
+  {
+    "category": "dining",
+    "question": "When dining out with Japanese colleagues or friends, what's common regarding paying the bill?",
+    "options": [
+      "The most senior or highest-paid person is expected to always pay for everyone",
+      "Splitting the cost evenly (warikan) is common, even if people ordered different amounts",
+      "Whoever suggested going out must pay, as a point of pride",
+      "Everyone pays for exactly what they personally ordered, down to the yen"
+    ],
+    "answer": 1,
+    "explanation": "Warikan (splitting the bill evenly) is the default among friends and coworkers precisely because it avoids turning a casual meal into a running tally of who owes whom what - the emphasis is on the shared experience, not on precise individual accounting or who 'won' by paying.",
+    "hint": "Think about what keeps a casual meal feeling casual.",
+    "image": "images/ramen.jpeg",
+    "option_tags": [
+      "formality_assumption",
+      null,
+      "achievement_bias",
+      "own_culture_transfer"
+    ]
+  },
+  {
+    "category": "dining",
+    "question": "Why is it considered bad manners to pass food directly from your chopsticks to someone else's chopsticks?",
+    "options": [
+      "It's just considered clumsy and impractical",
+      "It closely resembles a funeral ritual where cremated bones are passed between chopsticks",
+      "It's only impolite if you're not family",
+      "It's fine as long as you do it quickly and quietly"
+    ],
+    "answer": 1,
+    "explanation": "At Japanese funerals, bone fragments are passed between pairs of chopsticks from one family member to another during cremation rites, so recreating that same motion at a dining table unintentionally evokes death and mourning - it's not about table manners or cleanliness at all.",
+    "hint": "Think about what else in Japan involves passing something between chopsticks.",
+    "image": "images/ramen.jpeg",
+    "option_tags": [
+      "practicality",
+      null,
+      "formality_assumption",
+      "indulgence_assumption"
+    ]
+  },
+  {
+    "category": "dining",
+    "question": "At a group dinner with alcohol, what's a common custom regarding pouring drinks?",
+    "options": [
+      "Everyone pours their own drink, to be efficient and self-sufficient",
+      "You pour for others, and they pour for you, rather than filling your own glass",
+      "Only the host is formally allowed to pour, by strict rule",
+      "You should pour as generously as possible to show off your generosity"
+    ],
+    "answer": 1,
+    "explanation": "Pouring for each other turns drinking into a small, ongoing act of mutual attention - you're expected to notice when someone's glass is low, and they'll do the same for you. Pouring your own drink isn't rude exactly, but it skips this little exchange of looking out for each other that the custom is really about.",
+    "hint": "Think about what the custom signals between two people, not just about the drink itself.",
+    "image": "images/ramen.jpeg",
+    "option_tags": [
+      "own_culture_transfer",
+      null,
+      "formality_assumption",
+      "achievement_bias"
+    ]
+  },
+  {
+    "category": "dining",
+    "question": "Is it polite to leave a small amount of food on your plate at the end of a meal in Japan?",
+    "options": [
+      "You should always leave a little food to show you weren't starved",
+      "Finishing your plate completely is appreciated, since it shows gratitude and avoids waste",
+      "Leaving food is a formal way to signal a complaint about the meal",
+      "It doesn't matter at all, since enjoying yourself is what counts most"
+    ],
+    "answer": 1,
+    "explanation": "Finishing a meal is read as a direct compliment to the cook and a sign you didn't take more than you needed - in some other cultures leaving a little signals you were given plenty, but in Japan an empty plate is the compliment, not leftover food.",
+    "hint": "Think about who an empty plate is actually a compliment to.",
+    "image": "images/ramen.jpeg",
+    "option_tags": [
+      "own_culture_transfer",
+      null,
+      "formality_assumption",
+      "indulgence_assumption"
+    ]
+  },
+  {
+    "category": "dining",
+    "question": "At an izakaya (Japanese pub), how are dishes typically ordered for the table?",
+    "options": [
+      "Each person orders and eats their own individual full meal",
+      "Multiple small, shareable dishes are ordered for the whole table to eat from together",
+      "The person who orders the most impressive or expensive dish earns the group's respect",
+      "There's an official course order that must be followed exactly"
+    ],
+    "answer": 1,
+    "explanation": "Izakaya dining is built around shared plates arriving gradually and everyone reaching in together, which is part of why it works so well for casual group socializing - ordering one large personal meal (as you might elsewhere) misses the point of the format entirely.",
+    "hint": "Think about how the food is meant to be eaten - alone, or together.",
+    "image": "images/ramen.jpeg",
+    "option_tags": [
+      "own_culture_transfer",
+      null,
+      "achievement_bias",
+      "formality_assumption"
+    ]
+  },
+  {
+    "category": "dining",
+    "question": "If you don't want more food or alcohol but someone keeps offering, what's an effective polite way to decline?",
+    "options": [
+      "Just say a blunt 'no' once, since being direct is best",
+      "Decline gently once or twice, or lightly cover your cup - a soft but clear signal works better than a flat refusal",
+      "Accept it anyway, since refusing would spoil the fun",
+      "You must formally decline in writing in advance"
+    ],
+    "answer": 1,
+    "explanation": "A flat, one-word 'no' can land as unexpectedly cold given how much the offering itself is a gesture of care, while a softened decline (or simply covering your cup) gets the message across without making the other person feel rejected - it's a small negotiation, not a single blunt answer.",
+    "hint": "Think about how to say no without it feeling like a rejection of the gesture.",
+    "image": "images/ramen.jpeg",
+    "option_tags": [
+      "own_culture_transfer",
+      null,
+      "indulgence_assumption",
+      "formality_assumption"
+    ]
+  },
+  {
+    "category": "dining",
+    "question": "When a group that includes a boss or senior figure is about to order food, what's common?",
+    "options": [
+      "Whoever is ready first just orders immediately, in any order",
+      "People often wait for the most senior or eldest person to order first, out of respect",
+      "Ordering first is seen as a way to show confidence and leadership",
+      "Order doesn't matter at all - everyone orders whenever they feel like it"
+    ],
+    "answer": 1,
+    "explanation": "Letting the senior person order first (or at least checking in with them) acknowledges their position without anyone having to say so explicitly - it's a quiet, low-friction way of showing the same respect that in other settings might be expressed verbally.",
+    "hint": "Think about how respect for seniority can be shown without words.",
+    "image": "images/ramen.jpeg",
+    "option_tags": [
+      "own_culture_transfer",
+      null,
+      "achievement_bias",
+      "indulgence_assumption"
+    ]
+  },
+  {
+    "category": "dining",
+    "question": "After a company drinking party (nomikai), how do colleagues typically act the next day?",
+    "options": [
+      "Whatever happened while drinking continues to be openly discussed and joked about",
+      "Mostly back to normal - personal behavior while drinking is somewhat forgiven, but professional composure resumes right away",
+      "People bond closer and treat each other more casually from then on",
+      "There's a formal rule requiring an apology email the next morning"
+    ],
+    "answer": 1,
+    "explanation": "Nomikai loosens the usual restraint for the evening, but that's treated as a temporary, bounded exception rather than a lasting shift in how people relate at work - by the next morning, the same professional distance and composure is simply expected again.",
+    "hint": "Think of the drinking party as a bracketed exception, not a permanent change.",
+    "image": "images/ramen.jpeg",
+    "option_tags": [
+      "indulgence_assumption",
+      null,
+      "own_culture_transfer",
+      "formality_assumption"
+    ]
+  },
+  {
+    "category": "dining",
+    "question": "If invited to someone's home for a meal in Japan, what's a common practice regarding dessert or snacks you might bring?",
+    "options": [
+      "Bringing anything is seen as implying the host can't provide enough food",
+      "Bringing a small gift of sweets or drinks (temiyage) for the host is common and appreciated",
+      "You're formally required to bring a gift of equal value to the meal",
+      "Bringing something is only for very close family, not general guests"
+    ],
+    "answer": 1,
+    "explanation": "A small temiyage isn't about compensating for the host's cooking - it's a modest, expected gesture of appreciation for being welcomed into someone's home, similar in spirit to how many cultures bring something when visiting, just treated as a near-default rather than optional extra.",
+    "hint": "Think about what the gift is meant to express, not replace.",
+    "image": "images/present.png",
+    "option_tags": [
+      "own_culture_transfer",
+      null,
+      "formality_assumption",
+      "distractor"
+    ]
+  }
+]

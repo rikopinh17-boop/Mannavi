@@ -1,0 +1,121 @@
+[
+  {
+    "question": "Di mana sebaiknya kamu berdiri saat menunggu kereta?",
+    "options": [
+      "Di mana saja di peron",
+      "Di luar garis keselamatan kuning",
+      "Berbaris di area naik yang ditandai",
+      "Tepat di depan pintu kereta"
+    ],
+    "explanation": "Peron kereta Jepang mengecat titik pasti tempat setiap pintu akan terbuka, dan mengantre di sana memungkinkan penumpang yang turun keluar lebih dulu sebelum penumpang lain naik - sistem yang dirancang untuk meminimalkan keterlambatan pada kereta yang sering berjalan hanya dalam selisih beberapa menit dengan jadwal yang sangat ketat.",
+    "hint": "Mengantre itu penting di Jepang."
+  },
+  {
+    "question": "Apakah boleh menelepon saat naik kereta atau bus di Jepang?",
+    "options": [
+      "Ya, jika kamu bicara pelan",
+      "Ya, kapan saja",
+      "Hanya saat keadaan darurat",
+      "Ponsel sebaiknya disenyapkan dan panggilan telepon dihindari"
+    ],
+    "explanation": "Panggilan telepon lebih mengganggu dibanding suara sekitar karena sifatnya satu arah - otakmu tidak bisa tidak fokus pada separuh percakapan yang terdengar, berbeda dengan obrolan latar belakang yang bisa diabaikan. Di kereta komuter yang penuh sesak di mana banyak penumpang ingin beristirahat atau membaca, itu dianggap benar-benar mengganggu orang lain, bukan sekadar gangguan kecil.",
+    "hint": "Pertimbangkan orang di sekitarmu."
+  },
+  {
+    "question": "Siapa yang sebaiknya menggunakan kursi prioritas di kereta dan bus?",
+    "options": [
+      "Siapa saja, siapa cepat dia dapat",
+      "Hanya anak-anak",
+      "Orang yang membutuhkannya (lansia, ibu hamil, cedera, dll.)",
+      "Hanya pelajar"
+    ],
+    "explanation": "Kursi prioritas ditempatkan dekat pintu khusus agar mudah dijangkau oleh lansia, penumpang hamil, atau orang dengan cedera atau disabilitas. Memberikan kursi, bahkan untuk orang yang terlihat 'baik-baik saja,' dianggap sebagai bentuk kepedulian dasar karena banyak kondisi yang tidak terlihat dari luar.",
+    "hint": "Selalu perhatikan kebutuhan orang lain."
+  },
+  {
+    "question": "Apakah makan diperbolehkan di transportasi umum di Jepang?",
+    "options": [
+      "Ya, jika tidak berbau",
+      "Ya, hanya di kereta jarak jauh seperti Shinkansen",
+      "Hanya camilan yang diperbolehkan",
+      "Makan selalu diperbolehkan"
+    ],
+    "explanation": "Kereta komuter biasa memuat banyak orang yang berangkat kerja atau sekolah dalam ruang yang sempit, sehingga bau makanan dan remah-remah terasa mengganggu semua orang di sekitar dalam ruang tertutup. Kereta jarak jauh seperti Shinkansen diperlakukan berbeda karena perjalanannya lebih panjang, kursinya lebih luas, dan makan bento di sana hampir menjadi sebuah tradisi.",
+    "hint": "Perhatikan suara dan baunya."
+  },
+  {
+    "question": "Apa yang sebaiknya kamu lakukan dengan ranselmu di kereta yang penuh sesak?",
+    "options": [
+      "Tetap memakainya di punggung",
+      "Meletakkannya di rak atas",
+      "Memegangnya di depan tubuh atau meletakkannya di lantai",
+      "Melemparkannya ke kursi"
+    ],
+    "explanation": "Memakai ransel di punggung berarti kamu kemungkinan tidak bisa melihat atau merasakan saat ranselnya menabrak orang lain di gerbong yang padat, terutama saat kereta berhenti mendadak. Memegangnya di depan tubuh atau meletakkannya di dekat kaki membuat seluruh bentuk tubuhmu terlihat olehmu dan memakan lebih sedikit ruang bersama.",
+    "hint": "Ruang digunakan bersama - bersikaplah peduli."
+  },
+  {
+    "question": "Mengapa orang berdiri di salah satu sisi eskalator?",
+    "options": [
+      "Itu peraturan keselamatan resmi",
+      "Agar orang yang sedang terburu-buru bisa berjalan melewati sisi lainnya",
+      "Berjalan naik memang lebih seru dan bersemangat dibanding berdiri diam",
+      "Semua orang di negara asalku juga melakukan ini, jadi pasti aturan universal"
+    ],
+    "hint": "Di Tokyo: berdiri di kiri. Di Osaka: berdiri di kanan. Namun belakangan ini, berjalan di eskalator dianggap berbahaya, dan semakin banyak daerah yang menganjurkan agar orang berdiri di kedua sisi."
+  },
+  {
+    "question": "Apa yang sebaiknya kamu lakukan jika kartu IC-mu tidak berfungsi di gerbang tiket?",
+    "options": [
+      "Memaksa masuk",
+      "Meminta bantuan staf stasiun",
+      "Meminjam kartu orang lain",
+      "Membuang kartumu"
+    ],
+    "explanation": "Staf stasiun menangani masalah kartu setiap saat dan biasanya bisa menyelesaikannya dalam sekejap, sementara memaksa masuk lewat gerbang bisa memicu alarm, merusak gerbang, atau membuatmu dicurigai menghindari tarif. Meminta bantuan adalah cara tercepat dan paling tidak membuat stres.",
+    "hint": "Jangan panik - staf sangat membantu."
+  },
+  {
+    "question": "Bagaimana sebaiknya kamu mendengarkan musik di transportasi umum?",
+    "options": [
+      "Memutarnya lewat speaker",
+      "Menggunakan headphone dan menjaga volume tetap rendah",
+      "Menikmatinya dengan keras",
+      "Bernyanyi mengikuti dengan suara pelan"
+    ],
+    "explanation": "Suara yang bocor dari headphone dianggap sebagai kelalaian yang lebih besar dibanding kebisingan lain karena sangat mudah dihindari hanya dengan menyesuaikan volume, sehingga penumpang Jepang cenderung menganggap audio yang 'bocor' sebagai ketidakpedulian terhadap orang lain, bukan sekadar nasib buruk.",
+    "hint": "Hanya telingamu sendiri yang boleh mendengarnya."
+  },
+  {
+    "question": "Apa yang sebaiknya kamu lakukan dengan barang besar seperti kereta bayi atau koper?",
+    "options": [
+      "Meninggalkannya di mana pun yang nyaman",
+      "Menghalangi lorong",
+      "Menjaganya tetap dekat denganmu di tempat yang tidak menghalangi",
+      "Meletakkannya di kursi"
+    ],
+    "explanation": "Lorong dan area pintu sering kali menjadi satu-satunya jalan bagi penumpang lain untuk lewat atau turun di stasiun mereka, sehingga barang bawaan yang diletakkan sembarangan bisa menghalangi kesempatan seseorang untuk turun tepat waktu - terutama menegangkan di kereta dengan waktu henti yang singkat dan padat.",
+    "hint": "Lorong itu untuk semua orang."
+  },
+  {
+    "question": "Apakah percakapan dengan suara keras diperbolehkan di kereta yang penuh sesak di Jepang?",
+    "options": [
+      "Ya, jika bersama teman",
+      "Hanya di pagi hari",
+      "Tidak, suara pelan lebih disukai",
+      "Hanya di kereta lokal"
+    ],
+    "explanation": "Budaya komuter Jepang menganggap kereta sebagai waktu pribadi bersama, sering kali di pagi atau malam hari, untuk membaca, beristirahat, atau mempersiapkan diri secara mental untuk hari itu - jadi suasana tenang bukan sekadar aturan ketat, melainkan ekspektasi yang dipahami bersama untuk melindungi ruang itu bagi semua orang.",
+    "hint": "Perlakukan kereta seperti perpustakaan."
+  },
+  {
+    "question": "Di Jepang, ekspresi emosi yang kuat di depan umum (tertawa keras, menangis, bertengkar hebat) di ruang bersama seperti kereta atau toko umumnya...",
+    "options": [
+      "Dianjurkan, karena mengekspresikan diri secara bebas dihargai",
+      "Dihindari, karena menahan diri di ruang publik bersama lebih dihargai daripada ekspresi pribadi",
+      "Hanya diperbolehkan pada acara festival tertentu",
+      "Sekarang sudah sepenuhnya diterima di mana-mana, sama seperti di negara asalku"
+    ],
+    "hint": "Pikirkan seberapa besar perasaan pribadi biasanya ditunjukkan di ruang bersama yang tenang."
+  }
+]

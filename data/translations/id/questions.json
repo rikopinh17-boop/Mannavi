@@ -1,0 +1,132 @@
+[
+  {
+    "question": "Apa yang sebaiknya kamu lakukan sebelum masuk ke onsen (pemandian air panas)?",
+    "options": [
+      "Langsung lompat ke bak mandi",
+      "Membasuh tubuh dengan bersih",
+      "Memakai baju renang",
+      "Makan sebelum berendam"
+    ],
+    "explanation": "Air onsen digunakan bersama oleh semua tamu pada hari itu dan sering kali tidak diganti antar pemandi, jadi membasuh tubuh dengan bersih di area shower terlebih dahulu bukan sekadar formalitas — itulah yang benar-benar menjaga kebersihan bak mandi bersama untuk semua orang yang berendam setelahmu."
+  },
+  {
+    "question": "Kapan sebaiknya kamu melepas sepatu di Jepang?",
+    "options": [
+      "Sebelum masuk ke rumah pribadi",
+      "Sebelum masuk ke lift",
+      "Sebelum masuk ke lobi hotel",
+      "Sebelum masuk ke area luar kuil (shrine)"
+    ],
+    "explanation": "Rumah-rumah Jepang secara tradisional digunakan untuk duduk bahkan tidur langsung di lantai, terutama di atas tatami, sehingga menjaga lantai tetap bebas dari kotoran luar lebih penting dibandingkan di banyak budaya lain. Melepas sepatu di genkan (area pintu masuk) juga menandai batas simbolis antara dunia 'luar' dan bagian 'dalam' rumah seseorang yang bersih dan pribadi."
+  },
+  {
+    "question": "Apakah boleh menelepon di dalam kereta di Jepang?",
+    "options": [
+      "Ya, selama suaranya pelan",
+      "Tidak, dianggap tidak sopan",
+      "Hanya di pagi hari",
+      "Hanya di akhir pekan"
+    ],
+    "explanation": "Panggilan telepon lebih sulit diabaikan dibandingkan obrolan latar belakang karena sifatnya satu arah — otakmu terus berusaha mengikuti bagian percakapan yang tidak terdengar. Di kereta yang penuh sesak dengan penumpang yang ingin beristirahat atau fokus, itu membuat telepon terasa jauh lebih mengganggu dibanding suara lain, sehingga mengirim pesan teks lebih disukai."
+  },
+  {
+    "question": "Bagaimana orang Jepang biasanya saling menyapa?",
+    "options": [
+      "Berpelukan",
+      "Berjabat tangan",
+      "Membungkuk (ojigi)",
+      "Bertos (high-five)"
+    ],
+    "explanation": "Membungkuk memungkinkanmu menunjukkan rasa hormat dan mengakui status atau hubungan orang lain denganmu tanpa kontak fisik, dan kedalaman serta lamanya bungkukan berubah sesuai situasi. Ini tetap menjadi sapaan utama karena menjaga jarak yang nyaman namun tetap terasa hangat dan tulus."
+  },
+  {
+    "question": "Saat makan mi di Jepang, apakah menyeruput mi dengan bersuara itu boleh?",
+    "options": [
+      "Tidak, itu tidak sopan",
+      "Hanya untuk soba",
+      "Ya, itu tanda menikmati makanan",
+      "Hanya boleh dilakukan secara pribadi"
+    ],
+    "explanation": "Menyeruput sebenarnya mendinginkan mi panas saat masuk ke mulut dan dipercaya dapat menarik lebih banyak aroma, sehingga memperkuat rasa. Membuat suara saat makan mi menandakan kenikmatan yang tulus kepada juru masak, kebalikan dari budaya makan yang menganggap makan dengan tenang sebagai hal sopan."
+  },
+  {
+    "question": "Apa yang sebaiknya kamu lakukan dengan sampahmu di tempat umum di Jepang?",
+    "options": [
+      "Meninggalkannya di bangku",
+      "Membuangnya ke tempat sampah mana saja",
+      "Membawanya pulang",
+      "Menyerahkannya ke staf"
+    ],
+    "explanation": "Tempat sampah umum menjadi langka sebagian karena kekhawatiran keamanan setelah insiden-insiden pada tahun 1990-an, dan sebagian lagi karena adanya ekspektasi budaya bahwa setiap orang mengelola sampahnya sendiri alih-alih mengandalkan layanan umum. Membawa sampah pulang (atau ke tempat sampah di minimarket) dianggap sebagai tanggung jawab pribadi dasar, bukan ketidaknyamanan yang harus ditoleransi."
+  },
+  {
+    "question": "Bagaimana sebaiknya kamu menyerahkan uang di toko-toko Jepang?",
+    "options": [
+      "Menyerahkannya langsung",
+      "Melemparkannya pelan ke meja kasir",
+      "Meletakkannya di nampan kecil",
+      "Mengangkatnya tinggi di udara"
+    ],
+    "explanation": "Menggunakan nampan kecil mencegah koin terjatuh atau uang kertas salah pegang, tapi yang lebih penting, itu menjaga transaksi tetap tenang dan tidak personal — meletakkan uang menghindari kesan merebut atau terburu-buru, yang sesuai dengan preferensi Jepang secara umum terhadap interaksi layanan yang hati-hati dan tidak konfrontatif."
+  },
+  {
+    "question": "Mengapa orang Jepang mengucapkan 'itadakimasu' sebelum makan, bahkan saat makan sendirian di minimarket?",
+    "options": [
+      "Karena itu adalah doa keagamaan yang ditujukan kepada dewa",
+      "Untuk menunjukkan rasa syukur kepada semua pihak yang terlibat hingga makanan sampai ke piringmu, bukan sebagai tindakan keagamaan",
+      "Karena staf restoran mengharuskan pelanggan mengucapkannya",
+      "Untuk menunjukkan kepada orang di sekitar bahwa kamu memiliki tata krama makan yang baik"
+    ],
+    "explanation": "'Itadakimasu' secara harfiah berarti 'saya menerima dengan rendah hati.' Ini adalah bentuk pengakuan kecil sehari-hari atas jasa petani, juru masak, bahkan tumbuhan dan hewan di balik makanan tersebut - diucapkan bahkan saat makan sendirian, karena rasa syukurnya ditujukan untuk seluruh rantai makanan, bukan soal agama, aturan, atau diawasi orang lain."
+  },
+  {
+    "question": "Apa yang sebaiknya kamu lakukan saat mengunjungi kuil (shrine)?",
+    "options": [
+      "Bertepuk tangan dua kali lalu membungkuk sekali",
+      "Masuk saja dengan tenang",
+      "Berfoto terlebih dahulu",
+      "Berlari melewati gerbang"
+    ],
+    "explanation": "Urutan lengkapnya — membungkuk dua kali, bertepuk tangan dua kali, berdoa, lalu membungkuk sekali — dipercaya pertama-tama menunjukkan rasa hormat kepada dewa (kami), lalu memanggil perhatiannya dengan tepukan tangan, dan akhirnya menyampaikan doa serta rasa terima kasih. Setiap gerakan memiliki tujuan tersendiri, sehingga melewatkan satu langkah dianggap sebagai doa yang tidak lengkap, bukan sekadar tidak formal."
+  },
+  {
+    "question": "Apakah memberi tip umum dilakukan di Jepang?",
+    "options": [
+      "Ya, selalu beri tip 10%",
+      "Hanya di restoran mewah",
+      "Tidak pernah, itu tidak diharapkan",
+      "Hanya untuk sopir taksi"
+    ],
+    "explanation": "Budaya layanan Jepang menganggap pelayanan yang sangat baik sudah termasuk dalam harga dan merupakan bagian dari kebanggaan profesional seorang pekerja, bukan sesuatu yang perlu dibayar ekstra untuk memotivasi. Memberi tip bahkan bisa terasa menghina, seolah menyiratkan staf butuh insentif tambahan untuk bekerja dengan baik."
+  },
+  {
+    "question": "Ketika rekan kerja orang Jepang memuji pekerjaanmu, apa respons sopan yang umum dilakukan?",
+    "options": [
+      "Menerimanya dengan percaya diri dan menyebutkan pencapaian lainnya juga",
+      "Merendah dengan sopan (misalnya, 'Ah tidak juga, saya masih harus banyak belajar')",
+      "Kamu harus berterima kasih secara formal lewat tulisan setelahnya",
+      "Memuji balik mereka seketika itu juga, karena itu kebiasaan di negara asalku"
+    ],
+    "explanation": "Menerima pujian secara terbuka - apalagi sambil menambahkan pencapaian lain - bisa terkesan mempromosikan diri sendiri dalam budaya yang menjunjung kerendahan hati dan keharmonisan kelompok dibanding menonjol sendiri. Merendah saat dipuji bukan kerendahan hati yang palsu; itu adalah cara menjaga fokus tetap pada hubungan, bukan pada pengakuan individu."
+  },
+  {
+    "question": "Di izakaya (bar khas Jepang) bersama rekan kerja, bahkan ketika semua orang sudah minum dan bersenang-senang, apa yang tetap umumnya diharapkan?",
+    "options": [
+      "Kebebasan penuh untuk berkata atau berbuat apa saja, karena intinya memang untuk bersenang-senang",
+      "Tingkat pengendalian diri dan kesadaran atas ucapanmu, karena hubungan tetap berlanjut setelah malam itu berakhir",
+      "Urutan tempat duduk yang ketat yang harus selalu diikuti",
+      "Semua orang harus minum dengan kecepatan yang sama persis, seperti kebiasaan di negara asalku"
+    ],
+    "explanation": "Budaya minum di Jepang memang melonggarkan sebagian formalitas, itulah sebabnya mudah menganggap 'semua boleh dilakukan.' Tapi kebanyakan orang tetap menjaga seberapa banyak yang mereka ungkapkan atau seberapa keras mereka bersikap, karena besok mereka kembali ke meja kerja yang sama dengan rekan yang sama - kesenangannya nyata, tapi ada batasnya."
+  },
+  {
+    "question": "Banyak toko lama Jepang (shinise) menolak mengubah resep atau metode tradisionalnya meskipun selera pelanggan berubah. Apa yang paling mungkin dicerminkan oleh hal ini?",
+    "options": [
+      "Keyakinan bahwa menjaga keaslian kerajinan lebih penting daripada memaksimalkan keuntungan jangka pendek",
+      "Mereka dilarang secara hukum untuk mengubah resep mereka",
+      "Mereka sekadar tidak memiliki sumber daya untuk berinovasi",
+      "Mereka ingin terlihat mengesankan di mata pesaing dengan menyebut diri sebagai yang 'asli'"
+    ],
+    "explanation": "Shinise sering memperlakukan kesinambungan sebuah kerajinan - bukan sekadar rasa atau angka penjualan - sebagai inti dari usaha mereka, sesuatu yang harus diwariskan, bukan dioptimalkan setiap musim. Pandangan jangka panjang untuk melestarikan sesuatu bagi generasi berikutnya ini berbeda dari kewajiban hukum maupun masalah sumber daya."
+  }
+]

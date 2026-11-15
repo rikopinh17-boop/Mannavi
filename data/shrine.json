@@ -1,0 +1,319 @@
+[
+  {
+    "category": "shrine",
+    "question": "What should you do before entering a shrine?",
+    "options": [
+      "Clap your hands",
+      "Wash your hands and mouth",
+      "Take off your shoes",
+      "Ring the bell"
+    ],
+    "answer": 1,
+    "explanation": "Washing your hands and rinsing your mouth at the temizuya symbolically clears away the dust of the outside world (and your own wrongdoings) before you approach the sacred area — a small, visitor-scale echo of the purification rituals (misogi) Shinto priests perform.",
+    "hint": "Cleanliness is symbolic in Shinto rituals.",
+    "image": "images/zinzya.jpeg",
+    "option_tags": [
+      "formality_assumption",
+      null,
+      "own_culture_transfer",
+      "formality_assumption"
+    ]
+  },
+  {
+    "category": "shrine",
+    "question": "Where should you walk when passing through a torii gate?",
+    "options": [
+      "In the center",
+      "On the left or right side",
+      "Anywhere is fine",
+      "Backward for good luck"
+    ],
+    "answer": 1,
+    "explanation": "The center of the approach path (seichu) is traditionally considered the route the deity uses to travel, so walking there is seen as cutting across the kami's path rather than simply being in the wrong lane. Visitors keep to the sides out of respect for that unseen presence.",
+    "hint": "The middle path is sacred.",
+    "image": "images/zinzya.jpeg",
+    "option_tags": [
+      "own_culture_transfer",
+      null,
+      "own_culture_transfer",
+      "tradition_literalism"
+    ]
+  },
+  {
+    "category": "shrine",
+    "question": "What is the proper way to make an offering at the shrine?",
+    "options": [
+      "Throw money, clap once",
+      "Ring bell, throw money, bow once",
+      "Throw money, bow twice, clap twice, bow once",
+      "Bow once, clap twice, shout your wish"
+    ],
+    "answer": 2,
+    "explanation": "Each step has a role: the first two bows show reverence before you've asked for anything, the two claps are believed to get the deity's attention and express joy, and the final bow seals your prayer with thanks. Skipping or reordering a step is treated as an incomplete prayer, not just an informal one.",
+    "hint": "2-2-1 is a good pattern to remember.",
+    "image": "images/zinzya.jpeg",
+    "option_tags": [
+      "formality_assumption",
+      "formality_assumption",
+      null,
+      "achievement_bias"
+    ]
+  },
+  {
+    "category": "shrine",
+    "question": "How much money is typical for an offering?",
+    "options": [
+      "1000 yen",
+      "5 yen",
+      "50 yen",
+      "It must be even number yen"
+    ],
+    "answer": 1,
+    "explanation": "5 yen is pronounced 'go-en,' a homophone for a word meaning 'good fate' or 'good connection,' so offering exactly 5 yen is a small pun meant to invite good fortune — it's about the wordplay, not a statement about how much the prayer is 'worth.'",
+    "hint": "It’s a lucky pun!",
+    "image": "images/zinzya.jpeg",
+    "option_tags": [
+      "own_culture_transfer",
+      null,
+      "formality_assumption",
+      "tradition_literalism"
+    ]
+  },
+  {
+    "category": "shrine",
+    "question": "What should you avoid doing when visiting a shrine?",
+    "options": [
+      "Wearing bright clothes",
+      "Bringing your pet",
+      "Talking loudly",
+      "Walking slowly"
+    ],
+    "answer": 2,
+    "explanation": "A shrine is considered the dwelling place of a kami, so it's treated with the same quiet respect you'd show entering someone's home unannounced. Loud talking breaks that atmosphere, and pets are restricted both for purity reasons and because other worshippers are there to pray, not socialize.",
+    "hint": "Be respectful like you're visiting a holy site.",
+    "image": "images/zinzya.jpeg",
+    "option_tags": [
+      "tradition_literalism",
+      "own_culture_transfer",
+      null,
+      "distractor"
+    ]
+  },
+  {
+    "category": "shrine",
+    "question": "Why do visitors write wishes on wooden ema plaques and leave them hanging at the shrine instead of taking them home?",
+    "options": [
+      "Because it's against the rules to remove them",
+      "So the wish stays close to the kami and within its notice",
+      "Because leaving it behind lets you move on and enjoy the rest of your trip without carrying extra things",
+      "Because the wooden plaques are considered too sacred to ever touch again once written"
+    ],
+    "answer": 1,
+    "hint": "Think about why the location of the wish matters.",
+    "image": "images/zinzya.jpeg",
+    "option_tags": [
+      "formality_assumption",
+      null,
+      "indulgence_assumption",
+      "tradition_literalism"
+    ]
+  },
+  {
+    "category": "shrine",
+    "question": "Why do visitors ring the bell (suzu) before praying at a shrine?",
+    "options": [
+      "To alert shrine staff that a visitor has arrived",
+      "To call the kami's attention and clear away negative energy before praying",
+      "To show other visitors that you know the proper ritual",
+      "Because ringing bells for good luck is a universal gesture, same as back home"
+    ],
+    "answer": 1,
+    "hint": "It makes a jingling sound, right before you pray.",
+    "image": "images/zinzya.jpeg",
+    "option_tags": [
+      "formality_assumption",
+      null,
+      "achievement_bias",
+      "own_culture_transfer"
+    ]
+  },
+  {
+    "category": "shrine",
+    "question": "How do you use an omikuji (fortune slip)?",
+    "options": [
+      "Read and keep it always",
+      "Eat it",
+      "Tie it to a tree or stand",
+      "Throw it into the water"
+    ],
+    "answer": 2,
+    "explanation": "A bad fortune isn't meant to be dwelled on — tying the paper to a designated tree or rack is believed to leave the misfortune behind at the shrine, almost like entrusting a problem to someone who can handle it. A good fortune, by contrast, is often taken home to keep its luck close.",
+    "hint": "You often see white strips of paper tied around trees.",
+    "image": "images/omikuzi.png",
+    "option_tags": [
+      "own_culture_transfer",
+      "distractor",
+      null,
+      "tradition_literalism"
+    ]
+  },
+  {
+    "category": "shrine",
+    "question": "Can you take photos freely inside all areas of a shrine?",
+    "options": [
+      "Yes",
+      "No, photography is restricted in some sacred areas",
+      "Only if you pay",
+      "Only during festivals"
+    ],
+    "answer": 1,
+    "explanation": "The innermost areas of a shrine (honden) are considered the actual dwelling of the kami, not just decorative architecture, so photographing there can feel as intrusive as photographing inside someone's private home. Signage usually marks exactly where this restriction applies.",
+    "hint": "Always check for signs or ask staff.",
+    "image": "images/zinzya.jpeg",
+    "option_tags": [
+      "own_culture_transfer",
+      null,
+      "formality_assumption",
+      "distractor"
+    ]
+  },
+  {
+    "category": "shrine",
+    "question": "What is the purpose of a torii gate?",
+    "options": [
+      "To display the shrine's name",
+      "To mark the sacred space",
+      "To welcome tourists",
+      "To hang ema plaques"
+    ],
+    "answer": 1,
+    "explanation": "A torii gate marks the threshold between the ordinary world and the kami's sacred space, which is why passing through it is often treated as the real start of a shrine visit — some visitors even pause for a small bow before stepping through, treating it like knocking before entering.",
+    "hint": "It’s a symbolic threshold.",
+    "image": "images/zinzya.jpeg",
+    "option_tags": [
+      "distractor",
+      null,
+      "own_culture_transfer",
+      "distractor"
+    ]
+  },
+  {
+    "category": "shrine",
+    "question": "A shrine festival (matsuri) still follows a centuries-old ritual procedure, even though a faster, more modern way could produce a similar result. Why do many communities keep the old way?",
+    "options": [
+      "Continuing the traditional form itself, not just the outcome, is seen as valuable for connecting with the past",
+      "There's a strict law requiring the old procedure",
+      "The old way is actually more efficient than any modern alternative",
+      "Festivals are mainly performed as a show for tourists"
+    ],
+    "answer": 0,
+    "hint": "Think about what's being preserved - the result, or the process itself.",
+    "image": "images/zinzya.jpeg",
+    "option_tags": [
+      null,
+      "formality_assumption",
+      "practicality",
+      "achievement_bias"
+    ]
+  },
+  {
+    "category": "shrine",
+    "question": "Why do many Japanese people visit a shrine for hatsumode (the first shrine visit of the year), even if they don't consider themselves religious?",
+    "options": [
+      "It's treated as a meaningful cultural tradition and social occasion with family or friends, more than a strict religious obligation",
+      "Missing it is believed to guarantee a year of bad luck",
+      "There's an official nationwide rule requiring citizens to visit a shrine in the New Year",
+      "It's basically identical to attending a weekly religious service back home"
+    ],
+    "answer": 0,
+    "explanation": "For many people, hatsumode is closer to a cherished New Year's custom - dressing up, standing in line with family, buying a charm for the year - than a feared religious duty. Skipping it isn't seen as inviting misfortune; it's simply a tradition many enjoy keeping, not a weekly devotional practice.",
+    "hint": "Think about what would actually happen if someone skipped it.",
+    "image": "images/zinzya.jpeg",
+    "option_tags": [
+      null,
+      "tradition_literalism",
+      "formality_assumption",
+      "own_culture_transfer"
+    ]
+  },
+  {
+    "category": "shrine",
+    "question": "Why do many Japanese people send nengajo (New Year's postcards) to coworkers and distant acquaintances each year?",
+    "options": [
+      "It's a social custom for maintaining relationships and showing you remember people, similar in spirit to holiday cards elsewhere",
+      "Failing to send one is believed to anger ancestral spirits",
+      "Companies are legally required to send them to all clients",
+      "The more elaborate your card design, the more it shows your social status"
+    ],
+    "answer": 0,
+    "explanation": "Nengajo work like a once-a-year check-in - a small, expected gesture that says 'I still value this relationship,' not a ritual obligation tied to spirits or ancestors. Skipping someone isn't spiritually risky, just a little socially careless.",
+    "hint": "Think about what sending one actually communicates to the recipient.",
+    "image": "images/zinzya.jpeg",
+    "option_tags": [
+      null,
+      "tradition_literalism",
+      "formality_assumption",
+      "achievement_bias"
+    ]
+  },
+  {
+    "category": "shrine",
+    "question": "During Setsubun, why do people throw roasted soybeans around the house while shouting 'Oni wa soto, fuku wa uchi' (Demons out, fortune in)?",
+    "options": [
+      "It's a lighthearted seasonal custom marking the change of season and inviting good fortune, often done playfully with children",
+      "It's a serious exorcism ritual, performed because real evil spirits are believed to be physically present in the house",
+      "It's essentially the same tradition as trick-or-treating",
+      "It's done purely because throwing things is fun, with no particular meaning behind it"
+    ],
+    "answer": 0,
+    "explanation": "Setsubun bean-throwing is closer to a fun, symbolic family activity marking the start of spring than a feared exorcism - many households do it with a parent wearing a paper oni mask for the kids to 'chase out,' treating the demons as a playful stand-in for bad luck rather than a literal threat.",
+    "hint": "Think about who usually throws the beans, and who 'plays' the demon.",
+    "image": "images/zinzya.jpeg",
+    "option_tags": [
+      null,
+      "tradition_literalism",
+      "own_culture_transfer",
+      "indulgence_assumption"
+    ]
+  },
+  {
+    "category": "shrine",
+    "question": "Why do people paint in one eye of a daruma doll when setting a goal, then paint the second eye only once the goal is achieved?",
+    "options": [
+      "It's a motivational tradition to mark commitment to a goal and visually track progress, similar to a vision board",
+      "The doll is believed to curse you with misfortune if the second eye is painted before the goal is achieved",
+      "There are officially certified daruma-painting ceremonies required for business goals",
+      "It's basically identical to announcing a New Year's resolution out loud at a party"
+    ],
+    "answer": 0,
+    "explanation": "The daruma is a goal-tracking tool as much as a good-luck charm - painting the first eye is a visible commitment, and painting the second is a satisfying marker of success. There's no curse for 'doing it wrong'; worst case, you just don't get the small ceremonial payoff of finishing it properly.",
+    "hint": "Think about what the two eyes are tracking, not punishing.",
+    "image": "images/zinzya.jpeg",
+    "option_tags": [
+      null,
+      "tradition_literalism",
+      "formality_assumption",
+      "own_culture_transfer"
+    ]
+  },
+  {
+    "category": "shrine",
+    "question": "Why do many households display a hamaya (a decorative arrow bought at a shrine) around New Year?",
+    "options": [
+      "It's a traditional good-luck charm displayed at home for the year, treated more like a seasonal decoration than a feared magical object",
+      "If handled incorrectly, it's believed to summon misfortune into the house",
+      "It's mainly meant to be used as an actual functional weapon for home protection",
+      "A more expensive hamaya shows a household's higher social status"
+    ],
+    "answer": 0,
+    "explanation": "A hamaya is bought, displayed somewhere visible for the year, and then returned to a shrine to be ceremonially burned the following New Year - a low-stakes yearly ritual more like hanging a lucky decoration than a dangerous object requiring careful handling.",
+    "hint": "Think about how casually it's displayed around the house.",
+    "image": "images/zinzya.jpeg",
+    "option_tags": [
+      null,
+      "tradition_literalism",
+      "practicality",
+      "achievement_bias"
+    ]
+  }
+]

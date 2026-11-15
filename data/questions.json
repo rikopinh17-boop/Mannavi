@@ -1,0 +1,249 @@
+[
+  {
+    "category": "onsen",
+    "question": "What should you do before entering an onsen (hot spring)?",
+    "image": "images/onsen.jpeg",
+    "options": [
+      "Jump right into the bath",
+      "Wash your body thoroughly",
+      "Wear a swimsuit",
+      "Eat before bathing"
+    ],
+    "answer": 1,
+    "explanation": "Onsen water is shared by every guest that day and often isn't changed between bathers, so washing thoroughly at the shower stalls first isn't just a formality — it's what actually keeps the communal bath clean for everyone who soaks after you.",
+    "option_tags": [
+      "practicality",
+      null,
+      "own_culture_transfer",
+      "distractor"
+    ]
+  },
+  {
+    "category": "house",
+    "question": "When should you take off your shoes in Japan?",
+    "image": "https://plus-pm.jp/wp-content/uploads/2023/04/no-shoes-allowed-shoes-off-here-excel-portrait-eyecatch.png",
+    "options": [
+      "Before entering a private home",
+      "Before entering an elevator",
+      "Before entering a hotel lobby",
+      "Before entering a shrine (outdoor grounds)"
+    ],
+    "answer": 0,
+    "explanation": "Japanese homes are traditionally sat and even slept on directly, especially on tatami mats, so keeping outdoor dirt off the floor matters more than in many other cultures. Removing your shoes at the genkan (entryway) also marks a symbolic line between the 'outside' world and the clean, private 'inside' of someone's home.",
+    "option_tags": [
+      null,
+      "distractor",
+      "formality_assumption",
+      "formality_assumption"
+    ]
+  },
+  {
+    "category": "public transportation",
+    "question": "Is it okay to talk on the phone in trains in Japan?",
+    "image": "images/denwa.jpeg",
+    "options": [
+      "Yes, as long as it's quiet",
+      "No, it's considered rude",
+      "Only in the morning",
+      "Only on weekends"
+    ],
+    "answer": 1,
+    "explanation": "A phone call is harder to tune out than background chatter because it's one-sided — your brain keeps straining to follow the missing half. On trains packed with commuters trying to rest or focus, that makes calls feel far more intrusive than other noise, so texting is preferred instead.",
+    "option_tags": [
+      "own_culture_transfer",
+      null,
+      "distractor",
+      "distractor"
+    ]
+  },
+  {
+    "category": "greeting",
+    "question": "How do Japanese people typically greet each other?",
+    "image": "images/aisatu.jpeg",
+    "options": [
+      "Hugging",
+      "Handshakes",
+      "Bowing",
+      "High-five"
+    ],
+    "answer": 2,
+    "explanation": "Bowing lets you show respect and acknowledge the other person's status or relationship to you without any physical contact, and the depth and length of the bow changes with the situation. It remains the default greeting because it keeps a comfortable distance while still feeling warm and sincere.",
+    "option_tags": [
+      "own_culture_transfer",
+      "own_culture_transfer",
+      null,
+      "indulgence_assumption"
+    ]
+  },
+  {
+    "category": "eating",
+    "question": "When eating noodles in Japan, is slurping acceptable?",
+    "image": "images/ramen.jpeg",
+    "options": [
+      "No, it's bad manners",
+      "Only for soba",
+      "Yes, it's a sign of enjoyment",
+      "Only in private"
+    ],
+    "answer": 2,
+    "explanation": "Slurping actually cools hot noodles as they enter your mouth and is believed to draw in more aroma, enhancing the flavor. Making noise while eating noodles signals genuine enjoyment to the cook, which is the opposite of dining cultures where eating quietly is the polite default.",
+    "option_tags": [
+      "own_culture_transfer",
+      "distractor",
+      null,
+      "distractor"
+    ]
+  },
+  {
+    "category": "trash",
+    "question": "What should you do with your trash in public places in Japan?",
+    "image": "images/gomi.jpeg",
+    "options": [
+      "Leave it on a bench",
+      "Throw it in any bin",
+      "Take it home with you",
+      "Give it to staff"
+    ],
+    "answer": 2,
+    "explanation": "Public trash cans became rare partly over security concerns after incidents in the 1990s, and partly because of a cultural expectation that each person manages their own waste rather than relying on public services. Taking your trash home (or to a convenience store bin) is treated as basic personal responsibility, not an inconvenience to tolerate.",
+    "option_tags": [
+      "distractor",
+      "practicality",
+      null,
+      "formality_assumption"
+    ]
+  },
+  {
+    "category": "store",
+    "question": "How should you hand over money in Japanese stores?",
+    "image": "images/kane.jpeg",
+    "options": [
+      "Hand it directly",
+      "Throw it lightly on the counter",
+      "Place it in the tray",
+      "Hold it up in the air"
+    ],
+    "answer": 2,
+    "explanation": "Using the small tray avoids coins slipping or bills being fumbled, but more importantly it keeps the exchange calm and impersonal — placing money down avoids any appearance of grabbing or rushing, which fits Japan's broader preference for careful, non-confrontational service interactions.",
+    "option_tags": [
+      "own_culture_transfer",
+      "distractor",
+      null,
+      "distractor"
+    ]
+  },
+  {
+    "category": "communication",
+    "question": "Why do Japanese people say 'itadakimasu' before eating, even when eating alone at a convenience store?",
+    "image": "images/itadakimasu.jpeg",
+    "options": [
+      "Because it's a religious prayer directed at a god",
+      "To show gratitude toward everyone involved in the meal reaching your plate, not as a religious act",
+      "Because restaurant staff require customers to say it",
+      "To show people around you that you have proper table manners"
+    ],
+    "answer": 1,
+    "explanation": "'Itadakimasu' literally means 'I humbly receive.' It's a small, daily acknowledgment of the farmers, cooks, and even the plants and animals behind the meal - said even when eating alone, since the gratitude is about the whole food chain, not about religion, enforcement, or being watched.",
+    "option_tags": [
+      "tradition_literalism",
+      null,
+      "formality_assumption",
+      "achievement_bias"
+    ]
+  },
+  {
+    "category": "shrine",
+    "question": "What should you do when you visit a shrine?",
+    "image": "images/zinzya.jpeg",
+    "options": [
+      "Clap twice and bow once",
+      "Just walk in quietly",
+      "Take photos first",
+      "Run through the gate"
+    ],
+    "answer": 0,
+    "explanation": "The full sequence — bow twice, clap twice, pray, then bow once — is believed to first show respect to the deity, then call their attention with the claps, and finally offer your prayer and thanks. Each gesture has a distinct purpose, so skipping a step is seen as an incomplete prayer rather than just informal.",
+    "option_tags": [
+      null,
+      "own_culture_transfer",
+      "distractor",
+      "distractor"
+    ]
+  },
+  {
+    "category": "money",
+    "question": "Is tipping common in Japan?",
+    "image": "images/tip.jpeg",
+    "options": [
+      "Yes, always tip 10%",
+      "Only in fancy restaurants",
+      "Never, it’s not expected",
+      "Only for taxi drivers"
+    ],
+    "answer": 2,
+    "explanation": "Japanese service culture treats excellent service as already included in the price and as part of a worker's professional pride, not something that needs extra payment to motivate. Offering a tip can even feel insulting, as if implying the staff needed a bonus incentive to do their job well.",
+    "option_tags": [
+      "own_culture_transfer",
+      "formality_assumption",
+      null,
+      "distractor"
+    ]
+  },
+  {
+    "category": "communication",
+    "question": "When a Japanese colleague compliments your work, what's the typical polite response?",
+    "image": "images/thanks.png",
+    "options": [
+      "Accept it confidently and mention your other achievements too",
+      "Modestly downplay it (e.g., 'Not at all, I still have a lot to learn')",
+      "You must thank them formally in writing afterward",
+      "Compliment them back immediately, since that's the custom where I'm from"
+    ],
+    "answer": 1,
+    "explanation": "Openly accepting praise - let alone adding more achievements - can come across as self-promoting in a culture that values modesty and group harmony over standing out. Downplaying a compliment isn't false humility; it's a way of keeping the focus on the relationship rather than on individual credit.",
+    "option_tags": [
+      "achievement_bias",
+      null,
+      "formality_assumption",
+      "own_culture_transfer"
+    ]
+  },
+  {
+    "category": "questions",
+    "question": "At an izakaya (Japanese pub) with coworkers, even once everyone is drinking and having fun, what is still generally expected?",
+    "image": "images/ramen.jpeg",
+    "options": [
+      "Complete freedom to say or do anything, since the whole point is to enjoy yourself",
+      "A degree of self-restraint and awareness of your words, since the relationships continue after the night ends",
+      "A strict seating order that must be followed at all times",
+      "Everyone should drink at exactly the same pace, as is customary back home"
+    ],
+    "answer": 1,
+    "explanation": "Japanese drinking culture does loosen some formality, which is part of why it's easy to assume 'anything goes.' But most people still keep an eye on how much they reveal or how loudly they behave, because tomorrow they're back at the same desk with the same colleagues - the fun is real, but it's bounded.",
+    "option_tags": [
+      "indulgence_assumption",
+      null,
+      "formality_assumption",
+      "own_culture_transfer"
+    ]
+  },
+  {
+    "category": "money",
+    "question": "Many long-running Japanese stores (shinise) refuse to change their traditional recipe or method even when customer tastes shift. What does this most likely reflect?",
+    "image": "images/kane.jpeg",
+    "options": [
+      "A belief that preserving the original craft matters more than maximizing short-term profit",
+      "They are legally prohibited from changing their recipe",
+      "They simply lack the resources to innovate",
+      "They want to look impressive to competitors by calling themselves the 'original'"
+    ],
+    "answer": 0,
+    "explanation": "Shinise often treat the continuity of a craft - not just the taste or the sales figures - as the point of the business, something to be handed down rather than optimized every season. That long view toward preserving something for the next generation is different from either a legal obligation or a resource problem.",
+    "option_tags": [
+      null,
+      "formality_assumption",
+      "distractor",
+      "achievement_bias"
+    ]
+  }
+]

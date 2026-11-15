@@ -1,0 +1,101 @@
+[
+  {
+    "question": "Saat menerima kartu nama (meishi) di Jepang, apa yang sebaiknya kamu lakukan?",
+    "options": [
+      "Kamu harus membungkuk tepat 45 derajat saat menerimanya, atau dianggap tidak sah",
+      "Menerimanya dengan kedua tangan, luangkan waktu sejenak untuk melihatnya, dan perlakukan dengan hati-hati alih-alih langsung memasukkannya ke kantong",
+      "Cukup ambil dengan satu tangan dan langsung masukkan ke kantong, seperti di tempat lain",
+      "Tidak masalah bagaimana cara memegangnya, asalkan tidak hilang"
+    ],
+    "explanation": "Kartu nama dianggap sebagai representasi kecil dari orang itu sendiri, sehingga menanganinya dengan hati-hati - menggunakan kedua tangan, benar-benar membacanya, meletakkannya dengan rapi di meja selama pertemuan - adalah cara untuk memperluas rasa hormat yang sama kepada mereka, bukan aturan dengan sudut atau tata cara yang pasti.",
+    "hint": "Anggap kartu itu mewakili orangnya, bukan sekadar informasi kontak."
+  },
+  {
+    "question": "Apakah umum bagi karyawan Jepang untuk pulang tepat pada jam kerja resmi berakhir, bahkan jika rekan kerja (termasuk atasan) masih bekerja?",
+    "options": [
+      "Ada aturan perusahaan resmi bahwa kamu tidak boleh pulang sebelum atasanmu",
+      "Banyak yang merasa lebih nyaman menunggu sampai orang lain mulai pulang, karena tekanan kelompok yang tidak tertulis, bukan karena aturan tertulis",
+      "Semua orang pulang tepat waktu, karena waktu pribadi dianggap hak individu yang jelas",
+      "Pulang terlambat terutama dilakukan untuk menunjukkan dedikasi individu kepada atasan"
+    ],
+    "explanation": "Tidak ada buku pedoman yang mengatakan kamu harus tinggal, tapi pulang saat semua orang masih di meja kerja masing-masing bisa terasa seperti melepaskan diri dari kelompok dibanding sekadar mengatur jadwal sendiri - tekanannya bersifat sosial dan suasana, itulah sebabnya orang luar mudah menganggap ini pasti aturan nyata.",
+    "hint": "Pikirkan tekanan yang berasal dari suasana ruangan, bukan dari dokumen kebijakan."
+  },
+  {
+    "question": "Jika tidak ada yang bersuara untuk keberatan selama rapat, apa yang paling mungkin itu berarti di tempat kerja Jepang?",
+    "options": [
+      "Keheningan total selalu berarti persetujuan penuh dan antusias",
+      "Belum tentu persetujuan - itu bisa mencerminkan keengganan untuk tidak setuju secara terbuka, dengan kekhawatiran sebenarnya muncul kemudian, secara pribadi",
+      "Aturan rapat secara resmi melarang berbicara kecuali ditunjuk",
+      "Keheningan berarti tidak ada yang punya kontribusi yang cukup mengesankan"
+    ],
+    "explanation": "Ketidaksetujuan terbuka dalam rapat bisa terasa seperti mempermalukan seseorang di depan kelompok, sehingga keberatan dan pendapat sebenarnya sering diselesaikan sebelumnya atau sesudahnya dalam percakapan pribadi yang lebih kecil - rapat itu sendiri bisa terlihat lebih harmonis dibanding rentang pendapat sebenarnya di dalam ruangan.",
+    "hint": "Pikirkan di mana ketidaksetujuan yang sebenarnya mungkin terjadi."
+  },
+  {
+    "question": "Bagaimana umpan balik negatif terhadap pekerjaanmu biasanya disampaikan oleh manajer Jepang?",
+    "options": [
+      "Selalu secara blak-blakan dan langsung, karena dianggap paling efisien",
+      "Sering secara tidak langsung, atau diperhalus dengan pembingkaian positif terlebih dahulu, alih-alih kritik yang blak-blakan",
+      "Kritik di depan umum di depan tim digunakan untuk memotivasi kinerja yang lebih baik",
+      "Umpan balik hanya bisa diberikan melalui tinjauan tertulis resmi, tidak pernah secara lisan"
+    ],
+    "explanation": "Memperlembut kritik - memulai dengan apa yang berjalan baik, atau membingkai masalahnya sebagai saran - membuat umpan baliknya tersampaikan tanpa membuat penerimanya kehilangan muka di depan orang lain, yang lebih penting dalam budaya yang sangat menghargai keharmonisan kelompok; ini bukan ketidakjelasan, ini adalah peredaman yang disengaja.",
+    "hint": "Pikirkan apa yang sedang dilindungi oleh ungkapan yang lebih lembut itu."
+  },
+  {
+    "question": "Sebelum sebuah keputusan besar diumumkan secara resmi dalam rapat, apa yang sering kali sudah terjadi sebelumnya?",
+    "options": [
+      "Satu sosok otoritas sendirian memutuskan semuanya, berdasarkan aturan",
+      "Pembentukan konsensus informal (nemawashi) sudah dilakukan secara individual dengan orang-orang kunci sebelumnya",
+      "Keputusan dibuat secara spontan, saat itu juga, melalui perdebatan terbuka dalam rapat itu sendiri",
+      "Siapa pun yang berargumen paling meyakinkan dalam rapat yang menentukan hasilnya"
+    ],
+    "explanation": "Sebagian besar negosiasi sebenarnya terjadi secara diam-diam, satu per satu, sebelum rapat - pada saat kelompok berkumpul, tujuannya biasanya adalah untuk secara resmi mengonfirmasi sesuatu yang sudah disepakati oleh orang-orang kunci, itulah sebabnya rapat bisa terlihat mengejutkan lancar atau tanpa perdebatan bagi orang luar.",
+    "hint": "Pikirkan kapan persuasi sebenarnya terjadi - saat rapat, atau sebelumnya."
+  },
+  {
+    "question": "Bagaimana rekan kerja Jepang biasanya saling memanggil di tempat kerja?",
+    "options": [
+      "Hanya dengan nama depan, untuk membangun suasana yang santai dan akrab",
+      "Dengan nama keluarga ditambah '-san' (atau jabatan), bahkan di antara rekan kerja biasa",
+      "Hanya dengan jabatan lengkap, tidak pernah dengan nama sama sekali",
+      "Dengan panggilan apa pun yang terasa menyenangkan dan personal"
+    ],
+    "explanation": "Menggunakan nama keluarga ditambah '-san' menjaga tingkat formalitas kecil yang nyaman dan tidak bergantung pada seberapa dekat perasaanmu secara pribadi dengan seseorang - ini cara yang stabil dan netral untuk memanggil rekan kerja terlepas dari hierarki atau tingkat pertemanan, bukan tanda sikap dingin.",
+    "hint": "Pikirkan bentuk sapaan yang tetap berlaku terlepas dari seberapa dekat kamu dengan orang itu."
+  },
+  {
+    "question": "Jika seorang karyawan Jepang berhak atas cuti berbayar tetapi rekan-rekannya jarang menggunakan semua jatahnya, apa alasan yang paling mungkin?",
+    "options": [
+      "Kebijakan perusahaan secara resmi membatasi berapa hari yang benar-benar bisa digunakan",
+      "Tekanan sosial untuk tidak membebani rekan tim atau terlihat kurang berkomitmen, lebih dari sekadar kekurangan jumlah hari",
+      "Orang-orang sekadar tidak terlalu menghargai waktu liburan pribadi",
+      "Mereka lebih suka bekerja daripada bersantai karena lebih menyenangkan"
+    ],
+    "explanation": "Mengambil cuti sering berarti orang lain harus menanggung pekerjaanmu, sehingga menggunakan semua jatah cuti bisa terasa seperti meminta bantuan besar kepada tim dibanding sekadar menjalankan hak pribadi - keraguannya adalah soal tidak ingin merepotkan orang lain, bukan kurangnya minat untuk beristirahat.",
+    "hint": "Pikirkan siapa yang menanggung pekerjaan tambahan saat kamu sedang cuti."
+  },
+  {
+    "question": "Jika kamu mengerjakan sebuah proyek dengan luar biasa, apa cara yang lebih umum diakui di perusahaan Jepang?",
+    "options": [
+      "Kamu diharapkan menonjolkan pencapaian individumu secara terbuka agar bisa maju",
+      "Secara diam-diam dan bertahap, sering dibingkai sebagai pencapaian tim, alih-alih pujian individu yang mencolok",
+      "Pengakuan individu secara terbuka dan upacara penghargaan adalah norma untuk setiap keberhasilan",
+      "Ada rumus bonus tetap yang terikat ketat pada hasil kerja individu"
+    ],
+    "explanation": "Memberikan pengakuan kepada tim dibanding menonjolkan satu orang menjaga keharmonisan kelompok tetap utuh dan menghindari membuat rekan kerja merasa terbayangi - pekerjaan yang baik tetap diperhatikan dan dihargai, hanya biasanya melalui jalur yang lebih diam-diam seperti reputasi dan kepercayaan dibanding momen sorotan.",
+    "hint": "Pikirkan siapa yang mendapat pengakuan di depan umum, dibanding siapa yang sebenarnya mengerjakannya."
+  },
+  {
+    "question": "Apakah menghadiri acara minum-minum setelah kerja (nomikai) bersama rekan kerja dianggap wajib?",
+    "options": [
+      "Ya, itu bagian resmi dari sebagian besar kontrak kerja",
+      "Tidak diwajibkan secara resmi, tapi sering dianggap sebagai cara penting dan setengah-diharapkan untuk membangun hubungan",
+      "Itu sepenuhnya opsional dan menyenangkan tanpa konsekuensi sosial sama sekali",
+      "Hanya teman dekat pribadi yang diundang, sama seperti bersosialisasi di luar kerja di tempat lain"
+    ],
+    "explanation": "Tidak ada yang bisa memaksa kehadiran, tapi nomikai adalah tempat terjadinya banyak pembangunan kepercayaan dan pemeliharaan hubungan informal yang tidak sempat terjadi di jam kerja formal - melewatkannya berulang kali bukan melanggar aturan apa pun, tapi bisa secara diam-diam memengaruhi seberapa termasuk kamu dirasakan dalam tim.",
+    "hint": "Pikirkan apa yang secara teknis opsional tapi secara sosial diharapkan."
+  }
+]

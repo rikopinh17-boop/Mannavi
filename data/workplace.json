@@ -1,0 +1,182 @@
+[
+  {
+    "category": "workplace",
+    "question": "When receiving a business card (meishi) in Japan, what should you do?",
+    "options": [
+      "You must bow at exactly 45 degrees while receiving it, or it's considered invalid",
+      "Receive it with both hands, take a moment to look at it, and treat it with care rather than pocketing it right away",
+      "Just take it with one hand and put it straight in your pocket, like anywhere else",
+      "It doesn't matter how you handle it, as long as you don't lose it"
+    ],
+    "answer": 1,
+    "explanation": "A business card is treated as a small stand-in for the person themselves, so handling it carefully - using both hands, actually reading it, placing it neatly on the table during the meeting - is a way of extending that same respect to them, not a rule with an exact angle or script attached.",
+    "hint": "Think of the card as representing the person, not just contact information.",
+    "image": "images/teacher.png",
+    "option_tags": [
+      "formality_assumption",
+      null,
+      "own_culture_transfer",
+      "practicality"
+    ]
+  },
+  {
+    "category": "workplace",
+    "question": "Is it common for Japanese employees to leave the office right at the official end time, even if colleagues (including the boss) are still working?",
+    "options": [
+      "There's an official company rule that you cannot leave before your boss",
+      "Many feel more comfortable waiting until others start leaving, due to unspoken group pressure rather than any written rule",
+      "Everyone leaves right on time, since personal time is treated as a clear individual right",
+      "Staying late is mainly done to visibly show off individual dedication to superiors"
+    ],
+    "answer": 1,
+    "explanation": "No handbook says you must stay, but leaving while everyone else is still at their desks can feel like breaking from the group rather than just managing your own schedule - the pressure is social and atmospheric, which is part of why it's easy for outsiders to assume it must be an actual rule.",
+    "hint": "Think about pressure that comes from the room, not from a policy document.",
+    "image": "images/teacher.png",
+    "option_tags": [
+      "formality_assumption",
+      null,
+      "own_culture_transfer",
+      "achievement_bias"
+    ]
+  },
+  {
+    "category": "workplace",
+    "question": "If no one speaks up to object during a meeting, what does that most likely mean in a Japanese workplace?",
+    "options": [
+      "Complete silence always means full and enthusiastic agreement",
+      "Not necessarily agreement - it may reflect reluctance to disagree publicly, with real concerns surfacing later, privately",
+      "Meeting rules formally forbid speaking unless called on",
+      "Silence means no one has anything impressive enough to contribute"
+    ],
+    "answer": 1,
+    "explanation": "Open disagreement in a meeting can feel like putting someone on the spot in front of the group, so objections and real opinions are often worked out beforehand or afterward in smaller, private conversations - the meeting itself can look more harmonious than the actual range of opinions in the room.",
+    "hint": "Think about where the real disagreement might be happening instead.",
+    "image": "images/teacher.png",
+    "option_tags": [
+      "own_culture_transfer",
+      null,
+      "formality_assumption",
+      "achievement_bias"
+    ]
+  },
+  {
+    "category": "workplace",
+    "question": "How is negative feedback on your work typically delivered by a Japanese manager?",
+    "options": [
+      "Always bluntly and directly, since that's considered most efficient",
+      "Often indirectly, or softened with positive framing first, rather than as blunt criticism",
+      "Public criticism in front of the team is used to motivate better performance",
+      "Feedback can only be given through a formal written review, never verbally"
+    ],
+    "answer": 1,
+    "explanation": "Softening criticism - leading with what went well, or phrasing the issue as a suggestion - lets the feedback land without the recipient losing face in front of others, which matters more in a culture that weighs group harmony heavily; it's not vagueness, it's a deliberate cushioning.",
+    "hint": "Think about what's being protected by the softer phrasing.",
+    "image": "images/teacher.png",
+    "option_tags": [
+      "own_culture_transfer",
+      null,
+      "achievement_bias",
+      "formality_assumption"
+    ]
+  },
+  {
+    "category": "workplace",
+    "question": "Before a big decision is formally announced in a meeting, what has often already happened?",
+    "options": [
+      "A single authority figure simply decided everything alone, by rule",
+      "Informal consensus-building (nemawashi) already took place individually with key people beforehand",
+      "The decision is made fresh, on the spot, through open debate in the meeting itself",
+      "Whoever argues most persuasively in the meeting determines the outcome"
+    ],
+    "answer": 1,
+    "explanation": "Much of the real negotiating happens quietly, one-on-one, before the meeting - by the time the group convenes, the goal is usually to formally confirm something that key people have already agreed to, which is why meetings can look surprisingly smooth or undebated to outsiders.",
+    "hint": "Think about when the actual persuading happens - during the meeting, or before it.",
+    "image": "images/teacher.png",
+    "option_tags": [
+      "formality_assumption",
+      null,
+      "own_culture_transfer",
+      "achievement_bias"
+    ]
+  },
+  {
+    "category": "workplace",
+    "question": "How do Japanese colleagues typically address each other at work?",
+    "options": [
+      "By first name only, to build a casual, friendly atmosphere",
+      "By last name plus '-san' (or a job title), even among regular coworkers",
+      "Only by full job title, never by name at all",
+      "By whatever nickname feels fun and personal"
+    ],
+    "answer": 1,
+    "explanation": "Using last name plus '-san' keeps a small, comfortable degree of formality that doesn't depend on how close you personally feel to someone - it's a stable, neutral way to address colleagues regardless of hierarchy or friendship level, not a sign of coldness.",
+    "hint": "Think about a form of address that works regardless of how close you are.",
+    "image": "images/teacher.png",
+    "option_tags": [
+      "own_culture_transfer",
+      null,
+      "formality_assumption",
+      "indulgence_assumption"
+    ]
+  },
+  {
+    "category": "workplace",
+    "question": "If a Japanese employee is entitled to paid vacation days but colleagues rarely use all of theirs, what's the most likely reason?",
+    "options": [
+      "Company policy formally caps how many days you can actually use",
+      "Social pressure not to burden teammates or seem uncommitted, more than any shortage of days",
+      "People simply don't value personal time off as much",
+      "They prefer working to relaxing because it's more enjoyable"
+    ],
+    "answer": 1,
+    "explanation": "Taking time off often means someone else has to cover your work, so using all your days can feel like asking a favor of the team rather than just exercising a personal right - the hesitation is about not wanting to inconvenience others, not a lack of interest in rest.",
+    "hint": "Think about who absorbs the extra work while you're away.",
+    "image": "images/teacher.png",
+    "option_tags": [
+      "formality_assumption",
+      null,
+      "own_culture_transfer",
+      "indulgence_assumption"
+    ]
+  },
+  {
+    "category": "workplace",
+    "question": "If you do an outstanding job on a project, what is the more typical way this gets acknowledged at a Japanese company?",
+    "options": [
+      "You're expected to publicly highlight your individual achievement to get ahead",
+      "Quietly and gradually, often framed as team credit, rather than loud individual praise",
+      "Public individual recognition and awards ceremonies are the norm for any success",
+      "There's a fixed bonus formula tied strictly to individual output"
+    ],
+    "answer": 1,
+    "explanation": "Crediting the team rather than singling out one person keeps the group's harmony intact and avoids making coworkers feel overshadowed - good work still gets noticed and rewarded, just usually through quieter channels like reputation and trust rather than a spotlight moment.",
+    "hint": "Think about who gets the credit publicly, versus who actually did the work.",
+    "image": "images/teacher.png",
+    "option_tags": [
+      "achievement_bias",
+      null,
+      "own_culture_transfer",
+      "formality_assumption"
+    ]
+  },
+  {
+    "category": "workplace",
+    "question": "Is attending after-work drinking events (nomikai) with coworkers considered mandatory?",
+    "options": [
+      "Yes, it's a formal part of most employment contracts",
+      "Not formally required, but often treated as an important, semi-expected way to build relationships",
+      "It's purely optional fun with zero social consequence either way",
+      "Only close personal friends are invited, same as socializing outside of work elsewhere"
+    ],
+    "answer": 1,
+    "explanation": "No one can force attendance, but nomikai is where a lot of the informal trust-building and relationship maintenance happens that formal work hours don't leave room for - skipping it repeatedly isn't against any rule, but it can quietly affect how included you feel on the team.",
+    "hint": "Think about what's technically optional but socially expected.",
+    "image": "images/teacher.png",
+    "option_tags": [
+      "formality_assumption",
+      null,
+      "indulgence_assumption",
+      "own_culture_transfer"
+    ]
+  }
+]

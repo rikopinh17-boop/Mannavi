@@ -1,0 +1,101 @@
+[
+  {
+    "question": "Saat orang Jepang bepergian, mengapa mereka sering membawa pulang camilan kecil yang dibungkus satuan (omiyage) untuk rekan kerja?",
+    "options": [
+      "Itu sekadar oleh-oleh yang menyenangkan, tanpa kewajiban khusus di baliknya",
+      "Itu adalah cara umum untuk menunjukkan rasa perhatian kepada mereka yang menutupi pekerjaanmu selama kamu pergi",
+      "Peraturan perusahaan mewajibkan setiap karyawan membawa oleh-oleh setelah bepergian",
+      "Itu terutama untuk memamerkan bahwa kamu pergi ke tempat yang mengesankan"
+    ],
+    "explanation": "Omiyage berfungsi kurang seperti oleh-oleh dan lebih seperti ucapan terima kasih kecil atas ketidaknyamanan yang disebabkan ketidakhadiranmu - dibungkus satuan agar bisa dibagi rata kepada semua orang yang mengambil alih pekerjaan tambahan selama kamu pergi, bukan sekadar hadiah pribadi untuk satu atau dua orang.",
+    "hint": "Pikirkan siapa yang terdampak oleh perjalananmu, meskipun mereka tidak ikut pergi."
+  },
+  {
+    "question": "Mengapa pembungkusan hadiah diperhatikan dengan sangat cermat di Jepang?",
+    "options": [
+      "Itu terutama untuk melindungi hadiah selama pengiriman",
+      "Presentasinya sendiri dianggap sebagai bagian dari menunjukkan rasa hormat dan perhatian kepada penerima, bukan hanya isi hadiahnya",
+      "Warna pembungkus tertentu diatur oleh hukum agama kuno yang ketat",
+      "Ada persyaratan hukum untuk pembungkusan hadiah di toko ritel"
+    ],
+    "explanation": "Pembungkusan yang cermat menyampaikan pemikiran yang dicurahkan ke dalam hadiah bahkan sebelum dibuka - ini adalah kebiasaan sosial tentang presentasi dan perhatian, bukan tindakan perlindungan atau ritual yang diwajibkan secara hukum atau agama, meskipun bisa terlihat cukup formal dan rumit bagi orang luar.",
+    "hint": "Pikirkan apa yang disampaikan oleh pembungkusnya, terlepas dari hadiah di dalamnya."
+  },
+  {
+    "question": "Jika seseorang memberimu hadiah uang untuk pernikahan atau pemakaman di Jepang, apa yang lazim dilakukan setelahnya?",
+    "options": [
+      "Cukup mengucapkan terima kasih saja, tidak ada hadiah balasan yang diharapkan",
+      "Memberikan hadiah balasan (o-kaeshi) senilai kira-kira setengah dari nilai yang diterima, biasanya dalam jangka waktu tertentu",
+      "Kamu harus membalas dengan hadiah bernilai persis sama, menurut hukum",
+      "Kamu sebaiknya membalas dengan sesuatu yang lebih mahal untuk melampaui gestur mereka"
+    ],
+    "explanation": "O-kaeshi menjaga pertukaran tetap seimbang alih-alih membuat satu pihak merasa berutang - memberi kembali kira-kira setengahnya, bukan jumlah penuh atau lebih, menandakan rasa syukur tanpa mengubah gestur tersebut menjadi kompetisi atau transaksi keuangan yang persis.",
+    "hint": "Pikirkan apa arti 'seimbang' di sini - bukan sama, dan bukan lebih."
+  },
+  {
+    "question": "Jika kamu diberi hadiah dengan kedua tangan oleh seseorang di Jepang, bagaimana sebaiknya kamu menerimanya?",
+    "options": [
+      "Dengan cara apa pun yang terasa alami - penggunaan tangan tidak membawa makna khusus",
+      "Dengan kedua tangan juga, sering disertai sedikit bungkukan, alih-alih satu tangan",
+      "Hanya dengan tangan kiri, berdasarkan aturan ketat",
+      "Dengan cara apa pun yang tercepat dan paling praktis saat itu"
+    ],
+    "explanation": "Menirukan gestur dua tangan itu kembali adalah cara kecil untuk menyamai perhatian yang dicurahkan pemberi dalam pertukaran itu - menggunakan hanya satu tangan tidak benar-benar menyinggung, tapi terkesan sedikit ceroboh dibanding perhatian yang seharusnya ditunjukkan pada momen itu.",
+    "hint": "Pikirkan untuk menyamai usaha yang ditunjukkan orang lain."
+  },
+  {
+    "question": "Kapan sebaiknya kamu membuka hadiah yang kamu terima di Jepang?",
+    "options": [
+      "Segera dan dengan antusias di depan pemberi, untuk menunjukkan kegembiraan",
+      "Sering kali nanti, secara pribadi, alih-alih langsung di depan pemberi",
+      "Hanya selama upacara pembukaan hadiah resmi",
+      "Segera, agar kamu bisa membandingkannya dengan hadiah lain yang diterima"
+    ],
+    "explanation": "Membuka hadiah nanti menghindari membuat kedua belah pihak merasa canggung pada saat itu - pemberi tidak perlu melihat reaksi langsungmu, dan kamu tidak perlu menunjukkan antusiasme di tempat, sehingga mengurangi tekanan dari pertukaran itu bagi semua orang.",
+    "hint": "Pikirkan kenyamanan siapa yang sedang dilindungi dengan menunggu."
+  },
+  {
+    "question": "Jika memberi uang tunai sebagai hadiah (misalnya untuk pernikahan), apa kebiasaan penting yang perlu diperhatikan?",
+    "options": [
+      "Uang kertas apa pun boleh asalkan jumlahnya tepat",
+      "Menggunakan uang kertas baru dan rapi yang diletakkan dengan baik dalam amplop khusus yang dihias (shuugi-bukuro)",
+      "Jenis amplopnya tidak penting asalkan ada uang di dalamnya",
+      "Amplop polos sederhana atau kartu biasa sama tepatnya"
+    ],
+    "explanation": "Menggunakan uang kertas baru dan tidak kusut menandakan kamu sudah mempersiapkan acara itu sebelumnya, bukan sekadar menyerahkan uang apa pun yang kebetulan ada di kantong - kerapian uang kertasnya sendiri dianggap sebagai tanda perhatian, terpisah dari jumlah yang diberikan.",
+    "hint": "Pikirkan apa yang disampaikan oleh uang kertas baru dan rapi tentang persiapan."
+  },
+  {
+    "question": "Mengapa seseorang mungkin menghindari memberikan hadiah dalam set berjumlah empat di Jepang?",
+    "options": [
+      "Jumlah empat hanya dianggap jumlah yang tidak praktis untuk dibungkus",
+      "Angka empat (shi) terdengar seperti kata untuk 'kematian,' sehingga dihindari karena takhayul",
+      "Ada kebijakan toko yang melarang penjualan hadiah dalam set berjumlah empat",
+      "Ukuran set tidak membawa makna khusus apa pun dalam pemberian hadiah secara umum"
+    ],
+    "explanation": "Ini adalah takhayul homofon yang sungguhan (seperti menghindari angka 13 di beberapa budaya lain) - empat (shi) dan kematian (shi) memiliki bunyi yang sama, sehingga set berjumlah empat (dan angka sembilan, yang terdengar seperti 'penderitaan') dihindari khusus dalam pemberian hadiah, bukan karena alasan praktis atau komersial.",
+    "hint": "Pikirkan bagaimana bunyi angka itu saat diucapkan."
+  },
+  {
+    "question": "Setelah menerima hadiah dari atasan atau klien penting, apakah ucapan terima kasih lisan di hari yang sama dianggap cukup?",
+    "options": [
+      "Ucapan 'terima kasih!' sederhana saat itu juga sudah cukup, selama terasa tulus",
+      "Sering kali pesan terima kasih lanjutan setelahnya dihargai, menunjukkan bahwa gestur itu bukan sekadar basa-basi sesaat",
+      "Dokumen resmi yang dinotariskan diperlukan untuk hadiah bisnis",
+      "Tidak perlu tindakan lebih lanjut setelah ucapan terima kasih awal, sama seperti di tempat lain"
+    ],
+    "explanation": "Tindak lanjut singkat - bahkan pesan singkat keesokan harinya - menandakan bahwa gestur itu benar-benar disadari dan dihargai, bukan hanya diakui secara reflek pada saat itu; ini adalah langkah kecil tambahan yang menunjukkan bahwa hubungan itu penting melampaui pertukaran langsungnya.",
+    "hint": "Pikirkan apa yang dibuktikan oleh tindak lanjut singkat yang tidak bisa dibuktikan oleh ucapan terima kasih langsung."
+  },
+  {
+    "question": "Ketika sebuah departemen ingin memberikan hadiah perpisahan kepada rekan kerja yang pensiun, apa yang umum dilakukan?",
+    "options": [
+      "Setiap orang memilih dan memberikan hadiah kecil pribadinya masing-masing",
+      "Rekan kerja mengumpulkan uang bersama untuk satu hadiah bersama yang lebih berkualitas",
+      "Siapa pun yang menyumbang paling banyak uang mendapat pengakuan khusus",
+      "HR secara resmi menentukan persis berapa yang harus disumbangkan setiap orang"
+    ],
+    "explanation": "Mengumpulkan uang bersama memungkinkan kelompok memberikan sesuatu yang lebih bermakna dibanding yang mampu diberikan setiap orang secara individu, dan ini membingkai hadiah tersebut sebagai datang dari tim secara keseluruhan dibanding menjadi tumpukan gestur terpisah yang tidak terkoordinasi.",
+    "hint": "Pikirkan apa yang diwakili oleh hadiah patungan yang tidak dimiliki hadiah individu."
+  }
+]

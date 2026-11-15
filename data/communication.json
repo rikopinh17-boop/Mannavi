@@ -1,0 +1,218 @@
+[
+  {
+    "question": "What is a polite way to greet someone in Japan?",
+    "options": [
+      "Wave energetically",
+      "Say 'Hi!'",
+      "Bow slightly",
+      "Give a handshake"
+    ],
+    "answer": 2,
+    "explanation": "A bow communicates respect through posture and timing rather than touch, and its angle scales with formality — a quick nod among friends, a deeper bow for a formal occasion. Because it avoids physical contact, it works smoothly across very different levels of closeness, from strangers to close colleagues.",
+    "image": "images/aisatu.jpeg",
+    "hint": "It's a body movement, not verbal.",
+    "category": "communication",
+    "option_tags": [
+      "own_culture_transfer",
+      "own_culture_transfer",
+      null,
+      "own_culture_transfer"
+    ]
+  },
+  {
+    "question": "Why might a Japanese person thank someone even for a very small, routine favor, like a cashier handing over change?",
+    "options": [
+      "Because gratitude is reserved only for big, important favors",
+      "Because acknowledging even small efforts helps maintain harmony and consideration between people",
+      "Because not thanking someone can lead to a formal complaint",
+      "Because showing visible gratitude makes you look well-mannered to onlookers"
+    ],
+    "answer": 1,
+    "image": "images/thanks.png",
+    "hint": "Think about why small courtesies matter in daily interactions.",
+    "category": "communication",
+    "option_tags": [
+      "own_culture_transfer",
+      null,
+      "formality_assumption",
+      "achievement_bias"
+    ]
+  },
+  {
+    "question": "If a Japanese colleague responds to your request with 'that might be a bit difficult...' instead of a clear no, what's most likely happening?",
+    "options": [
+      "They misunderstood the question",
+      "They are indirectly declining, to avoid confrontation and preserve harmony",
+      "They are being deliberately rude by refusing to give a straight answer",
+      "They need written confirmation before they can give a real answer"
+    ],
+    "answer": 1,
+    "image": "images/syokuzi.png",
+    "hint": "Directness isn't always valued the same way everywhere.",
+    "category": "communication",
+    "option_tags": [
+      "distractor",
+      null,
+      "own_culture_transfer",
+      "formality_assumption"
+    ]
+  },
+  {
+    "question": "What is the polite way to say goodbye in Japan?",
+    "options": [
+      "Ja ne",
+      "Bye bye",
+      "Sayonara",
+      "Ciao"
+    ],
+    "answer": 2,
+    "explanation": "'Sayonara' carries a slightly formal, almost final nuance (it implies 'if it must be so'), which is why in daily life people usually use lighter phrases like 'ja ne' or 'mata ne' with friends, saving 'sayonara' for more formal partings or longer farewells.",
+    "image": "https://media.timeout.com/images/105240244/image.jpg",
+    "hint": "It starts with 'Sa...'",
+    "category": "communication",
+    "option_tags": [
+      "distractor",
+      "own_culture_transfer",
+      null,
+      "own_culture_transfer"
+    ]
+  },
+  {
+    "question": "How should you address a teacher or senior in Japan?",
+    "options": [
+      "Use their first name",
+      "Call them 'bro'",
+      "Add '-san'",
+      "Add '-sensei'"
+    ],
+    "answer": 3,
+    "explanation": "'-sensei' literally suggests 'one born before,' historically given to anyone with more experience or mastery — teachers, doctors, and masters of a craft all earn the title because of the respect owed to their expertise, not just their job description.",
+    "image": "images/teacher.png",
+    "hint": "It ends with 'sensei'.",
+    "category": "communication",
+    "option_tags": [
+      "own_culture_transfer",
+      "indulgence_assumption",
+      "formality_assumption",
+      null
+    ]
+  },
+  {
+    "question": "If someone gives you a gift, what should you do?",
+    "options": [
+      "Open it immediately",
+      "Refuse politely at first",
+      "Say 'No, thanks'",
+      "Take it silently"
+    ],
+    "answer": 1,
+    "explanation": "Accepting a gift immediately and enthusiastically can come across as if you expected or wanted it, so briefly declining first signals humility and shows you're not simply after what's being offered. It's a small, mutually understood exchange: the giver insists, the receiver yields, and the gift is accepted gracefully.",
+    "image": "images/present.png",
+    "hint": "It's polite to hesitate first.",
+    "category": "communication",
+    "option_tags": [
+      "own_culture_transfer",
+      null,
+      "distractor",
+      "distractor"
+    ]
+  },
+  {
+    "question": "When meeting someone for the first time, what phrase is appropriate?",
+    "options": [
+      "Hajimemashite",
+      "Yoroshiku onegaishimasu",
+      "Konnichiwa",
+      "Ohayou"
+    ],
+    "answer": 0,
+    "explanation": "'Hajimemashite' literally means 'for the first time,' marking the start of a new relationship. It's usually paired with a bow, your name, and a request for good treatment going forward, because a first meeting in Japan is treated as the beginning of an ongoing relationship, not just a one-off interaction.",
+    "image": "images/hajimemasite.png",
+    "hint": "It begins with 'Haji...'",
+    "category": "communication",
+    "option_tags": [
+      null,
+      "formality_assumption",
+      "distractor",
+      "distractor"
+    ]
+  },
+  {
+    "question": "Why is 'yoroshiku onegaishimasu' said so often in Japanese work and social settings, even when no specific favor is being asked?",
+    "options": [
+      "It's mostly said because it feels warm and friendly, without much real meaning behind it",
+      "It expresses a hope for a good, cooperative relationship going forward",
+      "It's legally required wording when entering any agreement",
+      "It shows you intend to outperform others in the relationship"
+    ],
+    "answer": 1,
+    "image": "images/yorosiku.png",
+    "hint": "Think about what kind of relationship it signals the start of.",
+    "category": "communication",
+    "option_tags": [
+      "indulgence_assumption",
+      null,
+      "formality_assumption",
+      "achievement_bias"
+    ]
+  },
+  {
+    "question": "When should you bow in Japan?",
+    "options": [
+      "When saying thanks",
+      "When apologizing",
+      "When greeting",
+      "All of the above"
+    ],
+    "answer": 3,
+    "explanation": "Because bowing is a flexible, contact-free gesture, Japanese speakers rely on it for almost any respectful interaction — it's the context and depth of the bow, not a different gesture, that signals whether you're saying hello, thank you, or sorry.",
+    "image": "images/ozigi.png",
+    "hint": "It's not just for one purpose.",
+    "category": "communication",
+    "option_tags": [
+      "formality_assumption",
+      "formality_assumption",
+      "formality_assumption",
+      null
+    ]
+  },
+  {
+    "question": "Which of the following is considered impolite in a formal setting?",
+    "options": [
+      "Speaking loudly",
+      "Bowing",
+      "Using honorifics",
+      "Being quiet"
+    ],
+    "answer": 0,
+    "explanation": "Formal Japanese settings prize 'wa' (harmony) and not drawing unwanted attention to yourself, so speaking loudly can read as self-centered or disruptive even if nothing you're saying is actually rude. Lowering your volume there is less about the words and more about not disturbing the shared atmosphere.",
+    "image": "images/angry.png",
+    "hint": "Think about volume.",
+    "category": "communication",
+    "option_tags": [
+      null,
+      "distractor",
+      "distractor",
+      "own_culture_transfer"
+    ]
+  },
+  {
+    "question": "At a Japanese workplace, if your idea differs from your boss's during a meeting, what is usually the most appropriate way to raise it?",
+    "options": [
+      "Argue your point forcefully in front of everyone to show confidence",
+      "Raise it privately afterward, or phrase it gently as a question, to preserve harmony in the room",
+      "Say nothing, since questioning a boss is formally forbidden",
+      "Post about the disagreement publicly, since sharing your opinion openly is encouraged where I'm from"
+    ],
+    "answer": 1,
+    "image": "images/teacher.png",
+    "hint": "Think about how disagreement can be raised without creating open conflict.",
+    "category": "communication",
+    "option_tags": [
+      "achievement_bias",
+      null,
+      "formality_assumption",
+      "own_culture_transfer"
+    ]
+  }
+]

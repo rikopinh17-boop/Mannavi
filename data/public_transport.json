@@ -1,0 +1,220 @@
+[
+  {
+    "category": "public_transport",
+    "question": "Where should you stand while waiting for the train?",
+    "options": [
+      "Anywhere on the platform",
+      "Outside the yellow safety line",
+      "In line at the marked boarding area",
+      "Right in front of the train doors"
+    ],
+    "answer": 2,
+    "explanation": "Japanese train platforms paint exact spots where each door will open, and queuing there lets arriving passengers get off before boarding starts — a system built around minimizing delays on trains that often run just minutes apart on a very tight schedule.",
+    "hint": "Lining up is important in Japan.",
+    "image": "images/densyahome.jpeg",
+    "option_tags": [
+      "own_culture_transfer",
+      "distractor",
+      null,
+      "practicality"
+    ]
+  },
+  {
+    "category": "public_transport",
+    "question": "Is it okay to talk on the phone while riding a train or bus in Japan?",
+    "options": [
+      "Yes, if you speak quietly",
+      "Yes, at any time",
+      "Only during emergencies",
+      "Phones should be on silent and calls avoided"
+    ],
+    "answer": 3,
+    "explanation": "A phone call is more disruptive than ambient noise because it's one-sided — your brain can't help but focus on half a conversation, unlike background chatter it can tune out. On packed commuter trains where many riders are trying to rest or read, that's considered a real imposition on others, not just a minor annoyance.",
+    "hint": "Consider others around you.",
+    "image": "images/denwa.jpeg",
+    "option_tags": [
+      "own_culture_transfer",
+      "own_culture_transfer",
+      "formality_assumption",
+      null
+    ]
+  },
+  {
+    "category": "public_transport",
+    "question": "Who should use the priority seats on trains and buses?",
+    "options": [
+      "Anyone, it’s first come first served",
+      "Only children",
+      "People who need them (elderly, pregnant, injured, etc.)",
+      "Students only"
+    ],
+    "answer": 2,
+    "explanation": "Priority seats are placed near the doors specifically so they're easy to reach for elderly riders, pregnant passengers, or people with injuries or disabilities. Giving up the seat, even for someone who looks 'fine,' is treated as basic consideration since many conditions aren't visible.",
+    "hint": "Always be aware of others’ needs.",
+    "image": "images/densya.jpeg",
+    "option_tags": [
+      "own_culture_transfer",
+      "distractor",
+      null,
+      "distractor"
+    ]
+  },
+  {
+    "category": "public_transport",
+    "question": "Is eating allowed on public transport in Japan?",
+    "options": [
+      "Yes, if it doesn’t smell",
+      "Yes, only on long-distance trains like the Shinkansen",
+      "Snacks only are okay",
+      "Eating is always allowed"
+    ],
+    "answer": 1,
+    "explanation": "Regular commuter trains pack people heading to work or school into close quarters, so food smells and crumbs feel like they're imposing on everyone nearby in a confined space. Long-distance trains like the Shinkansen are treated differently because trips are longer, seats are more spacious, and eating a bento there is practically a tradition.",
+    "hint": "Be mindful of noise and smells.",
+    "image": "images/densya.jpeg",
+    "option_tags": [
+      "own_culture_transfer",
+      null,
+      "formality_assumption",
+      "own_culture_transfer"
+    ]
+  },
+  {
+    "category": "public_transport",
+    "question": "What should you do with your backpack on a crowded train?",
+    "options": [
+      "Keep it on your back",
+      "Put it on the overhead rack",
+      "Hold it in front of you or place it on the floor",
+      "Toss it onto a seat"
+    ],
+    "answer": 2,
+    "explanation": "Wearing a backpack on your back means you likely can't see or feel when it bumps into someone in a crowded car, especially during sudden stops. Holding it in front of you or placing it at your feet keeps your full profile visible to you and takes up less shared space.",
+    "hint": "Space is shared—be considerate.",
+    "image": "images/densyaderyukku.png",
+    "option_tags": [
+      "own_culture_transfer",
+      "practicality",
+      null,
+      "distractor"
+    ]
+  },
+  {
+    "category": "public_transport",
+    "question": "Why do people stand on one side of the escalator?",
+    "options": [
+      "It's an official safety law",
+      "So people in a hurry can walk past on the other side",
+      "Walking up is simply more fun and energetic than standing still",
+      "Everyone does this back home too, so it must be a universal rule"
+    ],
+    "answer": 1,
+    "hint": "In Tokyo: stand left. In Osaka: stand right. Recently, however, walking on escalators is considered dangerous, and more and more areas are recommending that people ride on both sides.",
+    "image": "images/esukare-ta-.jpeg",
+    "option_tags": [
+      "formality_assumption",
+      null,
+      "indulgence_assumption",
+      "own_culture_transfer"
+    ]
+  },
+  {
+    "category": "public_transport",
+    "question": "What should you do if your IC card doesn’t work at the ticket gate?",
+    "options": [
+      "Force your way through",
+      "Ask a station staff member for help",
+      "Borrow someone else's card",
+      "Throw your card away"
+    ],
+    "answer": 1,
+    "explanation": "Station staff handle card issues constantly and can usually resolve them in moments, while forcing your way through a gate can trigger alarms, damage the gate, or get you flagged for fare evasion. Asking for help is simply the fastest and least stressful fix.",
+    "hint": "Don’t panic—staff are very helpful.",
+    "image": "images/kaisatu.jpeg",
+    "option_tags": [
+      "practicality",
+      null,
+      "distractor",
+      "distractor"
+    ]
+  },
+  {
+    "category": "public_transport",
+    "question": "How should you listen to music on public transportation?",
+    "options": [
+      "Play it on a speaker",
+      "Use headphones and keep the volume low",
+      "Enjoy it loudly",
+      "Sing along softly"
+    ],
+    "answer": 1,
+    "explanation": "Sound leaking from headphones is seen as a bigger lapse than most other noises because it's so easily avoidable with a simple volume adjustment, so Japanese commuters tend to read 'leaking' audio as carelessness toward others rather than just bad luck.",
+    "hint": "Only your ears should hear it.",
+    "image": "images/music.jpeg",
+    "option_tags": [
+      "own_culture_transfer",
+      null,
+      "own_culture_transfer",
+      "distractor"
+    ]
+  },
+  {
+    "category": "public_transport",
+    "question": "What should you do with large items like strollers or suitcases?",
+    "options": [
+      "Leave them wherever convenient",
+      "Block the aisle",
+      "Keep them close to you in a non-obstructive place",
+      "Place them on a seat"
+    ],
+    "answer": 2,
+    "explanation": "Aisles and doorways are often the only path for other passengers to move through or exit at their stop, so loose luggage can block someone's chance to get off in time — especially stressful on trains where stops are brief and crowded.",
+    "hint": "Aisles are for everyone.",
+    "image": "images/suitcase.jpeg",
+    "option_tags": [
+      "practicality",
+      "distractor",
+      null,
+      "practicality"
+    ]
+  },
+  {
+    "category": "public_transport",
+    "question": "Is loud conversation okay on a crowded train in Japan?",
+    "options": [
+      "Yes, if you're with friends",
+      "Only in the morning",
+      "No, quiet voices are preferred",
+      "Only on local trains"
+    ],
+    "answer": 2,
+    "explanation": "Japanese commuter culture treats the train as shared, often early-morning or late-evening time for personal downtime — reading, resting, or mentally preparing for the day — so quiet isn't so much a strict rule as a widely shared expectation that protects that space for everyone.",
+    "hint": "Treat trains like libraries.",
+    "image": "images/denwa.jpeg",
+    "option_tags": [
+      "own_culture_transfer",
+      "distractor",
+      null,
+      "distractor"
+    ]
+  },
+  {
+    "category": "public_transport",
+    "question": "In Japan, public displays of strong emotion (loud laughter, crying, big arguments) in shared spaces like trains or shops are generally...",
+    "options": [
+      "Encouraged, since freely expressing yourself is valued",
+      "Avoided, since self-restraint in shared public spaces is valued over personal expression",
+      "Only allowed at designated festival events",
+      "Becoming fully accepted everywhere now, just like back home"
+    ],
+    "answer": 1,
+    "hint": "Think about how much personal feeling is usually shown in quiet, shared spaces.",
+    "image": "images/densya.jpeg",
+    "option_tags": [
+      "indulgence_assumption",
+      null,
+      "formality_assumption",
+      "own_culture_transfer"
+    ]
+  }
+]

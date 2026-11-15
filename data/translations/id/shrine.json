@@ -1,0 +1,175 @@
+[
+  {
+    "question": "Apa yang sebaiknya kamu lakukan sebelum masuk ke kuil (shrine)?",
+    "options": [
+      "Bertepuk tangan",
+      "Membasuh tangan dan mulut",
+      "Melepas sepatu",
+      "Membunyikan lonceng"
+    ],
+    "explanation": "Membasuh tangan dan membilas mulut di temizuya secara simbolis membersihkan debu dunia luar (dan kesalahan dirimu sendiri) sebelum mendekati area suci - gema kecil berskala pengunjung dari ritual penyucian (misogi) yang dilakukan para pendeta Shinto.",
+    "hint": "Kebersihan bersifat simbolis dalam ritual Shinto."
+  },
+  {
+    "question": "Di mana sebaiknya kamu berjalan saat melewati gerbang torii?",
+    "options": [
+      "Di tengah",
+      "Di sisi kiri atau kanan",
+      "Di mana saja boleh",
+      "Berjalan mundur untuk keberuntungan"
+    ],
+    "explanation": "Bagian tengah jalur masuk (seichu) secara tradisional dianggap sebagai jalur yang digunakan dewa (kami) untuk bergerak, sehingga berjalan di sana dianggap memotong jalur sang kami, bukan sekadar berada di jalur yang salah. Pengunjung tetap berjalan di sisi sebagai bentuk hormat terhadap kehadiran yang tak terlihat itu.",
+    "hint": "Jalur tengah itu suci."
+  },
+  {
+    "question": "Apa cara yang tepat untuk memberikan persembahan di kuil?",
+    "options": [
+      "Melempar uang, bertepuk tangan sekali",
+      "Membunyikan lonceng, melempar uang, membungkuk sekali",
+      "Melempar uang, membungkuk dua kali, bertepuk tangan dua kali, membungkuk sekali",
+      "Membungkuk sekali, bertepuk tangan dua kali, berteriak menyebutkan keinginanmu"
+    ],
+    "explanation": "Setiap langkah punya perannya: dua bungkukan pertama menunjukkan rasa hormat sebelum kamu meminta apa pun, dua tepukan tangan dipercaya menarik perhatian sang dewa dan mengekspresikan kegembiraan, dan bungkukan terakhir menutup doamu dengan ucapan terima kasih. Melewatkan atau mengubah urutan langkah dianggap sebagai doa yang tidak lengkap, bukan sekadar tidak formal.",
+    "hint": "2-2-1 adalah pola yang mudah diingat."
+  },
+  {
+    "question": "Berapa jumlah uang yang umum untuk persembahan?",
+    "options": [
+      "1000 yen",
+      "5 yen",
+      "50 yen",
+      "Harus berjumlah genap"
+    ],
+    "explanation": "5 yen diucapkan 'go-en,' yang merupakan homofon dari kata yang berarti 'nasib baik' atau 'hubungan baik,' sehingga memberikan persembahan tepat 5 yen adalah permainan kata kecil yang dimaksudkan untuk mengundang keberuntungan - ini soal permainan kata, bukan pernyataan tentang seberapa 'berharga' doa tersebut.",
+    "hint": "Itu permainan kata yang membawa keberuntungan!"
+  },
+  {
+    "question": "Apa yang sebaiknya kamu hindari saat mengunjungi kuil?",
+    "options": [
+      "Memakai pakaian berwarna cerah",
+      "Membawa hewan peliharaan",
+      "Berbicara dengan keras",
+      "Berjalan pelan"
+    ],
+    "explanation": "Kuil dianggap sebagai tempat tinggal seorang kami, sehingga diperlakukan dengan rasa hormat yang tenang seperti saat kamu memasuki rumah seseorang tanpa pemberitahuan. Berbicara keras merusak suasana itu, dan hewan peliharaan dibatasi baik karena alasan kesucian maupun karena pengunjung lain datang untuk berdoa, bukan bersosialisasi.",
+    "hint": "Bersikaplah hormat seperti sedang mengunjungi tempat suci."
+  },
+  {
+    "question": "Mengapa pengunjung menuliskan harapan mereka di papan kayu ema dan menggantungnya di kuil alih-alih membawanya pulang?",
+    "options": [
+      "Karena melanggar aturan jika dibawa pulang",
+      "Agar harapan itu tetap dekat dengan sang kami dan berada dalam jangkauan perhatiannya",
+      "Karena meninggalkannya memungkinkanmu melanjutkan dan menikmati sisa perjalananmu tanpa membawa barang tambahan",
+      "Karena papan kayu tersebut dianggap terlalu suci untuk disentuh lagi setelah ditulis"
+    ],
+    "hint": "Pikirkan mengapa lokasi harapan itu penting."
+  },
+  {
+    "question": "Mengapa pengunjung membunyikan lonceng (suzu) sebelum berdoa di kuil?",
+    "options": [
+      "Untuk memberi tahu staf kuil bahwa ada pengunjung yang datang",
+      "Untuk memanggil perhatian sang kami dan menyingkirkan energi negatif sebelum berdoa",
+      "Untuk menunjukkan kepada pengunjung lain bahwa kamu paham ritual yang benar",
+      "Karena membunyikan lonceng untuk keberuntungan adalah gestur universal, sama seperti di negara asalku"
+    ],
+    "hint": "Bunyinya berdenting, tepat sebelum kamu berdoa."
+  },
+  {
+    "question": "Bagaimana cara menggunakan omikuji (kertas ramalan nasib)?",
+    "options": [
+      "Membaca dan selalu menyimpannya",
+      "Memakannya",
+      "Mengikatkannya di pohon atau rak khusus",
+      "Membuangnya ke dalam air"
+    ],
+    "explanation": "Ramalan buruk tidak dimaksudkan untuk dipikirkan terus-menerus - mengikatkan kertasnya di pohon atau rak khusus dipercaya meninggalkan nasib buruk itu di kuil, hampir seperti mempercayakan masalah kepada seseorang yang bisa menanganinya. Ramalan baik, sebaliknya, sering dibawa pulang untuk menjaga keberuntungannya tetap dekat.",
+    "hint": "Kamu sering melihat kertas putih diikatkan di pepohonan."
+  },
+  {
+    "question": "Bolehkah berfoto bebas di semua area kuil?",
+    "options": [
+      "Ya",
+      "Tidak, fotografi dibatasi di beberapa area suci",
+      "Hanya jika membayar",
+      "Hanya saat festival"
+    ],
+    "explanation": "Area terdalam sebuah kuil (honden) dianggap sebagai tempat tinggal sang kami yang sesungguhnya, bukan sekadar arsitektur dekoratif, sehingga memotret di sana bisa terasa seintrusif memotret di dalam rumah pribadi seseorang. Papan tanda biasanya menunjukkan dengan jelas di mana larangan ini berlaku.",
+    "hint": "Selalu periksa tanda atau tanyakan kepada staf."
+  },
+  {
+    "question": "Apa tujuan dari gerbang torii?",
+    "options": [
+      "Untuk menampilkan nama kuil",
+      "Untuk menandai ruang suci",
+      "Untuk menyambut turis",
+      "Untuk menggantungkan papan ema"
+    ],
+    "explanation": "Gerbang torii menandai batas antara dunia biasa dan ruang suci sang kami, itulah sebabnya melewatinya sering dianggap sebagai awal sesungguhnya dari kunjungan ke kuil - beberapa pengunjung bahkan berhenti sejenak untuk membungkuk sebelum melangkah masuk, memperlakukannya seperti mengetuk pintu sebelum masuk.",
+    "hint": "Itu adalah ambang batas simbolis."
+  },
+  {
+    "question": "Sebuah festival kuil (matsuri) tetap mengikuti prosedur ritual yang berusia berabad-abad, meskipun cara yang lebih cepat dan modern bisa menghasilkan hasil yang serupa. Mengapa banyak komunitas mempertahankan cara lama ini?",
+    "options": [
+      "Melanjutkan bentuk tradisional itu sendiri, bukan sekadar hasilnya, dianggap berharga untuk terhubung dengan masa lalu",
+      "Ada hukum ketat yang mewajibkan prosedur lama",
+      "Cara lama sebenarnya lebih efisien daripada alternatif modern apa pun",
+      "Festival terutama dilakukan sebagai pertunjukan untuk turis"
+    ],
+    "hint": "Pikirkan apa yang sebenarnya sedang dilestarikan - hasilnya, atau prosesnya sendiri."
+  },
+  {
+    "question": "Mengapa banyak orang Jepang mengunjungi kuil untuk hatsumode (kunjungan kuil pertama di tahun itu), meskipun mereka tidak menganggap diri religius?",
+    "options": [
+      "Ini dianggap sebagai tradisi budaya yang bermakna dan acara sosial bersama keluarga atau teman, lebih daripada kewajiban agama yang ketat",
+      "Melewatkannya dipercaya menjamin satu tahun penuh nasib buruk",
+      "Ada aturan nasional resmi yang mewajibkan warga mengunjungi kuil di Tahun Baru",
+      "Ini pada dasarnya sama dengan menghadiri kebaktian keagamaan mingguan di negara asalku"
+    ],
+    "explanation": "Bagi banyak orang, hatsumode lebih mirip tradisi Tahun Baru yang disayangi - berdandan rapi, mengantre bersama keluarga, membeli jimat untuk setahun ke depan - daripada kewajiban agama yang ditakuti. Melewatkannya bukan dianggap mengundang kesialan; itu hanyalah tradisi yang banyak orang senang jalankan, bukan praktik keagamaan mingguan.",
+    "hint": "Pikirkan apa yang sebenarnya akan terjadi jika seseorang melewatkannya."
+  },
+  {
+    "question": "Mengapa banyak orang Jepang mengirim nengajo (kartu pos Tahun Baru) kepada rekan kerja dan kenalan jauh setiap tahun?",
+    "options": [
+      "Ini adalah kebiasaan sosial untuk menjaga hubungan dan menunjukkan bahwa kamu masih ingat seseorang, mirip semangatnya dengan kartu ucapan liburan di tempat lain",
+      "Tidak mengirimnya dipercaya membuat arwah leluhur marah",
+      "Perusahaan diwajibkan secara hukum mengirimkannya kepada semua klien",
+      "Semakin mewah desain kartunya, semakin menunjukkan status sosialmu"
+    ],
+    "explanation": "Nengajo berfungsi seperti sapaan tahunan sekali setahun - sebuah gestur kecil yang diharapkan yang mengatakan 'saya masih menghargai hubungan ini,' bukan kewajiban ritual yang terkait dengan arwah atau leluhur. Melewatkan seseorang bukan berisiko secara spiritual, hanya sedikit kurang perhatian secara sosial.",
+    "hint": "Pikirkan apa sebenarnya yang disampaikan dengan mengirim kartu itu kepada penerimanya."
+  },
+  {
+    "question": "Selama Setsubun, mengapa orang melempar kacang kedelai panggang di sekitar rumah sambil berteriak 'Oni wa soto, fuku wa uchi' (Iblis keluar, keberuntungan masuk)?",
+    "options": [
+      "Ini adalah tradisi musiman yang ringan untuk menandai pergantian musim dan mengundang keberuntungan, sering dilakukan dengan santai bersama anak-anak",
+      "Ini adalah ritual pengusiran setan yang serius, dilakukan karena roh jahat sungguhan dipercaya hadir secara fisik di dalam rumah",
+      "Ini pada dasarnya sama dengan tradisi trick-or-treat",
+      "Ini dilakukan murni karena melempar sesuatu itu menyenangkan, tanpa makna khusus di baliknya"
+    ],
+    "explanation": "Lempar kacang Setsubun lebih mirip kegiatan keluarga yang menyenangkan dan simbolis untuk menandai awal musim semi daripada ritual pengusiran setan yang menakutkan - banyak keluarga melakukannya dengan salah satu orang tua memakai topeng oni dari kertas agar dikejar anak-anak, memperlakukan iblis sebagai simbol main-main untuk nasib buruk, bukan ancaman nyata.",
+    "hint": "Pikirkan siapa yang biasanya melempar kacang, dan siapa yang 'berperan' sebagai iblis."
+  },
+  {
+    "question": "Mengapa orang melukis satu mata boneka daruma saat menetapkan tujuan, lalu melukis mata kedua hanya setelah tujuan itu tercapai?",
+    "options": [
+      "Ini adalah tradisi motivasi untuk menandai komitmen terhadap suatu tujuan dan melacak kemajuan secara visual, mirip seperti papan visi (vision board)",
+      "Boneka tersebut dipercaya akan mengutuk dengan kesialan jika mata kedua dilukis sebelum tujuan tercapai",
+      "Ada upacara pelukisan daruma yang disertifikasi secara resmi untuk tujuan bisnis",
+      "Ini pada dasarnya sama dengan mengumumkan resolusi Tahun Baru secara lisan di sebuah pesta"
+    ],
+    "explanation": "Daruma adalah alat pelacak tujuan sekaligus jimat keberuntungan - melukis mata pertama adalah komitmen yang terlihat, dan melukis mata kedua adalah penanda keberhasilan yang memuaskan. Tidak ada kutukan karena 'melakukannya dengan salah'; paling buruk, kamu hanya tidak mendapatkan momen seremonial kecil untuk menyelesaikannya dengan benar.",
+    "hint": "Pikirkan apa yang sedang dilacak oleh kedua mata itu, bukan dihukum."
+  },
+  {
+    "question": "Mengapa banyak rumah tangga memajang hamaya (anak panah dekoratif yang dibeli di kuil) di sekitar Tahun Baru?",
+    "options": [
+      "Ini adalah jimat keberuntungan tradisional yang dipajang di rumah selama setahun, diperlakukan lebih seperti dekorasi musiman daripada benda magis yang ditakuti",
+      "Jika ditangani dengan salah, dipercaya akan mendatangkan kesialan ke dalam rumah",
+      "Ini terutama dimaksudkan untuk digunakan sebagai senjata fungsional sungguhan untuk perlindungan rumah",
+      "Hamaya yang lebih mahal menunjukkan status sosial rumah tangga yang lebih tinggi"
+    ],
+    "explanation": "Hamaya dibeli, dipajang di tempat yang terlihat selama setahun, lalu dikembalikan ke kuil untuk dibakar secara seremonial pada Tahun Baru berikutnya - sebuah ritual tahunan yang santai, lebih mirip menggantung dekorasi keberuntungan daripada benda berbahaya yang perlu ditangani hati-hati.",
+    "hint": "Pikirkan betapa santainya cara benda ini dipajang di sekitar rumah."
+  }
+]

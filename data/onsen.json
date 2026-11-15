@@ -1,0 +1,202 @@
+[
+  {
+    "category": "onsen",
+    "question": "What should you do before entering the onsen bath?",
+    "options": [
+      "Jump right in",
+      "Rinse your feet only",
+      "Take a full body shower",
+      "Dry off with a towel"
+    ],
+    "answer": 2,
+    "explanation": "The hot water in the bath is reused by every guest that day, so the shower stalls exist to get you genuinely clean — shampoo, soap, sweat and all — before you ever touch the shared water. Skipping this step directly affects how clean the bath stays for the people who soak after you.",
+    "hint": "Cleanliness is very important in onsen culture.",
+    "image": "images/onsen.jpeg",
+    "option_tags": [
+      "practicality",
+      "practicality",
+      null,
+      "distractor"
+    ]
+  },
+  {
+    "category": "onsen",
+    "question": "Can you wear a swimsuit in a traditional Japanese onsen?",
+    "options": [
+      "Yes, always",
+      "Only on weekends",
+      "Only in mixed-gender baths",
+      "No, you must be naked"
+    ],
+    "answer": 3,
+    "explanation": "Traditional onsen culture treats everyone as equal once undressed, following an old idea called 'hadaka no tsukiai' (naked companionship), where bathing without the status markers of clothing encourages honesty between strangers. Swimsuits are also treated as 'outside' fabric that could carry detergent or dirt into the water.",
+    "hint": "Think about traditional Japanese customs.",
+    "image": "images/onsen.jpeg",
+    "option_tags": [
+      "own_culture_transfer",
+      "distractor",
+      "formality_assumption",
+      null
+    ]
+  },
+  {
+    "category": "onsen",
+    "question": "Where should you leave your towel while soaking in the bath?",
+    "options": [
+      "In the water with you",
+      "On your head or outside the bath",
+      "On the floor",
+      "Next to someone else's towel"
+    ],
+    "answer": 1,
+    "explanation": "Even after rinsing, a towel still carries soap residue, skin oils, and loose hair, so dipping it into the communal bath would contaminate water that dozens of other guests share that day. Resting it on your head or the edge of the bath keeps it handy without it ever touching the water.",
+    "hint": "Keep the water as clean as possible.",
+    "image": "images/onsen.jpeg",
+    "option_tags": [
+      "own_culture_transfer",
+      null,
+      "distractor",
+      "distractor"
+    ]
+  },
+  {
+    "category": "onsen",
+    "question": "What should you do if you have long hair before entering the bath?",
+    "options": [
+      "Let it flow freely",
+      "Dip it in the water",
+      "Tie it up or use a shower cap",
+      "Cut it short"
+    ],
+    "answer": 2,
+    "explanation": "Loose hair sheds strands that clog filters and keep circulating through the shared bath for every later guest, and letting your own hair touch water that strangers will soak in afterward is seen as mildly unsanitary. Tying it up or wearing a shower cap is a small act of consideration that keeps the water clean for everyone who uses it after you — not an arbitrary grooming rule.",
+    "hint": "Would you want someone else’s hair in the water?",
+    "image": "images/onsen.jpeg",
+    "option_tags": [
+      "own_culture_transfer",
+      "distractor",
+      null,
+      "distractor"
+    ]
+  },
+  {
+    "category": "onsen",
+    "question": "Is it okay to swim or splash in an onsen?",
+    "options": [
+      "Yes, if you’re alone",
+      "Only if you’re with friends",
+      "Never",
+      "Only in outdoor baths"
+    ],
+    "answer": 2,
+    "explanation": "Onsen bathing is rooted in the idea of quietly purifying body and mind in hot water, closer to meditation than exercise, so splashing disrupts the calm atmosphere others came for. It can also send bathwater — and whatever is on your skin — onto the people soaking near you.",
+    "hint": "Think of onsen as a peaceful space.",
+    "image": "images/onsen.jpeg",
+    "option_tags": [
+      "indulgence_assumption",
+      "own_culture_transfer",
+      null,
+      "formality_assumption"
+    ]
+  },
+  {
+    "category": "onsen",
+    "question": "What should you do with your phone in an onsen area?",
+    "options": [
+      "Take lots of pictures",
+      "Use it quietly in the bath",
+      "Leave it in the locker",
+      "Place it near the edge of the tub"
+    ],
+    "answer": 2,
+    "explanation": "Because everyone bathes without clothing, phones — with their always-ready cameras — raise real privacy concerns, and a photo taken 'by accident' can't be undone. Leaving your phone in the locker is a firm boundary that lets every guest relax without worrying about being photographed.",
+    "hint": "Would you want to be photographed naked?",
+    "image": "images/onsen.jpeg",
+    "option_tags": [
+      "own_culture_transfer",
+      "own_culture_transfer",
+      null,
+      "practicality"
+    ]
+  },
+  {
+    "category": "onsen",
+    "question": "Can people with tattoos use traditional onsen in Japan?",
+    "options": [
+      "Yes, always",
+      "Only if they’re small",
+      "No, often they are not allowed",
+      "Only foreigners can enter"
+    ],
+    "answer": 2,
+    "explanation": "Tattoos have historically been linked to the yakuza (organized crime) in Japan, so many traditional onsen ban them to avoid making other guests uneasy. This is gradually changing as tattoos become more common among tourists, and some onsen now offer cover seals or dedicated hours, but it's worth checking the signage first.",
+    "hint": "Check for tattoo-friendly signs.",
+    "image": "images/onsen.jpeg",
+    "option_tags": [
+      "own_culture_transfer",
+      "formality_assumption",
+      null,
+      "distractor"
+    ]
+  },
+  {
+    "category": "onsen",
+    "question": "Should you bring soap and shampoo into the bath?",
+    "options": [
+      "Yes, to wash in the tub",
+      "No, they’re provided outside the bath",
+      "Only bring conditioner",
+      "You must bring your own"
+    ],
+    "answer": 1,
+    "explanation": "The bath itself is for soaking, not washing — soap and shampoo belong at the shower stalls so suds and residue never enter the communal water. Treating the bath as a place to simply rest in, rather than scrub down in, is what keeps it clean enough to share.",
+    "hint": "Keep bathwater pure!",
+    "image": "images/onsen.jpeg",
+    "option_tags": [
+      "own_culture_transfer",
+      null,
+      "distractor",
+      "practicality"
+    ]
+  },
+  {
+    "category": "onsen",
+    "question": "What should you do after soaking in a hot bath?",
+    "options": [
+      "Jump into a cold pool",
+      "Take a shower again",
+      "Dry off before leaving the bathing area",
+      "Put on perfume"
+    ],
+    "answer": 2,
+    "explanation": "Locker room flooring usually can't handle much standing water, and dripping through the changing area makes it slippery and unpleasant for the next person. A quick towel-off at the edge of the bathing area is a small courtesy that keeps the shared space safe and usable.",
+    "hint": "Be considerate to others using the space.",
+    "image": "images/onsen.jpeg",
+    "option_tags": [
+      "own_culture_transfer",
+      "practicality",
+      null,
+      "distractor"
+    ]
+  },
+  {
+    "category": "onsen",
+    "question": "Is talking loudly acceptable in onsen?",
+    "options": [
+      "Yes, it’s fine with friends",
+      "Only in outdoor baths",
+      "No, quiet voices are preferred",
+      "Yes, but not in the morning"
+    ],
+    "answer": 2,
+    "explanation": "Onsen are valued as one of the few places for quiet rest in an otherwise busy routine, so loud conversation takes that experience away from everyone else in the room, not just the people nearby. Keeping your voice low is what lets the bath stay a shared retreat rather than a social lounge.",
+    "hint": "Silence is golden.",
+    "image": "images/onsen.jpeg",
+    "option_tags": [
+      "own_culture_transfer",
+      "formality_assumption",
+      null,
+      "distractor"
+    ]
+  }
+]

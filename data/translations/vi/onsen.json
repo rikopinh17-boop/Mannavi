@@ -1,0 +1,112 @@
+[
+  {
+    "question": "Bạn nên làm gì trước khi vào bồn tắm onsen?",
+    "options": [
+      "Nhảy ngay xuống",
+      "Chỉ rửa chân",
+      "Tắm rửa toàn thân thật kỹ",
+      "Lau khô người bằng khăn"
+    ],
+    "explanation": "Nước nóng trong bồn được tất cả khách trong ngày dùng chung, nên khu vòi sen tồn tại để bạn thực sự sạch sẽ - sạch cả dầu gội, xà phòng, mồ hôi - trước khi chạm vào nguồn nước chung đó. Bỏ qua bước này ảnh hưởng trực tiếp đến mức độ sạch sẽ của bồn tắm cho những người ngâm mình sau bạn.",
+    "hint": "Sự sạch sẽ rất quan trọng trong văn hóa onsen."
+  },
+  {
+    "question": "Bạn có thể mặc đồ bơi khi tắm onsen truyền thống của Nhật Bản không?",
+    "options": [
+      "Có, luôn luôn được",
+      "Chỉ vào cuối tuần",
+      "Chỉ ở bồn tắm chung nam nữ",
+      "Không, bạn phải tắm khỏa thân"
+    ],
+    "explanation": "Văn hóa onsen truyền thống coi mọi người đều bình đẳng khi đã cởi bỏ quần áo, theo một quan niệm cổ gọi là 'hadaka no tsukiai' (tình bạn trần trụi), trong đó việc tắm mà không có những dấu hiệu địa vị từ trang phục giúp khuyến khích sự chân thành giữa những người xa lạ. Đồ bơi cũng bị coi là vải 'từ bên ngoài' có thể mang theo chất tẩy rửa hay bụi bẩn vào nước.",
+    "hint": "Hãy nghĩ về những phong tục truyền thống của Nhật Bản."
+  },
+  {
+    "question": "Bạn nên để khăn tắm ở đâu khi đang ngâm mình trong bồn?",
+    "options": [
+      "Trong nước cùng với bạn",
+      "Trên đầu hoặc bên ngoài bồn tắm",
+      "Trên sàn nhà",
+      "Cạnh khăn của người khác"
+    ],
+    "explanation": "Ngay cả sau khi đã tráng qua, khăn vẫn còn sót lại xà phòng, dầu da và tóc rụng, nên nhúng nó vào bồn tắm chung sẽ làm bẩn nguồn nước mà hàng chục khách khác dùng chung trong ngày. Đặt khăn lên đầu hoặc trên thành bồn giúp bạn tiện sử dụng mà không để nó chạm vào nước.",
+    "hint": "Hãy giữ nước càng sạch càng tốt."
+  },
+  {
+    "question": "Bạn nên làm gì nếu có tóc dài trước khi vào bồn tắm?",
+    "options": [
+      "Để tóc xõa tự nhiên",
+      "Nhúng tóc vào nước",
+      "Buộc tóc lên hoặc dùng mũ trùm tắm",
+      "Cắt tóc ngắn"
+    ],
+    "explanation": "Tóc xõa làm rụng những sợi tóc làm tắc bộ lọc và tiếp tục trôi nổi trong bồn tắm chung cho mỗi khách sau đó, và để tóc của mình chạm vào nước mà người lạ sẽ ngâm mình sau bị coi là hơi mất vệ sinh. Buộc tóc lên hoặc đội mũ trùm tắm là một hành động nhỏ thể hiện sự quan tâm, giữ nước sạch cho tất cả những ai sử dụng sau bạn - không phải một quy tắc chải chuốt vô căn cứ.",
+    "hint": "Bạn có muốn tóc của người khác ở trong nước không?"
+  },
+  {
+    "question": "Bơi lội hay té nước trong onsen có được chấp nhận không?",
+    "options": [
+      "Có, nếu bạn đang ở một mình",
+      "Chỉ khi đi cùng bạn bè",
+      "Không bao giờ",
+      "Chỉ ở bồn tắm ngoài trời"
+    ],
+    "explanation": "Việc tắm onsen bắt nguồn từ ý tưởng thanh lọc cơ thể và tâm trí một cách lặng lẽ trong nước nóng, gần với thiền định hơn là thể dục, nên việc té nước phá vỡ bầu không khí yên tĩnh mà những người khác đang tìm kiếm. Nó cũng có thể làm nước tắm - và bất cứ thứ gì trên da bạn - văng vào những người đang ngâm mình gần đó.",
+    "hint": "Hãy coi onsen như một không gian yên bình."
+  },
+  {
+    "question": "Bạn nên làm gì với điện thoại trong khu vực onsen?",
+    "options": [
+      "Chụp thật nhiều ảnh",
+      "Dùng điện thoại nhẹ nhàng trong bồn tắm",
+      "Để trong tủ khóa",
+      "Đặt gần mép bồn tắm"
+    ],
+    "explanation": "Vì mọi người tắm mà không mặc quần áo, điện thoại - với camera luôn sẵn sàng - đặt ra những lo ngại thực sự về quyền riêng tư, và một bức ảnh chụp 'vô tình' thì không thể xóa bỏ hậu quả. Để điện thoại trong tủ khóa là một ranh giới rõ ràng giúp mọi khách có thể thư giãn mà không lo bị chụp ảnh.",
+    "hint": "Bạn có muốn bị chụp ảnh khi đang khỏa thân không?"
+  },
+  {
+    "question": "Người có hình xăm có thể sử dụng onsen truyền thống ở Nhật Bản không?",
+    "options": [
+      "Có, luôn luôn được",
+      "Chỉ khi hình xăm nhỏ",
+      "Không, thường là không được phép",
+      "Chỉ người nước ngoài mới được vào"
+    ],
+    "explanation": "Hình xăm vốn gắn liền với yakuza (tội phạm có tổ chức) trong lịch sử Nhật Bản, nên nhiều onsen truyền thống cấm hình xăm để tránh khiến các khách khác cảm thấy bất an. Điều này đang dần thay đổi khi hình xăm trở nên phổ biến hơn trong giới du khách, và một số onsen hiện cung cấp miếng dán che hoặc khung giờ riêng, nhưng tốt nhất bạn nên kiểm tra biển báo trước.",
+    "hint": "Hãy tìm biển báo cho phép hình xăm."
+  },
+  {
+    "question": "Bạn có nên mang xà phòng và dầu gội vào bồn tắm không?",
+    "options": [
+      "Có, để tắm trong bồn",
+      "Không, chúng được cung cấp bên ngoài bồn tắm",
+      "Chỉ mang dầu xả",
+      "Bạn phải tự mang theo"
+    ],
+    "explanation": "Bồn tắm là nơi để ngâm mình, không phải để tắm rửa - xà phòng và dầu gội thuộc về khu vòi sen để bọt và cặn không bao giờ lọt vào nguồn nước chung. Coi bồn tắm là nơi nghỉ ngơi đơn thuần, chứ không phải nơi kỳ cọ, chính là điều giữ cho nó đủ sạch để dùng chung.",
+    "hint": "Hãy giữ nước tắm tinh khiết!"
+  },
+  {
+    "question": "Bạn nên làm gì sau khi ngâm mình trong bồn nước nóng?",
+    "options": [
+      "Nhảy vào bể nước lạnh",
+      "Tắm lại lần nữa",
+      "Lau khô người trước khi rời khu vực tắm",
+      "Xịt nước hoa"
+    ],
+    "explanation": "Sàn phòng thay đồ thường không chịu được nhiều nước đọng, và nước nhỏ giọt qua khu vực thay đồ khiến nơi đó trơn trượt và khó chịu cho người tiếp theo. Lau khô nhanh ở mép khu vực tắm là một phép lịch sự nhỏ giúp giữ không gian chung an toàn và dễ sử dụng.",
+    "hint": "Hãy quan tâm đến những người khác đang sử dụng không gian này."
+  },
+  {
+    "question": "Nói chuyện ồn ào trong onsen có được chấp nhận không?",
+    "options": [
+      "Có, thoải mái nếu đi cùng bạn bè",
+      "Chỉ ở bồn tắm ngoài trời",
+      "Không, nên nói nhỏ nhẹ",
+      "Có, nhưng không phải vào buổi sáng"
+    ],
+    "explanation": "Onsen được coi trọng như một trong số ít nơi để nghỉ ngơi yên tĩnh trong một lịch trình vốn bận rộn, nên việc nói chuyện ồn ào lấy đi trải nghiệm đó của tất cả mọi người trong phòng, chứ không chỉ những người ở gần. Giữ giọng nói nhỏ là điều giúp bồn tắm vẫn là một nơi nghỉ ngơi chung, chứ không trở thành phòng khách xã giao.",
+    "hint": "Im lặng là vàng."
+  }
+]

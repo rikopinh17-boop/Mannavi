@@ -1,0 +1,250 @@
+country,status,proxy_of,confidence,pdi,idv,mas,uai,ltowvs,ivr,rationale
+Afghanistan,proxy,Pakistan,moderate,55,14,50,70,50,0,"Shared Pashtun population, Islamic culture, regional ties."
+Albania,unknown,,unknown,,,,,,,No sufficiently confident proxy identified; treat as unknown.
+Algeria,proxy,Arab countries,moderate-high,80,38,53,68,23,34,Arab League / Arabic-speaking cultural sphere.
+American Samoa,proxy,United States,moderate,40,91,62,46,26,68,"US territories, administrative tie."
+Andorra,proxy,Spain,moderate-high,57,51,42,86,48,44,Co-principality shared with Spain/France.
+Angola,unknown,,unknown,,,,,,,No sufficiently confident proxy identified; treat as unknown.
+Anguilla,proxy,United Kingdom,moderate,35,89,66,35,51,69,British Overseas Territories.
+Antarctica,unknown,,unknown,,,,,,,No sufficiently confident proxy identified; treat as unknown.
+Antigua and Barbuda,proxy,Jamaica,moderate-high,45,39,68,13,,,"Anglophone Caribbean, ex-British, Afro-Caribbean sphere."
+Argentina,direct,,direct,49,46,56,86,20,62,Direct Hofstede country score.
+Armenia,unknown,,unknown,,,,,,,No sufficiently confident proxy identified; treat as unknown.
+Aruba,proxy,Netherlands,high,38,80,14,53,67,68,Constituent countries of the Kingdom of the Netherlands.
+Australia,direct,,direct,38,90,61,51,21,71,Direct Hofstede country score.
+Austria,direct,,direct,11,55,79,70,60,63,Direct Hofstede country score.
+Azerbaijan,proxy,Türkiye,moderate,66,37,45,85,46,49,Turkic-language kinship.
+Bahamas,proxy,Jamaica,moderate-high,45,39,68,13,,,"Anglophone Caribbean, ex-British, Afro-Caribbean sphere."
+Bahrain,proxy,Arab countries,moderate-high,80,38,53,68,23,34,Arab League / Arabic-speaking cultural sphere.
+Bangladesh,direct,,direct,80,20,55,60,47,20,Direct Hofstede country score.
+Barbados,proxy,Jamaica,moderate-high,45,39,68,13,,,"Anglophone Caribbean, ex-British, Afro-Caribbean sphere."
+Belarus,proxy,Russia,moderate-high,93,39,36,95,81,20,"Close linguistic/political ties, Union State."
+Belgium,direct,,direct,65,75,54,94,82,57,Direct Hofstede country score.
+Belize,proxy,Jamaica,moderate-high,45,39,68,13,,,"Anglophone Caribbean, ex-British, Afro-Caribbean sphere."
+Benin,proxy,Africa West,low-moderate,77,20,46,54,9,78,ECOWAS regional-bloc proximity.
+Bermuda,proxy,United Kingdom,moderate,35,89,66,35,51,69,British Overseas Territories.
+Bhutan,proxy,India,moderate-high,77,48,56,40,51,26,Shared South Asian subcontinental history.
+"Bolivia, Plurinational State of",proxy,Peru,moderate,64,16,42,87,25,46,"Bordering Andean nation, shared highland heritage."
+"Bonaire, Sint Eustatius and Saba",proxy,Netherlands,high,38,80,14,53,67,68,Constituent countries of the Kingdom of the Netherlands.
+Bosnia and Herzegovina,proxy,Croatia,moderate,73,33,40,80,58,33,"Former-Yugoslav, South Slavic neighbor."
+Botswana,unknown,,unknown,,,,,,,No sufficiently confident proxy identified; treat as unknown.
+Bouvet Island,unknown,,unknown,,,,,,,No sufficiently confident proxy identified; treat as unknown.
+Brazil,direct,,direct,69,38,49,76,44,59,Direct Hofstede country score.
+British Indian Ocean Territory,unknown,,unknown,,,,,,,No sufficiently confident proxy identified; treat as unknown.
+Brunei Darussalam,proxy,Malaysia,high,104,26,50,36,41,57,"Malay Islamic monarchy, Borneo-area geography."
+Bulgaria,direct,,direct,70,30,40,85,69,16,Direct Hofstede country score.
+Burkina Faso,proxy,Africa West,low-moderate,77,20,46,54,9,78,ECOWAS regional-bloc proximity.
+Burundi,proxy,Africa East,low-moderate,64,27,41,52,32,40,Regional-bloc (EAC/SADC) proximity.
+Cabo Verde,proxy,Africa West,low-moderate,77,20,46,54,9,78,ECOWAS regional-bloc proximity.
+Cambodia,proxy,Thailand,moderate,64,20,34,64,32,45,Mainland SEA Theravada Buddhist sphere.
+Cameroon,unknown,,unknown,,,,,,,No sufficiently confident proxy identified; treat as unknown.
+Canada,direct,,direct,39,80,52,48,36,68,Direct Hofstede country score.
+Cayman Islands,proxy,United Kingdom,moderate,35,89,66,35,51,69,British Overseas Territories.
+Central African Republic,unknown,,unknown,,,,,,,No sufficiently confident proxy identified; treat as unknown.
+Chad,unknown,,unknown,,,,,,,No sufficiently confident proxy identified; treat as unknown.
+Chile,direct,,direct,63,23,28,86,31,68,Direct Hofstede country score.
+China,direct,,direct,80,20,66,30,87,24,Direct Hofstede country score.
+Christmas Island,unknown,,unknown,,,,,,,No sufficiently confident proxy identified; treat as unknown.
+Cocos (Keeling) Islands,unknown,,unknown,,,,,,,No sufficiently confident proxy identified; treat as unknown.
+Colombia,direct,,direct,67,13,64,80,13,83,Direct Hofstede country score.
+Comoros,proxy,Arab countries,moderate-high,80,38,53,68,23,34,Arab League / Arabic-speaking cultural sphere.
+Congo,unknown,,unknown,,,,,,,No sufficiently confident proxy identified; treat as unknown.
+"Congo, The Democratic Republic of the",unknown,,unknown,,,,,,,No sufficiently confident proxy identified; treat as unknown.
+Cook Islands,unknown,,unknown,,,,,,,No sufficiently confident proxy identified; treat as unknown.
+Costa Rica,direct,,direct,35,15,21,86,,,Direct Hofstede country score.
+Croatia,direct,,direct,73,33,40,80,58,33,Direct Hofstede country score.
+Cuba,proxy,Venezuela,low,81,12,73,76,16,100,Weak Spanish-Caribbean language-sphere link.
+Curaçao,proxy,Netherlands,high,38,80,14,53,67,68,Constituent countries of the Kingdom of the Netherlands.
+Cyprus,proxy,Greece,moderate-high,60,35,57,112,45,50,"Greek Cypriot majority, shared language/culture."
+Czechia,direct,,direct,57,58,57,74,70,29,Direct Hofstede country score.
+Côte d'Ivoire,proxy,Africa West,low-moderate,77,20,46,54,9,78,ECOWAS regional-bloc proximity.
+Denmark,direct,,direct,18,74,16,23,35,70,Direct Hofstede country score.
+Djibouti,proxy,Arab countries,moderate-high,80,38,53,68,23,34,Arab League / Arabic-speaking cultural sphere.
+Dominica,proxy,Jamaica,moderate-high,45,39,68,13,,,"Anglophone Caribbean, ex-British, Afro-Caribbean sphere."
+Dominican Republic,proxy,Venezuela,low,81,12,73,76,16,100,Weak Spanish-Caribbean language-sphere link.
+Ecuador,direct,,direct,78,8,63,67,,,Direct Hofstede country score.
+Egypt,proxy,Arab countries,moderate-high,80,38,53,68,23,34,Arab League / Arabic-speaking cultural sphere.
+El Salvador,direct,,direct,66,19,40,94,20,89,Direct Hofstede country score.
+Equatorial Guinea,unknown,,unknown,,,,,,,No sufficiently confident proxy identified; treat as unknown.
+Eritrea,proxy,Africa East,low,64,27,41,52,32,40,Weak geographic link only.
+Estonia,direct,,direct,40,60,30,60,82,16,Direct Hofstede country score.
+Eswatini,unknown,,unknown,,,,,,,No sufficiently confident proxy identified; treat as unknown.
+Ethiopia,proxy,Africa East,high,64,27,41,52,32,40,Reported as part of the original Hofstede East Africa sample.
+Falkland Islands (Malvinas),proxy,United Kingdom,moderate,35,89,66,35,51,69,British Overseas Territories.
+Faroe Islands,proxy,Denmark,high,18,74,16,23,35,70,Danish territories.
+Fiji,unknown,,unknown,,,,,,,No sufficiently confident proxy identified; treat as unknown.
+Finland,direct,,direct,33,63,26,59,38,57,Direct Hofstede country score.
+France,direct,,direct,68,71,43,86,63,48,Direct Hofstede country score.
+French Guiana,proxy,France,low-moderate,68,71,43,86,63,48,"French overseas territories - administrative tie, weaker cultural fit especially Pacific."
+French Polynesia,proxy,France,low-moderate,68,71,43,86,63,48,"French overseas territories - administrative tie, weaker cultural fit especially Pacific."
+French Southern Territories,unknown,,unknown,,,,,,,No sufficiently confident proxy identified; treat as unknown.
+Gabon,unknown,,unknown,,,,,,,No sufficiently confident proxy identified; treat as unknown.
+Gambia,proxy,Africa West,low-moderate,77,20,46,54,9,78,ECOWAS regional-bloc proximity.
+Georgia,unknown,,unknown,,,,,,,No sufficiently confident proxy identified; treat as unknown.
+Germany,direct,,direct,35,67,66,65,83,40,Direct Hofstede country score.
+Ghana,proxy,Africa West,high,77,20,46,54,9,78,Part of original Hofstede West Africa sample.
+Gibraltar,proxy,United Kingdom,high,35,89,66,35,51,69,British Overseas Territory/Crown Dependency.
+Greece,direct,,direct,60,35,57,112,45,50,Direct Hofstede country score.
+Greenland,proxy,Denmark,high,18,74,16,23,35,70,Danish territories.
+Grenada,proxy,Jamaica,moderate-high,45,39,68,13,,,"Anglophone Caribbean, ex-British, Afro-Caribbean sphere."
+Guadeloupe,proxy,France,low-moderate,68,71,43,86,63,48,"French overseas territories - administrative tie, weaker cultural fit especially Pacific."
+Guam,proxy,United States,moderate,40,91,62,46,26,68,"US territories, administrative tie."
+Guatemala,direct,,direct,95,6,37,101,,,Direct Hofstede country score.
+Guernsey,proxy,United Kingdom,high,35,89,66,35,51,69,British Overseas Territory/Crown Dependency.
+Guinea,proxy,Africa West,low-moderate,77,20,46,54,9,78,ECOWAS regional-bloc proximity.
+Guinea-Bissau,proxy,Africa West,low-moderate,77,20,46,54,9,78,ECOWAS regional-bloc proximity.
+Guyana,proxy,Jamaica,moderate-high,45,39,68,13,,,"Anglophone Caribbean, ex-British, Afro-Caribbean sphere."
+Haiti,proxy,France,low,68,71,43,86,63,48,Language/colonial legacy only; culturally distinct Afro-Caribbean Creole.
+Heard Island and McDonald Islands,unknown,,unknown,,,,,,,No sufficiently confident proxy identified; treat as unknown.
+Holy See (Vatican City State),proxy,Italy,high,50,76,70,75,61,30,Enclave(s) within Italy.
+Honduras,proxy,Guatemala,moderate,95,6,37,101,,,Same colonial-era Captaincy General of Guatemala.
+Hong Kong,direct,,direct,68,25,57,29,61,17,Direct Hofstede country score.
+Hungary,direct,,direct,46,80,88,82,58,31,Direct Hofstede country score.
+Iceland,proxy,Denmark,moderate-high,18,74,16,23,35,70,Historically Danish territory; Nordic sphere.
+India,direct,,direct,77,48,56,40,51,26,Direct Hofstede country score.
+Indonesia,direct,,direct,78,14,46,48,62,38,Direct Hofstede country score.
+"Iran, Islamic Republic of",direct,,direct,58,41,43,59,14,40,Direct Hofstede country score.
+Iraq,proxy,Arab countries,moderate-high,80,38,53,68,23,34,Arab League / Arabic-speaking cultural sphere.
+Ireland,direct,,direct,28,70,68,35,24,65,Direct Hofstede country score.
+Isle of Man,proxy,United Kingdom,high,35,89,66,35,51,69,British Overseas Territory/Crown Dependency.
+Israel,direct,,direct,13,54,47,81,38,,Direct Hofstede country score.
+Italy,direct,,direct,50,76,70,75,61,30,Direct Hofstede country score.
+Jamaica,direct,,direct,45,39,68,13,,,Direct Hofstede country score.
+Japan,direct,,direct,54,46,95,92,88,42,Direct Hofstede country score.
+Jersey,proxy,United Kingdom,high,35,89,66,35,51,69,British Overseas Territory/Crown Dependency.
+Jordan,proxy,Arab countries,moderate-high,80,38,53,68,23,34,Arab League / Arabic-speaking cultural sphere.
+Kazakhstan,proxy,Russia,low,93,39,36,95,81,20,"Former Soviet administrative legacy only, weak cultural fit."
+Kenya,proxy,Africa East,high,64,27,41,52,32,40,Reported as part of the original Hofstede East Africa sample.
+Kiribati,unknown,,unknown,,,,,,,No sufficiently confident proxy identified; treat as unknown.
+"Korea, Democratic People's Republic of",unknown,,unknown,,,,,,,No sufficiently confident proxy identified; treat as unknown.
+"Korea, Republic of",direct,,direct,60,18,39,85,100,29,Direct Hofstede country score.
+Kuwait,proxy,Arab countries,moderate-high,80,38,53,68,23,34,Arab League / Arabic-speaking cultural sphere.
+Kyrgyzstan,proxy,Russia,low,93,39,36,95,81,20,"Former Soviet administrative legacy only, weak cultural fit."
+Lao People's Democratic Republic,proxy,Thailand,moderate,64,20,34,64,32,45,Mainland SEA Theravada Buddhist sphere.
+Latvia,direct,,direct,44,70,9,63,69,13,Direct Hofstede country score.
+Lebanon,proxy,Arab countries,moderate-high,80,38,53,68,23,34,Arab League / Arabic-speaking cultural sphere.
+Lesotho,unknown,,unknown,,,,,,,No sufficiently confident proxy identified; treat as unknown.
+Liberia,proxy,Africa West,low-moderate,77,20,46,54,9,78,ECOWAS regional-bloc proximity.
+Libya,proxy,Arab countries,moderate-high,80,38,53,68,23,34,Arab League / Arabic-speaking cultural sphere.
+Liechtenstein,proxy,Switzerland,high,34,68,70,58,74,66,"German-speaking, tightly integrated with Switzerland."
+Lithuania,direct,,direct,42,60,19,65,82,16,Direct Hofstede country score.
+Luxembourg,direct,,direct,40,60,50,70,64,56,Direct Hofstede country score.
+Macao,proxy,Hong Kong,high,68,25,57,29,61,17,"Both Chinese SARs, shared colonial-return history."
+Madagascar,proxy,Africa East,low,64,27,41,52,32,40,Weak geographic link only.
+Malawi,proxy,Africa East,low-moderate,64,27,41,52,32,40,Regional-bloc (EAC/SADC) proximity.
+Malaysia,direct,,direct,104,26,50,36,41,57,Direct Hofstede country score.
+Maldives,proxy,India,moderate-high,77,48,56,40,51,26,Shared South Asian subcontinental history.
+Mali,proxy,Africa West,low-moderate,77,20,46,54,9,78,ECOWAS regional-bloc proximity.
+Malta,direct,,direct,56,59,47,96,47,66,Direct Hofstede country score.
+Marshall Islands,unknown,,unknown,,,,,,,No sufficiently confident proxy identified; treat as unknown.
+Martinique,proxy,France,low-moderate,68,71,43,86,63,48,"French overseas territories - administrative tie, weaker cultural fit especially Pacific."
+Mauritania,proxy,Arab countries,moderate-high,80,38,53,68,23,34,Arab League / Arabic-speaking cultural sphere.
+Mauritius,proxy,Africa East,low,64,27,41,52,32,40,Weak geographic link only.
+Mayotte,proxy,France,low-moderate,68,71,43,86,63,48,"French overseas territories - administrative tie, weaker cultural fit especially Pacific."
+Mexico,direct,,direct,81,30,69,82,24,97,Direct Hofstede country score.
+"Micronesia, Federated States of",unknown,,unknown,,,,,,,No sufficiently confident proxy identified; treat as unknown.
+"Moldova, Republic of",proxy,Romania,high,90,30,42,90,52,20,Shared Romanian language/ethnicity.
+Monaco,proxy,France,high,68,71,43,86,63,48,French-speaking enclave.
+Mongolia,proxy,Russia,low,93,39,36,95,81,20,Soviet-era administrative legacy only.
+Montenegro,proxy,Serbia,high,86,25,43,92,52,28,"Shared state until 2006, South Slavic ties."
+Montserrat,proxy,United Kingdom,moderate,35,89,66,35,51,69,British Overseas Territories.
+Morocco,direct,,direct,70,46,53,68,14,25,Direct Hofstede country score.
+Mozambique,proxy,Africa East,low-moderate,64,27,41,52,32,40,Regional-bloc (EAC/SADC) proximity.
+Myanmar,proxy,Thailand,moderate,64,20,34,64,32,45,Mainland SEA Theravada Buddhist sphere.
+Namibia,unknown,,unknown,,,,,,,No sufficiently confident proxy identified; treat as unknown.
+Nauru,unknown,,unknown,,,,,,,No sufficiently confident proxy identified; treat as unknown.
+Nepal,proxy,India,moderate-high,77,48,56,40,51,26,Shared South Asian subcontinental history.
+Netherlands,direct,,direct,38,80,14,53,67,68,Direct Hofstede country score.
+New Caledonia,proxy,France,low-moderate,68,71,43,86,63,48,"French overseas territories - administrative tie, weaker cultural fit especially Pacific."
+New Zealand,direct,,direct,22,79,58,49,33,75,Direct Hofstede country score.
+Nicaragua,proxy,Guatemala,moderate,95,6,37,101,,,Same colonial-era Captaincy General of Guatemala.
+Niger,proxy,Africa West,low-moderate,77,20,46,54,9,78,ECOWAS regional-bloc proximity.
+Nigeria,proxy,Africa West,high,77,20,46,54,9,78,Part of original Hofstede West Africa sample.
+Niue,unknown,,unknown,,,,,,,No sufficiently confident proxy identified; treat as unknown.
+Norfolk Island,unknown,,unknown,,,,,,,No sufficiently confident proxy identified; treat as unknown.
+North Macedonia,proxy,Bulgaria,moderate,70,30,40,85,69,16,Close linguistic kinship.
+Northern Mariana Islands,proxy,United States,moderate,40,91,62,46,26,68,"US territories, administrative tie."
+Norway,direct,,direct,31,69,8,50,35,55,Direct Hofstede country score.
+Oman,proxy,Arab countries,moderate-high,80,38,53,68,23,34,Arab League / Arabic-speaking cultural sphere.
+Pakistan,direct,,direct,55,14,50,70,50,0,Direct Hofstede country score.
+Palau,unknown,,unknown,,,,,,,No sufficiently confident proxy identified; treat as unknown.
+"Palestine, State of",proxy,Arab countries,moderate-high,80,38,53,68,23,34,Arab League / Arabic-speaking cultural sphere.
+Panama,direct,,direct,95,11,44,86,,,Direct Hofstede country score.
+Papua New Guinea,unknown,,unknown,,,,,,,No sufficiently confident proxy identified; treat as unknown.
+Paraguay,proxy,Argentina,moderate,49,46,56,86,20,62,Bordering Mercosur member.
+Peru,direct,,direct,64,16,42,87,25,46,Direct Hofstede country score.
+Philippines,direct,,direct,94,32,64,44,27,42,Direct Hofstede country score.
+Pitcairn,unknown,,unknown,,,,,,,No sufficiently confident proxy identified; treat as unknown.
+Poland,direct,,direct,68,60,64,93,38,29,Direct Hofstede country score.
+Portugal,direct,,direct,63,27,31,104,28,33,Direct Hofstede country score.
+Puerto Rico,proxy,United States,moderate,40,91,62,46,26,68,"US territory, shared governance; culturally Hispanic/Caribbean."
+Qatar,proxy,Arab countries,moderate-high,80,38,53,68,23,34,Arab League / Arabic-speaking cultural sphere.
+Romania,direct,,direct,90,30,42,90,52,20,Direct Hofstede country score.
+Russian Federation,direct,,direct,93,39,36,95,81,20,Direct Hofstede country score.
+Rwanda,proxy,Africa East,low-moderate,64,27,41,52,32,40,Regional-bloc (EAC/SADC) proximity.
+Réunion,proxy,France,low-moderate,68,71,43,86,63,48,"French overseas territories - administrative tie, weaker cultural fit especially Pacific."
+Saint Barthélemy,proxy,France,low-moderate,68,71,43,86,63,48,"French overseas territories - administrative tie, weaker cultural fit especially Pacific."
+"Saint Helena, Ascension and Tristan da Cunha",proxy,United Kingdom,moderate,35,89,66,35,51,69,British Overseas Territories.
+Saint Kitts and Nevis,proxy,Jamaica,moderate-high,45,39,68,13,,,"Anglophone Caribbean, ex-British, Afro-Caribbean sphere."
+Saint Lucia,proxy,Jamaica,moderate-high,45,39,68,13,,,"Anglophone Caribbean, ex-British, Afro-Caribbean sphere."
+Saint Martin (French part),proxy,France,low-moderate,68,71,43,86,63,48,"French overseas territories - administrative tie, weaker cultural fit especially Pacific."
+Saint Pierre and Miquelon,proxy,France,low-moderate,68,71,43,86,63,48,"French overseas territories - administrative tie, weaker cultural fit especially Pacific."
+Saint Vincent and the Grenadines,proxy,Jamaica,moderate-high,45,39,68,13,,,"Anglophone Caribbean, ex-British, Afro-Caribbean sphere."
+Samoa,unknown,,unknown,,,,,,,No sufficiently confident proxy identified; treat as unknown.
+San Marino,proxy,Italy,high,50,76,70,75,61,30,Enclave(s) within Italy.
+Sao Tome and Principe,unknown,,unknown,,,,,,,No sufficiently confident proxy identified; treat as unknown.
+Saudi Arabia,proxy,Arab countries,moderate-high,80,38,53,68,23,34,Arab League / Arabic-speaking cultural sphere.
+Senegal,proxy,Africa West,low-moderate,77,20,46,54,9,78,ECOWAS regional-bloc proximity.
+Serbia,direct,,direct,86,25,43,92,52,28,Direct Hofstede country score.
+Seychelles,proxy,Africa East,low,64,27,41,52,32,40,Weak geographic link only.
+Sierra Leone,proxy,Africa West,high,77,20,46,54,9,78,Part of original Hofstede West Africa sample.
+Singapore,direct,,direct,74,20,48,8,72,46,Direct Hofstede country score.
+Sint Maarten (Dutch part),proxy,Netherlands,high,38,80,14,53,67,68,Constituent countries of the Kingdom of the Netherlands.
+Slovakia,direct,,direct,104,52,110,51,77,28,Direct Hofstede country score.
+Slovenia,direct,,direct,71,27,19,88,49,48,Direct Hofstede country score.
+Solomon Islands,unknown,,unknown,,,,,,,No sufficiently confident proxy identified; treat as unknown.
+Somalia,proxy,Arab countries,moderate-high,80,38,53,68,23,34,Arab League / Arabic-speaking cultural sphere.
+South Africa,unknown,,unknown,,,,,,,No sufficiently confident proxy identified; treat as unknown.
+South Georgia and the South Sandwich Islands,unknown,,unknown,,,,,,,No sufficiently confident proxy identified; treat as unknown.
+South Sudan,proxy,Africa East,low,64,27,41,52,32,40,Bordering East African states.
+Spain,direct,,direct,57,51,42,86,48,44,Direct Hofstede country score.
+Sri Lanka,proxy,India,moderate-high,77,48,56,40,51,26,Shared South Asian subcontinental history.
+Sudan,proxy,Arab countries,moderate-high,80,38,53,68,23,34,Arab League / Arabic-speaking cultural sphere.
+Suriname,direct,,direct,85,47,37,92,,,Direct Hofstede country score.
+Svalbard and Jan Mayen,proxy,Norway,high,31,69,8,50,35,55,Norwegian territory.
+Sweden,direct,,direct,31,71,5,29,53,78,Direct Hofstede country score.
+Switzerland,direct,,direct,34,68,70,58,74,66,Direct Hofstede country score.
+Syrian Arab Republic,proxy,Arab countries,moderate-high,80,38,53,68,23,34,Arab League / Arabic-speaking cultural sphere.
+"Taiwan, Province of China",direct,,direct,58,17,45,69,93,49,Direct Hofstede country score.
+Tajikistan,proxy,Russia,low,93,39,36,95,81,20,"Former Soviet administrative legacy only, weak cultural fit."
+"Tanzania, United Republic of",proxy,Africa East,high,64,27,41,52,32,40,Reported as part of the original Hofstede East Africa sample.
+Thailand,direct,,direct,64,20,34,64,32,45,Direct Hofstede country score.
+Timor-Leste,proxy,Indonesia,low,78,14,46,48,62,38,"Former part of Indonesia, but culturally distinct."
+Togo,proxy,Africa West,low-moderate,77,20,46,54,9,78,ECOWAS regional-bloc proximity.
+Tokelau,unknown,,unknown,,,,,,,No sufficiently confident proxy identified; treat as unknown.
+Tonga,unknown,,unknown,,,,,,,No sufficiently confident proxy identified; treat as unknown.
+Trinidad and Tobago,direct,,direct,47,16,58,55,13,80,Direct Hofstede country score.
+Tunisia,proxy,Arab countries,moderate-high,80,38,53,68,23,34,Arab League / Arabic-speaking cultural sphere.
+Turkmenistan,proxy,Russia,low,93,39,36,95,81,20,"Former Soviet administrative legacy only, weak cultural fit."
+Turks and Caicos Islands,proxy,United Kingdom,moderate,35,89,66,35,51,69,British Overseas Territories.
+Tuvalu,unknown,,unknown,,,,,,,No sufficiently confident proxy identified; treat as unknown.
+Türkiye,direct,,direct,66,37,45,85,46,49,Direct Hofstede country score.
+Uganda,proxy,Africa East,low-moderate,64,27,41,52,32,40,Regional-bloc (EAC/SADC) proximity.
+Ukraine,unknown,,unknown,,,,,,,No sufficiently confident proxy identified; treat as unknown.
+United Arab Emirates,proxy,Arab countries,moderate-high,80,38,53,68,23,34,Arab League / Arabic-speaking cultural sphere.
+United Kingdom,direct,,direct,35,89,66,35,51,69,Direct Hofstede country score.
+United States,direct,,direct,40,91,62,46,26,68,Direct Hofstede country score.
+United States Minor Outlying Islands,proxy,United States,moderate,40,91,62,46,26,68,"US territories, administrative tie."
+Uruguay,direct,,direct,61,36,38,100,26,53,Direct Hofstede country score.
+Uzbekistan,proxy,Russia,low,93,39,36,95,81,20,"Former Soviet administrative legacy only, weak cultural fit."
+Vanuatu,unknown,,unknown,,,,,,,No sufficiently confident proxy identified; treat as unknown.
+"Venezuela, Bolivarian Republic of",direct,,direct,81,12,73,76,16,100,Direct Hofstede country score.
+Viet Nam,direct,,direct,70,20,40,30,57,35,Direct Hofstede country score.
+"Virgin Islands, British",proxy,United Kingdom,moderate,35,89,66,35,51,69,British Overseas Territories.
+"Virgin Islands, U.S.",proxy,United States,moderate,40,91,62,46,26,68,"US territories, administrative tie."
+Wallis and Futuna,proxy,France,low-moderate,68,71,43,86,63,48,"French overseas territories - administrative tie, weaker cultural fit especially Pacific."
+Western Sahara,proxy,Arab countries,moderate-high,80,38,53,68,23,34,Arab League / Arabic-speaking cultural sphere.
+Yemen,proxy,Arab countries,moderate-high,80,38,53,68,23,34,Arab League / Arabic-speaking cultural sphere.
+Zambia,proxy,Africa East,high,64,27,41,52,32,40,Reported as part of the original Hofstede East Africa sample.
+Zimbabwe,proxy,Africa East,low-moderate,64,27,41,52,32,40,Regional-bloc (EAC/SADC) proximity.
+Åland Islands,unknown,,unknown,,,,,,,No sufficiently confident proxy identified; treat as unknown.

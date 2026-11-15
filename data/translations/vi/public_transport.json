@@ -1,0 +1,121 @@
+[
+  {
+    "question": "Bạn nên đứng ở đâu khi chờ tàu điện?",
+    "options": [
+      "Bất kỳ đâu trên sân ga",
+      "Bên ngoài vạch vàng an toàn",
+      "Xếp hàng tại khu vực lên tàu được đánh dấu",
+      "Ngay trước cửa tàu"
+    ],
+    "explanation": "Sân ga tàu điện Nhật Bản sơn sẵn vị trí chính xác nơi mỗi cửa tàu sẽ mở, và việc xếp hàng ở đó giúp hành khách đang xuống tàu có thể ra ngoài trước khi mọi người bắt đầu lên tàu - một hệ thống được xây dựng để giảm thiểu chậm trễ trên những chuyến tàu thường chỉ cách nhau vài phút theo lịch trình rất sát sao.",
+    "hint": "Xếp hàng là điều quan trọng ở Nhật Bản."
+  },
+  {
+    "question": "Ở Nhật Bản, nói chuyện điện thoại trên tàu hoặc xe buýt có được chấp nhận không?",
+    "options": [
+      "Có, nếu bạn nói nhỏ",
+      "Có, bất cứ lúc nào",
+      "Chỉ trong trường hợp khẩn cấp",
+      "Nên để điện thoại ở chế độ im lặng và tránh gọi điện"
+    ],
+    "explanation": "Một cuộc gọi điện thoại gây khó chịu hơn tiếng ồn xung quanh vì nó chỉ có một chiều - não bạn không thể không tập trung vào nửa cuộc trò chuyện đang nghe được, không giống như tiếng ồn nền có thể bỏ qua. Trên những chuyến tàu đông đúc nơi nhiều hành khách đang cố nghỉ ngơi hoặc đọc sách, điều đó được coi là một sự làm phiền thực sự đối với người khác, chứ không chỉ là khó chịu nhỏ.",
+    "hint": "Hãy nghĩ đến những người xung quanh bạn."
+  },
+  {
+    "question": "Ai nên sử dụng ghế ưu tiên trên tàu và xe buýt?",
+    "options": [
+      "Bất kỳ ai, ai đến trước ngồi trước",
+      "Chỉ trẻ em",
+      "Những người cần đến chúng (người già, phụ nữ mang thai, người bị thương, v.v.)",
+      "Chỉ học sinh, sinh viên"
+    ],
+    "explanation": "Ghế ưu tiên được đặt gần cửa ra vào chính là để người già, phụ nữ mang thai, hoặc người bị thương hay khuyết tật dễ dàng tiếp cận. Nhường ghế, kể cả cho người trông có vẻ 'ổn,' được coi là sự quan tâm cơ bản vì nhiều tình trạng sức khỏe không thể nhìn thấy bằng mắt thường.",
+    "hint": "Luôn chú ý đến nhu cầu của người khác."
+  },
+  {
+    "question": "Việc ăn uống trên phương tiện công cộng ở Nhật Bản có được phép không?",
+    "options": [
+      "Có, nếu món ăn không có mùi",
+      "Có, chỉ trên các tàu đường dài như Shinkansen",
+      "Chỉ đồ ăn vặt là được",
+      "Ăn uống luôn được phép"
+    ],
+    "explanation": "Các tàu thông thường chở người đi làm, đi học chen chúc trong không gian chật hẹp, nên mùi thức ăn và vụn rơi vãi dễ khiến mọi người xung quanh cảm thấy bị làm phiền trong một không gian hạn chế. Các tàu đường dài như Shinkansen được đối xử khác vì hành trình dài hơn, ghế ngồi rộng rãi hơn, và việc ăn bento trên tàu gần như là một truyền thống.",
+    "hint": "Hãy chú ý đến tiếng ồn và mùi."
+  },
+  {
+    "question": "Bạn nên làm gì với ba lô của mình trên một chuyến tàu đông đúc?",
+    "options": [
+      "Đeo trên lưng như bình thường",
+      "Đặt lên giá hành lý phía trên",
+      "Ôm trước ngực hoặc đặt dưới sàn",
+      "Ném lên một chiếc ghế trống"
+    ],
+    "explanation": "Đeo ba lô sau lưng khiến bạn khó nhận biết khi nó va chạm vào ai đó trong một toa tàu đông đúc, nhất là khi tàu dừng đột ngột. Ôm ba lô trước ngực hoặc đặt dưới chân giúp bạn kiểm soát toàn bộ không gian cơ thể mình và chiếm ít không gian chung hơn.",
+    "hint": "Không gian là của chung - hãy chu đáo."
+  },
+  {
+    "question": "Vì sao người ta đứng ở một bên thang cuốn?",
+    "options": [
+      "Đó là luật an toàn chính thức",
+      "Để những người đang vội có thể đi bộ qua bên còn lại",
+      "Vì đi bộ lên vui vẻ và năng động hơn là đứng yên",
+      "Ở quê nhà mọi người cũng làm vậy nên chắc đó là quy tắc toàn cầu"
+    ],
+    "hint": "Ở Tokyo: đứng bên trái. Ở Osaka: đứng bên phải. Tuy nhiên gần đây, việc đi bộ trên thang cuốn bị coi là nguy hiểm, và ngày càng nhiều khu vực khuyến khích mọi người đứng ở cả hai bên."
+  },
+  {
+    "question": "Bạn nên làm gì nếu thẻ IC của bạn không hoạt động ở cổng soát vé?",
+    "options": [
+      "Cố gắng đi qua bằng mọi cách",
+      "Nhờ nhân viên nhà ga giúp đỡ",
+      "Mượn thẻ của người khác",
+      "Vứt bỏ thẻ của bạn"
+    ],
+    "explanation": "Nhân viên nhà ga xử lý sự cố thẻ thường xuyên và thường có thể giải quyết chỉ trong chốc lát, trong khi cố tình đi qua cổng có thể kích hoạt báo động, làm hỏng cổng, hoặc khiến bạn bị nghi ngờ trốn vé. Nhờ giúp đỡ đơn giản là cách nhanh nhất và ít căng thẳng nhất.",
+    "hint": "Đừng hoảng - nhân viên rất sẵn lòng giúp đỡ."
+  },
+  {
+    "question": "Bạn nên nghe nhạc như thế nào trên phương tiện công cộng?",
+    "options": [
+      "Phát qua loa",
+      "Dùng tai nghe và giữ âm lượng nhỏ",
+      "Thưởng thức với âm lượng lớn",
+      "Hát theo nhè nhẹ"
+    ],
+    "explanation": "Âm thanh rò rỉ từ tai nghe bị coi là một sự sơ suất lớn hơn nhiều tiếng ồn khác vì nó rất dễ tránh được chỉ bằng cách chỉnh nhỏ âm lượng, nên người đi tàu Nhật Bản thường xem âm thanh 'rò rỉ' là thiếu quan tâm đến người khác chứ không chỉ là xui xẻo.",
+    "hint": "Chỉ tai của bạn nên nghe thấy nó."
+  },
+  {
+    "question": "Bạn nên làm gì với những món đồ lớn như xe đẩy em bé hay vali?",
+    "options": [
+      "Để ở bất cứ đâu thuận tiện",
+      "Chắn lối đi",
+      "Giữ chúng gần mình ở nơi không gây cản trở",
+      "Đặt lên một chiếc ghế"
+    ],
+    "explanation": "Lối đi và cửa ra vào thường là con đường duy nhất để hành khách khác di chuyển hoặc xuống tàu tại điểm dừng của họ, nên hành lý để lung tung có thể khiến ai đó lỡ mất cơ hội xuống tàu kịp thời - đặc biệt căng thẳng trên những chuyến tàu có thời gian dừng ngắn và đông đúc.",
+    "hint": "Lối đi là của tất cả mọi người."
+  },
+  {
+    "question": "Nói chuyện ồn ào trên một chuyến tàu đông đúc ở Nhật Bản có được chấp nhận không?",
+    "options": [
+      "Có, nếu bạn đi cùng bạn bè",
+      "Chỉ vào buổi sáng",
+      "Không, nên nói nhỏ nhẹ",
+      "Chỉ trên các tàu địa phương"
+    ],
+    "explanation": "Văn hóa đi tàu của người Nhật coi chuyến tàu, thường vào sáng sớm hoặc tối muộn, là khoảng thời gian riêng tư chung để đọc sách, nghỉ ngơi, hoặc chuẩn bị tinh thần cho một ngày mới - nên sự yên tĩnh không hẳn là một quy tắc nghiêm ngặt mà là một kỳ vọng chung được chia sẻ rộng rãi nhằm bảo vệ không gian đó cho mọi người.",
+    "hint": "Hãy coi tàu điện như thư viện."
+  },
+  {
+    "question": "Ở Nhật Bản, việc bộc lộ cảm xúc mạnh nơi công cộng (cười lớn, khóc, tranh cãi to tiếng) ở những không gian chung như tàu điện hay cửa hàng nhìn chung...",
+    "options": [
+      "Được khuyến khích, vì việc tự do thể hiện bản thân được coi trọng",
+      "Thường bị tránh, vì sự tự kiềm chế ở nơi công cộng được coi trọng hơn việc bộc lộ cá nhân",
+      "Chỉ được cho phép tại các sự kiện lễ hội được chỉ định",
+      "Đang dần được chấp nhận hoàn toàn ở mọi nơi, giống như ở quê nhà"
+    ],
+    "hint": "Hãy nghĩ về mức độ cảm xúc cá nhân thường được bộc lộ ở những không gian yên tĩnh, chung."
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "question": "Apa yang sebaiknya kamu lakukan sebelum masuk ke bak mandi onsen?",
+    "options": [
+      "Langsung masuk",
+      "Hanya membilas kaki",
+      "Mandi membersihkan seluruh tubuh",
+      "Mengeringkan diri dengan handuk"
+    ],
+    "explanation": "Air panas di bak mandi digunakan ulang oleh semua tamu hari itu, sehingga area shower ada agar kamu benar-benar bersih - sampo, sabun, keringat, dan semuanya - sebelum menyentuh air bersama. Melewatkan langkah ini secara langsung memengaruhi kebersihan bak mandi untuk orang yang berendam setelahmu.",
+    "hint": "Kebersihan sangat penting dalam budaya onsen."
+  },
+  {
+    "question": "Bolehkah memakai baju renang di onsen tradisional Jepang?",
+    "options": [
+      "Ya, selalu boleh",
+      "Hanya di akhir pekan",
+      "Hanya di pemandian campuran",
+      "Tidak, kamu harus tanpa busana"
+    ],
+    "explanation": "Budaya onsen tradisional memperlakukan semua orang setara setelah melepas pakaian, mengikuti konsep lama bernama 'hadaka no tsukiai' (persahabatan tanpa busana), di mana berendam tanpa penanda status berupa pakaian mendorong kejujuran antar orang asing. Baju renang juga dianggap sebagai kain 'luar' yang bisa membawa deterjen atau kotoran ke dalam air.",
+    "hint": "Pikirkan tentang kebiasaan tradisional Jepang."
+  },
+  {
+    "question": "Di mana sebaiknya kamu meletakkan handuk saat berendam di bak mandi?",
+    "options": [
+      "Di dalam air bersamamu",
+      "Di atas kepala atau di luar bak mandi",
+      "Di lantai",
+      "Di sebelah handuk orang lain"
+    ],
+    "explanation": "Bahkan setelah dibilas, handuk masih membawa sisa sabun, minyak kulit, dan rambut rontok, sehingga mencelupkannya ke dalam bak mandi bersama akan mengotori air yang digunakan puluhan tamu lain hari itu. Meletakkannya di atas kepala atau di pinggir bak membuatnya tetap mudah dijangkau tanpa pernah menyentuh air.",
+    "hint": "Jaga air tetap sebersih mungkin."
+  },
+  {
+    "question": "Apa yang sebaiknya kamu lakukan jika berambut panjang sebelum masuk ke bak mandi?",
+    "options": [
+      "Membiarkannya tergerai bebas",
+      "Mencelupkannya ke dalam air",
+      "Mengikatnya atau memakai topi mandi",
+      "Memotongnya pendek"
+    ],
+    "explanation": "Rambut yang tergerai bisa rontok dan menyumbat filter serta terus beredar di bak mandi bersama untuk tamu berikutnya, dan membiarkan rambutmu sendiri menyentuh air yang akan dipakai orang asing setelahnya dianggap kurang higienis. Mengikat rambut atau memakai topi mandi adalah bentuk kepedulian kecil yang menjaga air tetap bersih untuk semua orang yang memakainya setelahmu - bukan aturan rias yang sembarangan.",
+    "hint": "Apakah kamu mau ada rambut orang lain di air yang kamu pakai?"
+  },
+  {
+    "question": "Apakah boleh berenang atau bermain cipratan air di onsen?",
+    "options": [
+      "Ya, jika kamu sendirian",
+      "Hanya jika bersama teman",
+      "Tidak pernah",
+      "Hanya di pemandian luar ruangan"
+    ],
+    "explanation": "Berendam di onsen berakar pada gagasan menyucikan tubuh dan pikiran dengan tenang di air panas, lebih mirip meditasi daripada olahraga, sehingga bermain cipratan air mengganggu suasana tenang yang dicari orang lain. Itu juga bisa membuat air - dan apa pun yang ada di kulitmu - mengenai orang yang berendam di dekatmu.",
+    "hint": "Anggap onsen sebagai ruang yang tenang."
+  },
+  {
+    "question": "Apa yang sebaiknya kamu lakukan dengan ponselmu di area onsen?",
+    "options": [
+      "Mengambil banyak foto",
+      "Menggunakannya dengan tenang di dalam bak mandi",
+      "Menyimpannya di loker",
+      "Meletakkannya di pinggir bak mandi"
+    ],
+    "explanation": "Karena semua orang mandi tanpa busana, ponsel - dengan kameranya yang selalu siap - menimbulkan kekhawatiran privasi yang nyata, dan foto yang diambil 'tidak sengaja' tidak bisa dibatalkan. Menyimpan ponsel di loker adalah batasan tegas yang membuat setiap tamu bisa bersantai tanpa khawatir difoto.",
+    "hint": "Apakah kamu mau difoto dalam keadaan telanjang?"
+  },
+  {
+    "question": "Bolehkah orang bertato menggunakan onsen tradisional di Jepang?",
+    "options": [
+      "Ya, selalu boleh",
+      "Hanya jika ukurannya kecil",
+      "Tidak, sering kali tidak diperbolehkan",
+      "Hanya turis asing yang boleh masuk"
+    ],
+    "explanation": "Tato secara historis dikaitkan dengan yakuza (organisasi kriminal) di Jepang, sehingga banyak onsen tradisional melarangnya untuk menghindari membuat tamu lain merasa tidak nyaman. Hal ini perlahan berubah seiring tato semakin umum di kalangan turis, dan beberapa onsen kini menyediakan stiker penutup atau jam khusus, tapi sebaiknya tetap periksa papan tanda terlebih dahulu.",
+    "hint": "Periksa tanda yang menunjukkan ramah-tato."
+  },
+  {
+    "question": "Haruskah kamu membawa sabun dan sampo ke dalam bak mandi?",
+    "options": [
+      "Ya, untuk mencuci di dalam bak",
+      "Tidak, sudah disediakan di luar bak mandi",
+      "Hanya boleh membawa kondisioner",
+      "Kamu harus membawa sendiri"
+    ],
+    "explanation": "Bak mandi itu sendiri untuk berendam, bukan untuk mencuci badan - sabun dan sampo seharusnya digunakan di area shower agar busa dan sisanya tidak pernah masuk ke air bersama. Memperlakukan bak mandi sebagai tempat untuk sekadar beristirahat, bukan menggosok badan, adalah yang membuatnya cukup bersih untuk dipakai bersama.",
+    "hint": "Jaga air bak mandi tetap murni!"
+  },
+  {
+    "question": "Apa yang sebaiknya kamu lakukan setelah berendam di air panas?",
+    "options": [
+      "Langsung masuk ke kolam dingin",
+      "Mandi lagi",
+      "Mengeringkan badan sebelum meninggalkan area pemandian",
+      "Memakai parfum"
+    ],
+    "explanation": "Lantai ruang ganti biasanya tidak tahan terhadap genangan air yang banyak, dan tetesan air di area ganti membuatnya licin dan tidak nyaman bagi orang berikutnya. Mengeringkan badan sebentar di tepi area pemandian adalah bentuk kesopanan kecil yang menjaga ruang bersama tetap aman dan nyaman digunakan.",
+    "hint": "Bersikaplah peduli kepada orang lain yang menggunakan area tersebut."
+  },
+  {
+    "question": "Apakah berbicara keras diperbolehkan di onsen?",
+    "options": [
+      "Ya, tidak masalah jika bersama teman",
+      "Hanya di pemandian luar ruangan",
+      "Tidak, suara pelan lebih disukai",
+      "Ya, tapi tidak di pagi hari"
+    ],
+    "explanation": "Onsen dihargai sebagai salah satu dari sedikit tempat untuk beristirahat dengan tenang di tengah rutinitas yang sibuk, sehingga percakapan keras merampas pengalaman itu dari semua orang di ruangan, bukan hanya orang di sekitarmu. Menjaga suara tetap pelan adalah yang membuat bak mandi tetap menjadi tempat pelarian bersama, bukan ruang sosial.",
+    "hint": "Diam itu emas."
+  }
+]

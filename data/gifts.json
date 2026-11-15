@@ -1,0 +1,182 @@
+[
+  {
+    "category": "gifts",
+    "question": "When Japanese people travel, why do they often bring back small, individually wrapped snacks (omiyage) for coworkers?",
+    "options": [
+      "It's simply a nice bonus souvenir, with no particular obligation behind it",
+      "It's a customary way to show consideration for those who covered your work while you were away",
+      "Company rules require every employee to bring souvenirs after travel",
+      "It's mainly to show off that you went somewhere impressive"
+    ],
+    "answer": 1,
+    "explanation": "Omiyage functions less like a souvenir and more like a small thank-you for the inconvenience your absence caused - individually wrapped so it can be shared evenly among everyone who picked up extra work while you were gone, not just a personal gift to one or two people.",
+    "hint": "Think about who was affected by your trip, even though they didn't go.",
+    "image": "images/present.png",
+    "option_tags": [
+      "own_culture_transfer",
+      null,
+      "formality_assumption",
+      "achievement_bias"
+    ]
+  },
+  {
+    "category": "gifts",
+    "question": "Why is the wrapping of a gift given such careful attention in Japan?",
+    "options": [
+      "It's mainly to protect the gift during transport",
+      "The presentation itself is considered part of showing respect and care for the recipient, not just the gift's contents",
+      "Specific wrapping colors are governed by strict ancient religious law",
+      "There's a legal requirement for gift-wrapping in retail"
+    ],
+    "answer": 1,
+    "explanation": "Careful wrapping communicates the thought put into the gift before it's even opened - it's a social custom of presentation and care, not a protective measure or a legally or religiously mandated ritual, even though it can look quite formal and elaborate to an outsider.",
+    "hint": "Think about what the wrapping is communicating, separate from the gift inside.",
+    "image": "images/present.png",
+    "option_tags": [
+      "practicality",
+      null,
+      "tradition_literalism",
+      "formality_assumption"
+    ]
+  },
+  {
+    "category": "gifts",
+    "question": "If someone gives you a wedding or funeral monetary gift in Japan, what's customary afterward?",
+    "options": [
+      "Simply saying thank you is enough - no return gift is expected",
+      "Giving a return gift (o-kaeshi) worth roughly half the value, usually within a set timeframe",
+      "You must return a gift of the exact same value, by law",
+      "You should give back something more expensive to outdo their gesture"
+    ],
+    "answer": 1,
+    "explanation": "O-kaeshi keeps the exchange balanced rather than leaving one side feeling indebted - giving back roughly half, not the full amount or more, signals gratitude without turning the gesture into a competition or an exact financial transaction.",
+    "hint": "Think about what 'balanced' means here - not equal, and not more.",
+    "image": "images/present.png",
+    "option_tags": [
+      "own_culture_transfer",
+      null,
+      "formality_assumption",
+      "achievement_bias"
+    ]
+  },
+  {
+    "category": "gifts",
+    "question": "If you're handed a gift with both hands by someone in Japan, how should you typically receive it?",
+    "options": [
+      "However feels natural - hand usage doesn't carry particular meaning",
+      "With both hands as well, often with a slight bow, rather than one hand",
+      "Only with the left hand, by strict rule",
+      "However is quickest and most convenient in the moment"
+    ],
+    "answer": 1,
+    "explanation": "Mirroring the two-handed gesture back is a small way of matching the care the giver put into the exchange - using just one hand isn't offensive exactly, but it reads as slightly careless compared to the attentiveness the moment calls for.",
+    "hint": "Think about matching the effort the other person is putting in.",
+    "image": "images/present.png",
+    "option_tags": [
+      "own_culture_transfer",
+      null,
+      "formality_assumption",
+      "indulgence_assumption"
+    ]
+  },
+  {
+    "category": "gifts",
+    "question": "When should you open a gift you receive in Japan?",
+    "options": [
+      "Immediately and enthusiastically in front of the giver, to show excitement",
+      "Often later, in private, rather than right in front of the giver",
+      "Only during a formal gift-opening ceremony",
+      "Right away, so you can compare it to other gifts received"
+    ],
+    "answer": 1,
+    "explanation": "Opening a gift later avoids putting both people in an awkward spot in the moment - the giver doesn't have to watch your immediate reaction, and you don't have to perform enthusiasm on the spot, which takes some of the pressure out of the exchange for everyone.",
+    "hint": "Think about whose comfort is being protected by waiting.",
+    "image": "images/present.png",
+    "option_tags": [
+      "own_culture_transfer",
+      null,
+      "formality_assumption",
+      "achievement_bias"
+    ]
+  },
+  {
+    "category": "gifts",
+    "question": "If giving cash as a gift (e.g. for a wedding), what's an important custom?",
+    "options": [
+      "Any bills are fine as long as the amount is correct",
+      "Using new, crisp bills placed neatly in a special decorated envelope (shuugi-bukuro)",
+      "The envelope type doesn't matter as long as money is enclosed",
+      "A simple blank envelope or card is just as appropriate"
+    ],
+    "answer": 1,
+    "explanation": "Using fresh, unwrinkled bills signals that you prepared for the occasion in advance rather than handing over whatever cash happened to be on you - the crispness of the bills itself is read as a sign of care, separate from the amount given.",
+    "hint": "Think about what crisp, new bills signal about preparation.",
+    "image": "images/present.png",
+    "option_tags": [
+      "practicality",
+      null,
+      "formality_assumption",
+      "own_culture_transfer"
+    ]
+  },
+  {
+    "category": "gifts",
+    "question": "Why might someone avoid giving gifts in a set of four in Japan?",
+    "options": [
+      "Four items are simply considered an inconvenient amount to wrap",
+      "The number four (shi) sounds like the word for 'death,' so it's avoided out of superstition",
+      "There's a store policy against selling gifts in sets of four",
+      "Set sizes don't carry any particular meaning in gift-giving generally"
+    ],
+    "answer": 1,
+    "explanation": "This is a genuine homophone superstition (like avoiding the number 13 in some other cultures) - four (shi) and death (shi) share the same sound, so sets of four (and the number nine, which sounds like 'suffering') are avoided specifically in gifts, not because of any practical or commercial reason.",
+    "hint": "Think about how the number sounds when spoken aloud.",
+    "image": "images/present.png",
+    "option_tags": [
+      "practicality",
+      null,
+      "formality_assumption",
+      "own_culture_transfer"
+    ]
+  },
+  {
+    "category": "gifts",
+    "question": "After receiving a gift from your boss or an important client, is a same-day verbal thank-you considered enough?",
+    "options": [
+      "A simple 'thanks!' in the moment is all that matters, as long as it feels genuine",
+      "Often a follow-up thank-you message afterward is appreciated, showing the gesture wasn't just momentary courtesy",
+      "A notarized formal document is required for business gifts",
+      "No further action is needed beyond the initial thanks, same as anywhere"
+    ],
+    "answer": 1,
+    "explanation": "A brief follow-up - even a short message the next day - signals that the gesture was actually registered and appreciated, not just acknowledged reflexively in the moment; it's a small extra step that shows the relationship matters beyond the immediate exchange.",
+    "hint": "Think about what a quick follow-up proves that an in-the-moment thanks doesn't.",
+    "image": "images/present.png",
+    "option_tags": [
+      "indulgence_assumption",
+      null,
+      "formality_assumption",
+      "own_culture_transfer"
+    ]
+  },
+  {
+    "category": "gifts",
+    "question": "When a department wants to give a farewell gift to a retiring coworker, what's common?",
+    "options": [
+      "Everyone individually picks and gives their own personal small gift",
+      "Colleagues pool money together for one shared, higher-quality gift",
+      "Whoever contributes the most money is specially recognized",
+      "HR formally dictates exactly how much each person must contribute"
+    ],
+    "answer": 1,
+    "explanation": "Pooling money lets the group give something more meaningful than everyone could individually afford, and it frames the gift as coming from the team as a whole rather than turning it into a pile of separate, uncoordinated gestures.",
+    "hint": "Think about what a pooled gift represents that individual gifts don't.",
+    "image": "images/present.png",
+    "option_tags": [
+      "own_culture_transfer",
+      null,
+      "achievement_bias",
+      "formality_assumption"
+    ]
+  }
+]

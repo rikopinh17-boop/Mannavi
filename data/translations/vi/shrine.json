@@ -1,0 +1,175 @@
+[
+  {
+    "question": "Bạn nên làm gì trước khi vào đền thờ?",
+    "options": [
+      "Vỗ tay",
+      "Rửa tay và súc miệng",
+      "Cởi giày",
+      "Rung chuông"
+    ],
+    "explanation": "Rửa tay và súc miệng tại temizuya tượng trưng cho việc gột rửa bụi trần của thế giới bên ngoài (và cả những lỗi lầm của bản thân) trước khi đến gần khu vực linh thiêng - một phiên bản nhỏ dành cho khách viếng thăm, phản chiếu nghi lễ thanh tẩy (misogi) mà các thầy tu Thần đạo thực hiện.",
+    "hint": "Sự sạch sẽ mang tính biểu tượng trong các nghi lễ Thần đạo."
+  },
+  {
+    "question": "Bạn nên đi ở đâu khi băng qua cổng torii?",
+    "options": [
+      "Ở giữa",
+      "Ở bên trái hoặc bên phải",
+      "Đi đâu cũng được",
+      "Đi lùi để gặp may mắn"
+    ],
+    "explanation": "Phần giữa của lối đi (seichu) theo truyền thống được coi là con đường vị thần dùng để di chuyển, nên việc đi vào đó bị coi là cắt ngang đường đi của kami chứ không chỉ đơn giản là đi sai làn. Du khách đi ở hai bên để thể hiện sự tôn trọng đối với sự hiện diện vô hình đó.",
+    "hint": "Con đường giữa là linh thiêng."
+  },
+  {
+    "question": "Cách dâng lễ đúng tại đền thờ là gì?",
+    "options": [
+      "Ném tiền, vỗ tay một lần",
+      "Rung chuông, ném tiền, cúi chào một lần",
+      "Ném tiền, cúi chào hai lần, vỗ tay hai lần, cúi chào một lần",
+      "Cúi chào một lần, vỗ tay hai lần, hô to điều ước"
+    ],
+    "explanation": "Mỗi bước đều có vai trò riêng: hai cái cúi chào đầu tiên thể hiện lòng tôn kính trước khi bạn cầu xin điều gì, hai tiếng vỗ tay được cho là để thu hút sự chú ý của vị thần và bày tỏ niềm vui, còn cái cúi chào cuối cùng khép lại lời cầu nguyện bằng lời cảm tạ. Bỏ sót hoặc đảo lộn trình tự bị coi là một lời cầu nguyện chưa hoàn chỉnh, chứ không chỉ là không trang trọng.",
+    "hint": "2-2-1 là trình tự dễ nhớ."
+  },
+  {
+    "question": "Số tiền dâng lễ phổ biến là bao nhiêu?",
+    "options": [
+      "1000 yên",
+      "5 yên",
+      "50 yên",
+      "Phải là số yên chẵn"
+    ],
+    "explanation": "5 yên được phát âm là 'go-en,' đồng âm với một từ mang nghĩa 'duyên lành' hay 'mối lương duyên tốt đẹp,' nên việc dâng chính xác 5 yên là một cách chơi chữ nhỏ nhằm cầu may mắn - đây là vấn đề chơi chữ, không phải tuyên bố về 'giá trị' của lời cầu nguyện.",
+    "hint": "Đó là một cách chơi chữ may mắn!"
+  },
+  {
+    "question": "Bạn nên tránh làm gì khi viếng thăm đền thờ?",
+    "options": [
+      "Mặc quần áo sặc sỡ",
+      "Mang theo thú cưng",
+      "Nói chuyện ồn ào",
+      "Đi chậm"
+    ],
+    "explanation": "Đền thờ được coi là nơi ngự của một vị kami, nên nó được đối xử với sự tôn trọng yên lặng giống như khi bạn bước vào nhà ai đó mà không báo trước. Nói to phá vỡ bầu không khí đó, còn thú cưng bị hạn chế cả vì lý do thanh tịnh lẫn vì những người khác đến đó để cầu nguyện, không phải để giao lưu.",
+    "hint": "Hãy tôn trọng như khi đang viếng thăm một nơi linh thiêng."
+  },
+  {
+    "question": "Vì sao du khách viết điều ước lên tấm gỗ ema và treo lại ở đền thờ thay vì mang về nhà?",
+    "options": [
+      "Vì việc lấy chúng đi là trái quy định",
+      "Để điều ước luôn ở gần kami và nằm trong tầm chú ý của thần",
+      "Vì để lại giúp bạn tiếp tục chuyến đi mà không phải mang thêm đồ đạc",
+      "Vì những tấm gỗ này được coi là quá linh thiêng để chạm vào lần nữa sau khi viết"
+    ],
+    "hint": "Hãy nghĩ về lý do vì sao vị trí của điều ước lại quan trọng."
+  },
+  {
+    "question": "Vì sao du khách rung chuông (suzu) trước khi cầu nguyện tại đền thờ?",
+    "options": [
+      "Để báo cho nhân viên đền thờ biết có khách đến",
+      "Để thu hút sự chú ý của kami và xua tan năng lượng tiêu cực trước khi cầu nguyện",
+      "Để cho những du khách khác thấy bạn biết đúng nghi thức",
+      "Vì rung chuông để cầu may là một cử chỉ phổ biến ở mọi nơi, giống như quê nhà"
+    ],
+    "hint": "Nó tạo ra tiếng kêu leng keng, ngay trước khi bạn cầu nguyện."
+  },
+  {
+    "question": "Bạn sử dụng omikuji (quẻ xăm) như thế nào?",
+    "options": [
+      "Đọc và luôn giữ lại",
+      "Ăn nó",
+      "Buộc vào cây hoặc giá treo",
+      "Ném nó xuống nước"
+    ],
+    "explanation": "Một quẻ xấu không nên bị ám ảnh - buộc tờ giấy vào cây hoặc giá treo được chỉ định được tin là cách để lại điều xui xẻo ở đền thờ, gần giống như gửi gắm vấn đề cho ai đó có thể xử lý nó. Ngược lại, một quẻ tốt thường được mang về nhà để giữ vận may đó bên mình.",
+    "hint": "Bạn thường thấy những dải giấy trắng buộc quanh cây."
+  },
+  {
+    "question": "Bạn có thể tự do chụp ảnh ở mọi khu vực trong đền thờ không?",
+    "options": [
+      "Có",
+      "Không, việc chụp ảnh bị hạn chế ở một số khu vực linh thiêng",
+      "Chỉ khi trả phí",
+      "Chỉ trong các dịp lễ hội"
+    ],
+    "explanation": "Khu vực trong cùng của đền thờ (honden) được coi là nơi ngự thực sự của kami, không chỉ là kiến trúc trang trí, nên việc chụp ảnh ở đó có thể bị coi là xâm phạm giống như chụp ảnh bên trong nhà riêng của ai đó. Biển báo thường đánh dấu rõ nơi áp dụng hạn chế này.",
+    "hint": "Luôn kiểm tra biển báo hoặc hỏi nhân viên."
+  },
+  {
+    "question": "Mục đích của cổng torii là gì?",
+    "options": [
+      "Để hiển thị tên đền thờ",
+      "Để đánh dấu không gian linh thiêng",
+      "Để chào đón khách du lịch",
+      "Để treo các tấm gỗ ema"
+    ],
+    "explanation": "Cổng torii đánh dấu ranh giới giữa thế giới thường ngày và không gian linh thiêng của kami, đó là lý do việc bước qua cổng thường được coi là khởi đầu thực sự của chuyến viếng thăm đền thờ - một số du khách thậm chí dừng lại cúi chào nhẹ trước khi bước qua, giống như gõ cửa trước khi vào nhà.",
+    "hint": "Đó là một ngưỡng cửa mang tính biểu tượng."
+  },
+  {
+    "question": "Một lễ hội đền thờ (matsuri) vẫn tuân theo một quy trình nghi lễ hàng trăm năm tuổi, ngay cả khi có một cách nhanh hơn, hiện đại hơn có thể mang lại kết quả tương tự. Vì sao nhiều cộng đồng vẫn giữ cách làm cũ?",
+    "options": [
+      "Việc tiếp tục duy trì chính hình thức truyền thống, chứ không chỉ kết quả, được coi là có giá trị để kết nối với quá khứ",
+      "Có một điều luật nghiêm ngặt yêu cầu quy trình cũ",
+      "Cách làm cũ thực ra hiệu quả hơn bất kỳ phương án hiện đại nào",
+      "Lễ hội chủ yếu được tổ chức như một màn trình diễn cho khách du lịch"
+    ],
+    "hint": "Hãy nghĩ xem điều gì đang được gìn giữ - kết quả, hay chính quá trình."
+  },
+  {
+    "question": "Vì sao nhiều người Nhật đi viếng đền vào dịp hatsumode (lần viếng đền đầu tiên trong năm), ngay cả khi họ không coi mình là người có tín ngưỡng?",
+    "options": [
+      "Nó được coi là một truyền thống văn hóa ý nghĩa và một dịp giao lưu xã hội cùng gia đình hay bạn bè, hơn là một nghĩa vụ tôn giáo nghiêm ngặt",
+      "Bỏ lỡ nó được tin là sẽ đảm bảo một năm xui xẻo",
+      "Có một quy định chính thức trên toàn quốc yêu cầu công dân phải viếng đền vào năm mới",
+      "Nó về cơ bản giống hệt việc tham dự một buổi lễ tôn giáo hàng tuần ở quê nhà"
+    ],
+    "explanation": "Với nhiều người, hatsumode gần giống một phong tục năm mới đáng trân trọng - diện đồ đẹp, xếp hàng cùng gia đình, mua một lá bùa cho năm mới - hơn là một nghĩa vụ tôn giáo đáng sợ. Bỏ lỡ nó không bị coi là rước lấy vận rủi; đó đơn giản là một truyền thống mà nhiều người thích gìn giữ, không phải một nghi lễ sùng bái hàng tuần.",
+    "hint": "Hãy nghĩ xem điều gì thực sự sẽ xảy ra nếu ai đó bỏ lỡ nó."
+  },
+  {
+    "question": "Vì sao nhiều người Nhật gửi nengajo (thiệp bưu thiếp năm mới) cho đồng nghiệp và những người quen xa mỗi năm?",
+    "options": [
+      "Đó là một phong tục xã hội để duy trì các mối quan hệ và cho thấy bạn vẫn nhớ đến người khác, tương tự tinh thần của thiệp chúc mừng lễ hội ở nơi khác",
+      "Không gửi thiệp bị tin là sẽ khiến linh hồn tổ tiên tức giận",
+      "Các công ty bị pháp luật yêu cầu phải gửi thiệp cho tất cả khách hàng",
+      "Thiệp càng cầu kỳ thì càng thể hiện địa vị xã hội cao hơn"
+    ],
+    "explanation": "Nengajo hoạt động giống như một lần hỏi thăm mỗi năm - một cử chỉ nhỏ, được mong đợi, nói lên rằng 'tôi vẫn trân trọng mối quan hệ này,' chứ không phải một nghĩa vụ nghi lễ gắn với linh hồn hay tổ tiên. Bỏ sót ai đó không gây nguy hiểm về mặt tâm linh, chỉ là hơi thiếu chu đáo trong quan hệ xã hội.",
+    "hint": "Hãy nghĩ về điều mà việc gửi thiệp thực sự truyền đạt đến người nhận."
+  },
+  {
+    "question": "Trong lễ Setsubun, vì sao người ta ném đậu nành rang khắp nhà trong khi hô 'Oni wa soto, fuku wa uchi' (Quỷ ra ngoài, phúc vào nhà)?",
+    "options": [
+      "Đó là một phong tục theo mùa vui vẻ đánh dấu sự chuyển mùa và cầu mong may mắn, thường được thực hiện một cách vui nhộn cùng trẻ em",
+      "Đó là một nghi lễ trừ tà nghiêm túc, được thực hiện vì tin rằng ác quỷ thực sự đang hiện diện trong nhà",
+      "Về cơ bản nó giống hệt với phong tục trick-or-treat",
+      "Nó được làm chỉ đơn giản vì ném đồ vật thì vui, không mang ý nghĩa đặc biệt nào"
+    ],
+    "explanation": "Lễ ném đậu trong Setsubun gần với một hoạt động gia đình mang tính biểu tượng, vui vẻ đánh dấu đầu mùa xuân hơn là một nghi lễ trừ tà đáng sợ - nhiều gia đình thực hiện với một phụ huynh đeo mặt nạ oni bằng giấy để trẻ em 'đuổi ra,' coi lũ quỷ như một hình tượng vui nhộn đại diện cho vận rủi chứ không phải mối đe dọa thực sự.",
+    "hint": "Hãy nghĩ xem ai thường là người ném đậu, và ai 'đóng vai' con quỷ."
+  },
+  {
+    "question": "Vì sao người ta tô một con mắt của búp bê daruma khi đặt ra một mục tiêu, rồi chỉ tô con mắt thứ hai khi đạt được mục tiêu đó?",
+    "options": [
+      "Đó là một truyền thống tạo động lực để đánh dấu cam kết với mục tiêu và theo dõi tiến độ một cách trực quan, tương tự như một bảng tầm nhìn",
+      "Con búp bê được tin là sẽ nguyền rủa gây xui xẻo nếu con mắt thứ hai được tô trước khi đạt được mục tiêu",
+      "Có những nghi lễ vẽ mắt daruma được chứng nhận chính thức bắt buộc cho các mục tiêu kinh doanh",
+      "Nó về cơ bản giống hệt việc công bố lời hứa năm mới to tiếng trong một bữa tiệc"
+    ],
+    "explanation": "Daruma là một công cụ theo dõi mục tiêu không kém gì một vật cầu may - tô con mắt đầu tiên là một cam kết hữu hình, và tô con mắt thứ hai là một dấu mốc thỏa mãn cho thành công. Không có lời nguyền nào cho việc 'làm sai'; trường hợp xấu nhất, bạn chỉ đơn giản là không nhận được phần thưởng nghi lễ nhỏ khi hoàn thành đúng cách.",
+    "hint": "Hãy nghĩ xem hai con mắt đang theo dõi điều gì, chứ không phải trừng phạt điều gì."
+  },
+  {
+    "question": "Vì sao nhiều gia đình trưng bày hamaya (một mũi tên trang trí mua tại đền thờ) vào dịp năm mới?",
+    "options": [
+      "Đó là một vật cầu may truyền thống được trưng bày ở nhà trong năm, được coi như một món đồ trang trí theo mùa hơn là một vật linh thiêng đáng sợ",
+      "Nếu xử lý sai cách, nó được tin là sẽ triệu hồi vận rủi vào nhà",
+      "Nó chủ yếu được dùng như một vũ khí thực sự để bảo vệ ngôi nhà",
+      "Một chiếc hamaya đắt tiền hơn thể hiện địa vị xã hội cao hơn của gia đình"
+    ],
+    "explanation": "Hamaya được mua, trưng bày ở nơi dễ thấy trong suốt một năm, rồi được mang trả lại đền thờ để làm lễ đốt vào năm mới tiếp theo - một nghi lễ hằng năm đơn giản, giống như treo một món đồ trang trí may mắn hơn là một vật nguy hiểm cần xử lý cẩn thận.",
+    "hint": "Hãy nghĩ về việc nó được trưng bày trong nhà một cách giản dị như thế nào."
+  }
+]
