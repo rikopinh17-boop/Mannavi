@@ -981,7 +981,14 @@ if "category" not in st.session_state:
             st.rerun()
             st.stop()
 
-        categories = sorted(load_categories())
+        # Required-first ordering for the experiment: the 6 core categories (covering all
+        # 6 Hofstede dimensions) come first, then the 2 optional/bonus ones.
+        CATEGORY_PRIORITY = ["dining", "workplace", "gifts", "onsen", "shrine", "communication",
+                             "public_transport", "questions"]
+        categories = sorted(
+            load_categories(),
+            key=lambda c: CATEGORY_PRIORITY.index(c) if c in CATEGORY_PRIORITY else len(CATEGORY_PRIORITY)
+        )
         cols = st.columns(3)
         for i, cat in enumerate(categories):
             meta = CATEGORY_META.get(cat, {"icon": "📚", "label": cat.replace("_", " ").title()})
