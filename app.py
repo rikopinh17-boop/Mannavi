@@ -494,56 +494,96 @@ if "username" not in st.session_state:
     # ---- Register tab ----
     with tab_register:
         st.markdown("Create a new account.")
-        reg_name  = st.text_input("Username:", key="reg_name")
-        reg_pw    = st.text_input("Password:", type="password", key="reg_pw")
-        reg_pw2   = st.text_input("Confirm Password:", type="password", key="reg_pw2")
 
-        nationality = st.selectbox(
-            "Nationality / Country you're from:",
-            options=COUNTRIES,
-            index=None,
-            placeholder="Type to search (e.g. 'Ja' → Japan)...",
-            key="reg_nationality",
-        )
-        if nationality == "Other":
-            nationality = st.text_input("Please specify your nationality:", key="reg_nationality_other").strip()
+        with st.expander("📄 Research Participation Terms & Consent / 研究参加への同意事項", expanded=True):
+            st.markdown("""
+**About this study / この研究について**
 
-        native_lang = st.selectbox(
-            "Native language:",
-            options=LANGUAGES,
-            index=None,
-            placeholder="Type to search (e.g. 'Jap' → Japanese)...",
-            key="reg_native_lang",
-        )
-        if native_lang == "Other":
-            native_lang = st.text_input("Please specify your native language:", key="reg_native_lang_other").strip()
+Mannavi is a research tool built for an undergraduate thesis project, studying how foreign
+visitors' understanding of Japanese manners deepens through this quiz, and how that process
+differs by cultural background.
+（本アプリは卒業論文研究の一環として作成されたツールです。外国人観光客が日本のマナーに
+関する理解をどのように深めるか、また出身文化圏によってその過程がどう異なるかを研究しています。）
 
-        if st.button("Register", use_container_width=True):
-            name = reg_name.strip()
-            pw   = reg_pw.strip()
-            pw2  = reg_pw2.strip()
-            nationality = (nationality or "").strip()
-            native_lang = (native_lang or "").strip()
-            if not name or not pw or not pw2 or not nationality or not native_lang:
-                st.warning("Please fill in all fields.")
-            elif pw != pw2:
-                st.error("❌ Passwords do not match.")
-            else:
-                users = load_users()
-                if name in users and users[name].get("password") is not None:
-                    log_auth("register", name, False, "username already taken")
-                    st.error(f"❌ '{name}' is already taken. Please choose a different username.")
+**What participation involves / 参加して行うこと**
+
+You will answer short multiple-choice quiz questions about Japanese manners, and for each
+one, select a reason for your answer before and after reading an explanation. You will also
+provide your nationality and native language.
+（日本のマナーに関する短いクイズに回答し、各設問について解説を読む前後で「なぜそう考えたか」という
+理由を選択します。国籍と母国語も入力していただきます。）
+
+**Data use / データの利用について**
+
+Your answers, selected reasons, nationality, and native language are recorded and used only
+for academic analysis in this thesis research. Your username is not your real name and is not
+published; results will be reported in aggregate or anonymized form.
+（回答内容・選択した理由・国籍・母国語は、この卒業論文研究の学術的な分析にのみ使用されます。
+ユーザー名は実名である必要はなく、公開されることもありません。結果は集計・匿名化した形で報告されます。）
+
+If you have any questions, please contact the researcher (本間理子) directly.
+            """)
+            agree = st.checkbox(
+                "I have read and understood the above, and I agree to participate in this "
+                "research. / 私は上記の内容を読み理解し、本研究への参加に同意します。",
+                key="consent_agree",
+            )
+
+        if not agree:
+            st.info("Please check the agreement box above to continue with registration. / "
+                    "登録を続けるには、上の同意チェックボックスにチェックを入れてください。")
+        else:
+            reg_name  = st.text_input("Username:", key="reg_name")
+            reg_pw    = st.text_input("Password:", type="password", key="reg_pw")
+            reg_pw2   = st.text_input("Confirm Password:", type="password", key="reg_pw2")
+
+            nationality = st.selectbox(
+                "Nationality / Country you're from:",
+                options=COUNTRIES,
+                index=None,
+                placeholder="Type to search (e.g. 'Ja' → Japan)...",
+                key="reg_nationality",
+            )
+            if nationality == "Other":
+                nationality = st.text_input("Please specify your nationality:", key="reg_nationality_other").strip()
+
+            native_lang = st.selectbox(
+                "Native language:",
+                options=LANGUAGES,
+                index=None,
+                placeholder="Type to search (e.g. 'Jap' → Japanese)...",
+                key="reg_native_lang",
+            )
+            if native_lang == "Other":
+                native_lang = st.text_input("Please specify your native language:", key="reg_native_lang_other").strip()
+
+            if st.button("Register", use_container_width=True):
+                name = reg_name.strip()
+                pw   = reg_pw.strip()
+                pw2  = reg_pw2.strip()
+                nationality = (nationality or "").strip()
+                native_lang = (native_lang or "").strip()
+                if not name or not pw or not pw2 or not nationality or not native_lang:
+                    st.warning("Please fill in all fields.")
+                elif pw != pw2:
+                    st.error("❌ Passwords do not match.")
                 else:
-                    users[name] = {
-                        "password": hash_pw(pw),
-                        "nationality": nationality,
-                        "native_language": native_lang,
-                    }
-                    save_users(users)
-                    log_auth("register", name, True, "")
-                    st.session_state.username = name
-                    create_session(name)
-                    st.rerun()
+                    users = load_users()
+                    if name in users and users[name].get("password") is not None:
+                        log_auth("register", name, False, "username already taken")
+                        st.error(f"❌ '{name}' is already taken. Please choose a different username.")
+                    else:
+                        users[name] = {
+                            "password": hash_pw(pw),
+                            "nationality": nationality,
+                            "native_language": native_lang,
+                            "consented_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+                        }
+                        save_users(users)
+                        log_auth("register", name, True, "")
+                        st.session_state.username = name
+                        create_session(name)
+                        st.rerun()
 
     st.stop()
 
