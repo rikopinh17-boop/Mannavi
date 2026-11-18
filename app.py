@@ -687,6 +687,54 @@ if "category" not in st.session_state:
 
     # -------------------- Portfolio tab --------------------
     with tab_portfolio:
+        with st.expander("⚙️ Profile settings / プロフィール設定（国籍・母国語を後から変更）"):
+            profile = get_user_profile(st.session_state.username)
+            current_nat = profile.get("nationality") or None
+            current_lang = profile.get("native_language") or None
+
+            new_nationality = st.selectbox(
+                "Nationality / 出身国:",
+                options=COUNTRIES,
+                index=COUNTRIES.index(current_nat) if current_nat in COUNTRIES else None,
+                placeholder="Type to search (e.g. 'Ja' → Japan)...",
+                key="profile_edit_nationality",
+            )
+            if new_nationality == "Other":
+                new_nationality = st.text_input(
+                    "Please specify your nationality / 具体的に入力してください:",
+                    value=current_nat if current_nat not in COUNTRIES else "",
+                    key="profile_edit_nationality_other",
+                ).strip()
+
+            new_native_lang = st.selectbox(
+                "Native language / 母国語:",
+                options=LANGUAGES,
+                index=LANGUAGES.index(current_lang) if current_lang in LANGUAGES else None,
+                placeholder="Type to search (e.g. 'Jap' → Japanese)...",
+                key="profile_edit_native_lang",
+            )
+            if new_native_lang == "Other":
+                new_native_lang = st.text_input(
+                    "Please specify your native language / 具体的に入力してください:",
+                    value=current_lang if current_lang not in LANGUAGES else "",
+                    key="profile_edit_native_lang_other",
+                ).strip()
+
+            if st.button("Save profile / 保存する", key="profile_edit_save"):
+                new_nationality = (new_nationality or "").strip()
+                new_native_lang = (new_native_lang or "").strip()
+                if not new_nationality or not new_native_lang:
+                    st.warning("Please fill in both fields. / 両方とも入力してください。")
+                else:
+                    users = load_users()
+                    record = users.get(st.session_state.username) or {}
+                    record["nationality"] = new_nationality
+                    record["native_language"] = new_native_lang
+                    users[st.session_state.username] = record
+                    save_users(users)
+                    st.success("Saved! / 保存しました。")
+                    st.rerun()
+
         RESULTS_PATH = os.path.join(os.path.dirname(__file__), "results", "quiz_results.csv")
         if not os.path.exists(RESULTS_PATH) or os.path.getsize(RESULTS_PATH) == 0:
             st.info("No results yet. Complete a quiz to see your portfolio!")
@@ -771,21 +819,23 @@ if "category" not in st.session_state:
     if is_researcher:
         with tab_research:
             st.caption(
-                "Cross-user analysis for research questions ① (rule-based → empathy-based deepening) "
-                "and ② (culture-group misconception patterns). See docs/ホフステード6次元と誤解・深化パターン仮説.md "
-                "for the methodology."
+                "研究用の問い①（規則ベース→共感ベースへの深化）と問い②（文化圏ごとの誤解パターン）を、"
+                "全利用者のデータを横断して分析します。手法の詳細はdocs/ホフステード6次元と誤解・深化パターン仮説.mdを参照してください。"
             )
+            if st.button("🔄 最新のデータに更新"):
+                st.rerun()
+            st.caption("※このページは自動更新されません。新しい回答を反映したいときはこのボタンを押してください（ブラウザの再読み込みでも同じです）。")
             RESULTS_PATH = os.path.join(os.path.dirname(__file__), "results", "quiz_results.csv")
             if not os.path.exists(RESULTS_PATH) or os.path.getsize(RESULTS_PATH) == 0:
-                st.info("No results yet.")
+                st.info("まだ結果がありません。")
             else:
                 with open(RESULTS_PATH, "rb") as f:
                     st.download_button(
-                        "📥 Download raw quiz_results.csv",
+                        "📥 quiz_results.csv をダウンロード",
                         data=f.read(),
                         file_name="quiz_results.csv",
                         mime="text/csv",
-                        help="Streamlit Community Cloud's storage is temporary — download a copy regularly so data isn't lost if the app restarts.",
+                        help="Streamlit Community Cloudの保存領域は一時的です。アプリが再起動するとデータが消えることがあるので、定期的にダウンロードしてください。",
                     )
                 df = read_csv(RESULTS_PATH)
                 # Older rows saved before these columns existed won't have them;
@@ -796,23 +846,23 @@ if "category" not in st.session_state:
                         df[col] = None
                 df = df[df["q_num"].notna()].copy()
                 if df.empty:
-                    st.info("No results yet.")
+                    st.info("まだ結果がありません。")
                 else:
                     df["culture_group"] = df["nationality"].apply(get_culture_group)
                     n_unclassified = df["culture_group"].isna().sum()
 
-                    st.subheader("🌍 Respondents by culture group")
+                    st.subheader("🌍 文化圏別の回答者数")
                     group_counts = df.groupby("culture_group", dropna=False).size().reset_index(name="rows")
-                    group_counts["culture_group"] = group_counts["culture_group"].fillna("(unknown nationality)")
+                    group_counts["culture_group"] = group_counts["culture_group"].fillna("（国籍不明／未対応）")
                     st.bar_chart(group_counts.set_index("culture_group")["rows"], height=250)
-                    st.caption(f"{n_unclassified} answer rows have a nationality with no confident Hofstede score and are excluded from the breakdowns below.")
+                    st.caption(f"{n_unclassified}件の回答は、国籍からホフステードの信頼できるスコアが得られないため、以下の集計からは除外されています。")
 
                     df_known = df[df["culture_group"].notna()].copy()
 
                     st.divider()
 
                     # ---------- RQ2: culture group x misconception tag ----------
-                    st.subheader("② Culture group × misconception tag (selected_tag)")
+                    st.subheader("② 文化圏 × 誤答タグ（selected_tag）")
                     if df_known["selected_tag"].notna().any():
                         tag_tab = (
                             df_known[df_known["selected_tag"].notna()]
@@ -822,50 +872,62 @@ if "category" not in st.session_state:
                         )
                         tag_tab_pct = tag_tab.div(tag_tab.sum(axis=1), axis=0) * 100
                         st.dataframe(tag_tab_pct.round(1).astype(str) + "%")
-                        st.caption("Row-normalized: % of that culture group's answers falling into each misconception tag.")
+                        st.caption("行単位で正規化：その文化圏の回答のうち、各誤答タグが占める割合（%）。")
                     else:
-                        st.info("No tagged answers yet (selected_tag is only recorded for wrong/distractor answers).")
+                        st.info("タグ付きの回答がまだありません（selected_tagは誤答・distractorの場合のみ記録されます）。")
 
                     st.divider()
 
                     # ---------- RQ1: before -> after reason-category shift ----------
-                    st.subheader("① Reason-category shift after reading the explanation")
+                    st.subheader("① 解説を読んだ後の理由カテゴリの変化")
                     SURFACE = {"rule_based", "no_reason", "own_culture"}
                     REASONED = {"practical", "symbolic", "empathy_based"}
 
                     def bucket(cat):
                         if cat in SURFACE:
-                            return "surface / borrowed reason"
+                            return "外的な規則・借用的理由"
                         if cat in REASONED:
-                            return "own reasoning"
+                            return "自分なりの理由づけ"
                         return None
 
-                    shift_df = df_known[df_known["reason_category_before"].notna() & df_known["reason_category_after"].notna()].copy()
-                    if shift_df.empty:
-                        st.info("No before/after reason-category pairs recorded yet.")
+                    # Overall shift rate only needs the before/after reason pair, not a known
+                    # culture group — so it's computed from the full dataframe (df), not df_known.
+                    # Rows with no nationality on file (e.g. a profile that never set one) would
+                    # otherwise be silently dropped from this headline number.
+                    shift_df_all = df[df["reason_category_before"].notna() & df["reason_category_after"].notna()].copy()
+                    if shift_df_all.empty:
+                        st.info("解答前後の理由カテゴリのペアがまだ記録されていません。")
                     else:
-                        shift_df["bucket_before"] = shift_df["reason_category_before"].apply(bucket)
-                        shift_df["bucket_after"] = shift_df["reason_category_after"].apply(bucket)
-                        shift_df["deepened"] = (shift_df["bucket_before"] == "surface / borrowed reason") & (shift_df["bucket_after"] == "own reasoning")
+                        shift_df_all["bucket_before"] = shift_df_all["reason_category_before"].apply(bucket)
+                        shift_df_all["bucket_after"] = shift_df_all["reason_category_after"].apply(bucket)
+                        shift_df_all["deepened"] = (shift_df_all["bucket_before"] == "外的な規則・借用的理由") & (shift_df_all["bucket_after"] == "自分なりの理由づけ")
 
-                        overall_rate = shift_df["deepened"].mean() * 100
-                        st.metric("Overall: surface → own-reasoning shift rate", f"{overall_rate:.1f}%")
+                        overall_rate = shift_df_all["deepened"].mean() * 100
+                        st.metric("全体：外的な規則 → 自分なりの理由づけ への移行率", f"{overall_rate:.1f}%")
+                        n_no_group = shift_df_all["culture_group"].isna().sum()
+                        if n_no_group:
+                            st.caption(f"全体の件数には、国籍が未設定・未対応で文化圏が分からない{n_no_group}件も含みます。下の文化圏別の表には含まれません。")
 
-                        by_group = (
-                            shift_df.groupby("culture_group")["deepened"]
-                            .agg(shift_rate=lambda x: x.mean() * 100, n="count")
-                            .round(1)
-                        )
-                        st.dataframe(by_group)
+                        # Per-culture-group breakdown still needs a known culture group.
+                        shift_df = shift_df_all[shift_df_all["culture_group"].notna()]
+                        if not shift_df.empty:
+                            by_group = (
+                                shift_df.groupby("culture_group")["deepened"]
+                                .agg(shift_rate=lambda x: x.mean() * 100, n="count")
+                                .round(1)
+                            )
+                            st.dataframe(by_group)
 
-                        st.caption("Detailed reason-category breakdown (after the explanation), by culture group:")
-                        after_tab = (
-                            shift_df.groupby(["culture_group", "reason_category_after"])
-                            .size()
-                            .unstack(fill_value=0)
-                        )
-                        after_tab_pct = after_tab.div(after_tab.sum(axis=1), axis=0) * 100
-                        st.dataframe(after_tab_pct.round(1).astype(str) + "%")
+                            st.caption("文化圏別の理由カテゴリ内訳（解説を読んだ後）：")
+                            after_tab = (
+                                shift_df.groupby(["culture_group", "reason_category_after"])
+                                .size()
+                                .unstack(fill_value=0)
+                            )
+                            after_tab_pct = after_tab.div(after_tab.sum(axis=1), axis=0) * 100
+                            st.dataframe(after_tab_pct.round(1).astype(str) + "%")
+                        else:
+                            st.caption("文化圏別の内訳は、国籍から文化圏が判定できるデータが集まるまで表示されません。")
 
     # -------------------- Quiz tab --------------------
     with tab_quiz:
