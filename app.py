@@ -711,13 +711,7 @@ def start_quiz(selected):
         selected_questions = json.load(f)
     lang_code = st.session_state.get("display_language", "en")
     selected_questions = localize_questions(selected, selected_questions, lang_code)
-    # A few questions in some categories are missing an "explanation" in the source
-    # data (pre-existing data gap, not caused by localization). Showing no explanation
-    # would both crash the app and corrupt the before/after reasoning measurement for
-    # that question, so exclude them from the random draw entirely.
-    indices = [i for i, q in enumerate(selected_questions) if q.get("explanation")]
-    if not indices:
-        indices = list(range(len(selected_questions)))
+    indices = list(range(len(selected_questions)))
     random.shuffle(indices)
     indices = indices[:4]
     st.session_state.category = selected
@@ -1234,7 +1228,7 @@ STREAK_CELEBRATION = {
     "html": "<div style='text-align:center;font-size:3rem;font-weight:bold;color:#ff6b00'>🔥 {n} STREAK! 🔥<br>UNSTOPPABLE!!!</div>",
 }
 
-if st.button(tr("submit_answer")) and not st.session_state.answered:
+if st.button(tr("submit_answer"), key=f"submit_answer_{current_idx}") and not st.session_state.answered:
     if user_answer is None:
         st.warning(tr("select_answer_warning"))
         st.stop()
@@ -1308,7 +1302,7 @@ if st.session_state.answered:
     reason_category_after = None
     reason_text_after = ""
     if st.session_state.show_explanation:
-        st.info(q.get("explanation", ""))
+        st.info(q["explanation"])
 
         reason_choice_after = st.radio(
             tr("reason_after_prompt"),
