@@ -679,7 +679,7 @@ def start_quiz(selected):
     selected_questions = localize_questions(selected, selected_questions, lang_code)
     indices = list(range(len(selected_questions)))
     random.shuffle(indices)
-    indices = indices[:5]
+    indices = indices[:4]
     st.session_state.category = selected
     st.session_state.questions = selected_questions
     st.session_state.question_order = indices
