@@ -521,7 +521,7 @@ published; results will be reported in aggregate or anonymized form.
 （回答内容・選択した理由・国籍・母国語は、この卒業論文研究の学術的な分析にのみ使用されます。
 ユーザー名は実名である必要はなく、公開されることもありません。結果は集計・匿名化した形で報告されます。）
 
-If you have any questions, please contact the researcher (本間理子) directly.
+If you have any questions, please contact the researcher (Riko Homma / gmail:a23.mxxw@g.chuo-u.ac.jp) directly.
             """)
             agree = st.checkbox(
                 "I have read and understood the above, and I agree to participate in this "
