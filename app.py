@@ -41,69 +41,103 @@ def resolve_image_path(path):
 # ---------- Nationality / language options (for the searchable select boxes on the registration form) ----------
 COUNTRIES = ["Afghanistan", "Albania", "Algeria", "American Samoa", "Andorra", "Angola", "Anguilla", "Antarctica", "Antigua and Barbuda", "Argentina", "Armenia", "Aruba", "Australia", "Austria", "Azerbaijan", "Bahamas", "Bahrain", "Bangladesh", "Barbados", "Belarus", "Belgium", "Belize", "Benin", "Bermuda", "Bhutan", "Bolivia, Plurinational State of", "Bonaire, Sint Eustatius and Saba", "Bosnia and Herzegovina", "Botswana", "Bouvet Island", "Brazil", "British Indian Ocean Territory", "Brunei Darussalam", "Bulgaria", "Burkina Faso", "Burundi", "Cabo Verde", "Cambodia", "Cameroon", "Canada", "Cayman Islands", "Central African Republic", "Chad", "Chile", "China", "Christmas Island", "Cocos (Keeling) Islands", "Colombia", "Comoros", "Congo", "Congo, The Democratic Republic of the", "Cook Islands", "Costa Rica", "Croatia", "Cuba", "Curaçao", "Cyprus", "Czechia", "Côte d'Ivoire", "Denmark", "Djibouti", "Dominica", "Dominican Republic", "Ecuador", "Egypt", "El Salvador", "Equatorial Guinea", "Eritrea", "Estonia", "Eswatini", "Ethiopia", "Falkland Islands (Malvinas)", "Faroe Islands", "Fiji", "Finland", "France", "French Guiana", "French Polynesia", "French Southern Territories", "Gabon", "Gambia", "Georgia", "Germany", "Ghana", "Gibraltar", "Greece", "Greenland", "Grenada", "Guadeloupe", "Guam", "Guatemala", "Guernsey", "Guinea", "Guinea-Bissau", "Guyana", "Haiti", "Heard Island and McDonald Islands", "Holy See (Vatican City State)", "Honduras", "Hong Kong", "Hungary", "Iceland", "India", "Indonesia", "Iran, Islamic Republic of", "Iraq", "Ireland", "Isle of Man", "Israel", "Italy", "Jamaica", "Japan", "Jersey", "Jordan", "Kazakhstan", "Kenya", "Kiribati", "Korea, Democratic People's Republic of", "Korea, Republic of", "Kuwait", "Kyrgyzstan", "Lao People's Democratic Republic", "Latvia", "Lebanon", "Lesotho", "Liberia", "Libya", "Liechtenstein", "Lithuania", "Luxembourg", "Macao", "Madagascar", "Malawi", "Malaysia", "Maldives", "Mali", "Malta", "Marshall Islands", "Martinique", "Mauritania", "Mauritius", "Mayotte", "Mexico", "Micronesia, Federated States of", "Moldova, Republic of", "Monaco", "Mongolia", "Montenegro", "Montserrat", "Morocco", "Mozambique", "Myanmar", "Namibia", "Nauru", "Nepal", "Netherlands", "New Caledonia", "New Zealand", "Nicaragua", "Niger", "Nigeria", "Niue", "Norfolk Island", "North Macedonia", "Northern Mariana Islands", "Norway", "Oman", "Pakistan", "Palau", "Palestine, State of", "Panama", "Papua New Guinea", "Paraguay", "Peru", "Philippines", "Pitcairn", "Poland", "Portugal", "Puerto Rico", "Qatar", "Romania", "Russian Federation", "Rwanda", "Réunion", "Saint Barthélemy", "Saint Helena, Ascension and Tristan da Cunha", "Saint Kitts and Nevis", "Saint Lucia", "Saint Martin (French part)", "Saint Pierre and Miquelon", "Saint Vincent and the Grenadines", "Samoa", "San Marino", "Sao Tome and Principe", "Saudi Arabia", "Senegal", "Serbia", "Seychelles", "Sierra Leone", "Singapore", "Sint Maarten (Dutch part)", "Slovakia", "Slovenia", "Solomon Islands", "Somalia", "South Africa", "South Georgia and the South Sandwich Islands", "South Sudan", "Spain", "Sri Lanka", "Sudan", "Suriname", "Svalbard and Jan Mayen", "Sweden", "Switzerland", "Syrian Arab Republic", "Taiwan, Province of China", "Tajikistan", "Tanzania, United Republic of", "Thailand", "Timor-Leste", "Togo", "Tokelau", "Tonga", "Trinidad and Tobago", "Tunisia", "Turkmenistan", "Turks and Caicos Islands", "Tuvalu", "Türkiye", "Uganda", "Ukraine", "United Arab Emirates", "United Kingdom", "United States", "United States Minor Outlying Islands", "Uruguay", "Uzbekistan", "Vanuatu", "Venezuela, Bolivarian Republic of", "Viet Nam", "Virgin Islands, British", "Virgin Islands, U.S.", "Wallis and Futuna", "Western Sahara", "Yemen", "Zambia", "Zimbabwe", "Åland Islands", "Other"]
 
-REASON_CATEGORY_ORDER = ["rule_based", "practical", "empathy_based", "symbolic", "own_culture", "no_reason", "other"]
+REASON_CATEGORY_ORDER = [
+    "rule_based", "formality_assumption", "empathy_based", "achievement_bias",
+    "symbolic", "indulgence_assumption", "practical", "own_culture", "no_reason", "other",
+]
 
 # Reason-option labels, localized. Falls back to English for any language/key not listed.
+# Each category maps to one of Hofstede's 6 dimensions (or is a non-dimension control
+# category), kept in sync with bucket() in the Research tab:
+#   rule_based            -> UAI (uncertainty avoidance)
+#   formality_assumption  -> PDI (power distance)           [added]
+#   empathy_based         -> IDV (individualism/collectivism)
+#   achievement_bias      -> MAS (masculinity/achievement)  [added]
+#   symbolic              -> LTO (long-term orientation/tradition)
+#   indulgence_assumption -> IVR (indulgence/restraint)     [added]
+#   practical             -> (no dimension; neutral/functional control)
+#   own_culture            -> (no dimension; own-culture transfer, central to RQ2)
 REASON_LABELS = {
     "en": {
         "rule_based": "I heard it's a fixed rule",
+        "formality_assumption": "I thought it was about respecting someone of higher status",
         "practical": "I thought it was for cleanliness/safety",
         "empathy_based": "To avoid being rude to others",
+        "achievement_bias": "I thought it was about showing skill or doing things properly",
         "symbolic": "I thought it had religious/traditional meaning",
+        "indulgence_assumption": "I thought there were fewer restrictions since it's a relaxed/special occasion",
         "own_culture": "We do the same thing in my country",
         "no_reason": "Just a guess / gut feeling",
         "other": "Other (please specify)",
     },
     "ja": {
         "rule_based": "決まったルールだと聞いたから",
+        "formality_assumption": "目上の人・立場が上の人への配慮だと思ったから",
         "practical": "清潔・安全のためだと思ったから",
         "empathy_based": "他人に失礼にならないようにするためだと思ったから",
+        "achievement_bias": "きちんとできていることや努力を示すためだと思ったから",
         "symbolic": "宗教的・伝統的な意味があると思ったから",
+        "indulgence_assumption": "特別な/くつろいだ場だから、普段より制限が少ないと思ったから",
         "own_culture": "自分の国でも同じことをするから",
         "no_reason": "特に理由はなく、何となく",
         "other": "その他（自由記述）",
     },
     "th": {
         "rule_based": "ได้ยินมาว่าเป็นกฎตายตัว",
+        "formality_assumption": "คิดว่าเป็นการให้ความเคารพผู้ที่มีสถานะสูงกว่า",
         "practical": "คิดว่าเพื่อความสะอาด/ความปลอดภัย",
         "empathy_based": "เพื่อไม่ให้เสียมารยาทต่อผู้อื่น",
+        "achievement_bias": "คิดว่าเป็นการแสดงความสามารถหรือความตั้งใจทำสิ่งต่างๆ ให้ถูกต้อง",
         "symbolic": "คิดว่ามีความหมายทางศาสนา/ประเพณี",
+        "indulgence_assumption": "คิดว่ามีข้อจำกัดน้อยลงเพราะเป็นโอกาสพิเศษ/ผ่อนคลาย",
         "own_culture": "ประเทศของฉันก็ทำแบบเดียวกัน",
         "no_reason": "แค่เดา / รู้สึกเฉยๆ",
         "other": "อื่นๆ (โปรดระบุ)",
     },
     "zh": {
         "rule_based": "听说这是固定规则",
+        "formality_assumption": "我以为是为了尊重地位更高的人",
         "practical": "我以为是为了清洁/安全",
         "empathy_based": "为了不对他人失礼",
+        "achievement_bias": "我以为是为了展现能力或做事认真",
         "symbolic": "我以为有宗教/传统意义",
+        "indulgence_assumption": "我以为因为是特别/轻松的场合，限制会比较少",
         "own_culture": "我的国家也会这样做",
         "no_reason": "只是猜的 / 凭感觉",
         "other": "其他（请说明）",
     },
     "ko": {
         "rule_based": "정해진 규칙이라고 들었어요",
+        "formality_assumption": "윗사람이나 지위가 높은 사람에 대한 배려라고 생각했어요",
         "practical": "청결/안전을 위한 것이라고 생각했어요",
         "empathy_based": "다른 사람에게 실례가 되지 않도록 하기 위해서라고 생각했어요",
+        "achievement_bias": "능숙함이나 노력을 보여주기 위한 것이라고 생각했어요",
         "symbolic": "종교적・전통적인 의미가 있다고 생각했어요",
+        "indulgence_assumption": "특별하거나 편안한 자리라서 평소보다 제약이 적다고 생각했어요",
         "own_culture": "우리나라에서도 똑같이 해요",
         "no_reason": "그냥 추측 / 감으로",
         "other": "기타 (직접 입력)",
     },
     "vi": {
         "rule_based": "Tôi nghe nói đó là quy tắc cố định",
+        "formality_assumption": "Tôi nghĩ đó là sự tôn trọng đối với người có địa vị cao hơn",
         "practical": "Tôi nghĩ là vì lý do sạch sẽ/an toàn",
         "empathy_based": "Để không thất lễ với người khác",
+        "achievement_bias": "Tôi nghĩ đó là để thể hiện kỹ năng hoặc sự nỗ lực",
         "symbolic": "Tôi nghĩ nó mang ý nghĩa tôn giáo/truyền thống",
+        "indulgence_assumption": "Tôi nghĩ sẽ có ít hạn chế hơn vì đây là dịp đặc biệt/thoải mái",
         "own_culture": "Nước tôi cũng làm giống vậy",
         "no_reason": "Chỉ đoán thôi / theo cảm tính",
         "other": "Khác (vui lòng ghi rõ)",
     },
     "id": {
         "rule_based": "Saya dengar itu aturan baku",
+        "formality_assumption": "Saya pikir itu untuk menghormati orang yang berstatus lebih tinggi",
         "practical": "Saya pikir untuk kebersihan/keselamatan",
         "empathy_based": "Agar tidak tidak sopan terhadap orang lain",
+        "achievement_bias": "Saya pikir itu untuk menunjukkan keterampilan atau kesungguhan",
         "symbolic": "Saya pikir ada makna agama/tradisi",
+        "indulgence_assumption": "Saya pikir batasannya lebih sedikit karena ini acara spesial/santai",
         "own_culture": "Di negara saya juga melakukan hal yang sama",
         "no_reason": "Cuma menebak / mengikuti perasaan",
         "other": "Lainnya (mohon sebutkan)",
@@ -939,7 +973,11 @@ if "category" not in st.session_state:
 
                     # ---------- RQ1: before -> after reason-category shift ----------
                     st.subheader("① 解説を読んだ後の理由カテゴリの変化")
-                    SURFACE = {"rule_based", "no_reason", "own_culture"}
+                    # formality_assumption/achievement_bias/indulgence_assumption are, like
+                    # own_culture, projected general assumptions rather than reasoning engaged
+                    # with this specific custom -> grouped with SURFACE (see REASON_CATEGORY_ORDER
+                    # above for the Hofstede-dimension mapping this mirrors).
+                    SURFACE = {"rule_based", "no_reason", "own_culture", "formality_assumption", "achievement_bias", "indulgence_assumption"}
                     REASONED = {"practical", "symbolic", "empathy_based"}
 
                     def bucket(cat):
