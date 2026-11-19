@@ -5,9 +5,26 @@ import os
 import time
 import hashlib
 import secrets
+import fcntl
+from contextlib import contextmanager
 from datetime import datetime
 from glob import glob
 from pandas import DataFrame, read_csv, concat
+
+@contextmanager
+def file_lock(target_path):
+    """Cross-session lock so that two people saving at the same moment (e.g. many
+    participants finishing a quiz category together) don't clobber each other's data.
+    Locks on a sibling '<file>.lock' file; the actual read-modify-write of the real
+    file should happen entirely inside the 'with' block."""
+    os.makedirs(os.path.dirname(target_path), exist_ok=True)
+    lock_path = target_path + ".lock"
+    with open(lock_path, "w") as lock_f:
+        fcntl.flock(lock_f, fcntl.LOCK_EX)
+        try:
+            yield
+        finally:
+            fcntl.flock(lock_f, fcntl.LOCK_UN)
 
 # Path to this file's own folder, so the app works no matter where it's deployed
 # (local Mac, Streamlit Community Cloud, etc.) instead of a hardcoded absolute path.
@@ -568,22 +585,23 @@ If you have any questions, please contact the researcher (Riko Homma / gmail: a2
                 elif pw != pw2:
                     st.error("❌ Passwords do not match.")
                 else:
-                    users = load_users()
-                    if name in users and users[name].get("password") is not None:
-                        log_auth("register", name, False, "username already taken")
-                        st.error(f"❌ '{name}' is already taken. Please choose a different username.")
-                    else:
-                        users[name] = {
-                            "password": hash_pw(pw),
-                            "nationality": nationality,
-                            "native_language": native_lang,
-                            "consented_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-                        }
-                        save_users(users)
-                        log_auth("register", name, True, "")
-                        st.session_state.username = name
-                        create_session(name)
-                        st.rerun()
+                    with file_lock(USERS_FILE):
+                        users = load_users()
+                        if name in users and users[name].get("password") is not None:
+                            log_auth("register", name, False, "username already taken")
+                            st.error(f"❌ '{name}' is already taken. Please choose a different username.")
+                        else:
+                            users[name] = {
+                                "password": hash_pw(pw),
+                                "nationality": nationality,
+                                "native_language": native_lang,
+                                "consented_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+                            }
+                            save_users(users)
+                            log_auth("register", name, True, "")
+                            st.session_state.username = name
+                            create_session(name)
+                            st.rerun()
 
     st.stop()
 
@@ -766,12 +784,13 @@ if "category" not in st.session_state:
                 if not new_nationality or not new_native_lang:
                     st.warning("Please fill in both fields. / 両方とも入力してください。")
                 else:
-                    users = load_users()
-                    record = users.get(st.session_state.username) or {}
-                    record["nationality"] = new_nationality
-                    record["native_language"] = new_native_lang
-                    users[st.session_state.username] = record
-                    save_users(users)
+                    with file_lock(USERS_FILE):
+                        users = load_users()
+                        record = users.get(st.session_state.username) or {}
+                        record["nationality"] = new_nationality
+                        record["native_language"] = new_native_lang
+                        users[st.session_state.username] = record
+                        save_users(users)
                     st.success("Saved! / 保存しました。")
                     st.rerun()
 
@@ -1086,10 +1105,13 @@ if current_idx >= len(order):
                 "score": f"{corrects} out of {total}",
             })
         df = DataFrame(rows)
-        if os.path.exists(path) and os.path.getsize(path) > 0:
-            df_old = read_csv(path)
-            df = concat([df_old, df], ignore_index=True)
-        df.to_csv(path, index=False)
+        with file_lock(path):
+            if os.path.exists(path) and os.path.getsize(path) > 0:
+                df_old = read_csv(path)
+                df_write = concat([df_old, df], ignore_index=True)
+            else:
+                df_write = df
+            df_write.to_csv(path, index=False)
         st.session_state.score_saved = True
 
     st.title("🎉 You Finished All Questions!")
