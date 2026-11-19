@@ -5,26 +5,16 @@ import os
 import time
 import hashlib
 import secrets
-import fcntl
-from contextlib import contextmanager
 from datetime import datetime
 from glob import glob
 from pandas import DataFrame, read_csv, concat
+from supabase import create_client
 
-@contextmanager
-def file_lock(target_path):
-    """Cross-session lock so that two people saving at the same moment (e.g. many
-    participants finishing a quiz category together) don't clobber each other's data.
-    Locks on a sibling '<file>.lock' file; the actual read-modify-write of the real
-    file should happen entirely inside the 'with' block."""
-    os.makedirs(os.path.dirname(target_path), exist_ok=True)
-    lock_path = target_path + ".lock"
-    with open(lock_path, "w") as lock_f:
-        fcntl.flock(lock_f, fcntl.LOCK_EX)
-        try:
-            yield
-        finally:
-            fcntl.flock(lock_f, fcntl.LOCK_UN)
+@st.cache_resource
+def get_supabase():
+    """One shared Supabase client per app process. Credentials come from
+    Streamlit Cloud's Secrets (Settings -> Secrets), never from a file in the repo."""
+    return create_client(st.secrets["SUPABASE_URL"], st.secrets["SUPABASE_SERVICE_KEY"])
 
 # Path to this file's own folder, so the app works no matter where it's deployed
 # (local Mac, Streamlit Community Cloud, etc.) instead of a hardcoded absolute path.
@@ -403,86 +393,75 @@ def get_culture_group(nationality):
             best_group, best_dist = group, dist
     return best_group
 
-# ---------- User management ----------
-USERS_FILE    = os.path.join(os.path.dirname(__file__), "results", "users.json")
-AUTH_LOG_FILE = os.path.join(os.path.dirname(__file__), "results", "auth_log.csv")
-SESSIONS_FILE = os.path.join(os.path.dirname(__file__), "results", "sessions.json")
-
+# ---------- User management (Supabase-backed) ----------
 def hash_pw(password):
     return hashlib.sha256(password.encode()).hexdigest()
 
 def log_auth(event, username, success, note=""):
     """event: 'login' or 'register'"""
-    os.makedirs(os.path.dirname(AUTH_LOG_FILE), exist_ok=True)
-    write_header = not os.path.exists(AUTH_LOG_FILE) or os.path.getsize(AUTH_LOG_FILE) == 0
-    with open(AUTH_LOG_FILE, "a", encoding="utf-8") as f:
-        if write_header:
-            f.write("datetime,event,username,success,note\n")
-        f.write(f'{datetime.now().strftime("%Y-%m-%d %H:%M:%S")},{event},{username},{success},{note}\n')
+    get_supabase().table("auth_log").insert({
+        "datetime": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+        "event": event,
+        "username": username,
+        "success": str(success),
+        "note": note,
+    }).execute()
 
-def normalize_user_record(v):
-    """Normalize into a dict with password/nationality/native_language"""
-    if v is None:
-        return {"password": None, "nationality": "", "native_language": ""}
-    if isinstance(v, str):
-        return {"password": v, "nationality": "", "native_language": ""}
-    if isinstance(v, dict):
-        v.setdefault("password", None)
-        v.setdefault("nationality", "")
-        v.setdefault("native_language", "")
-        return v
-    return {"password": None, "nationality": "", "native_language": ""}
+def get_user(username):
+    """Single-row lookup. Returns a dict (password/nationality/native_language/consented_at) or None."""
+    res = get_supabase().table("users").select("*").eq("username", username).limit(1).execute()
+    return res.data[0] if res.data else None
 
-def load_users():
-    if os.path.exists(USERS_FILE) and os.path.getsize(USERS_FILE) > 0:
-        with open(USERS_FILE) as f:
-            data = json.load(f)
-        # Migrate old format (list) to new format (dict)
-        if isinstance(data, list):
-            data = {name: None for name in data}
-        changed = False
-        for name, v in list(data.items()):
-            normalized = normalize_user_record(v)
-            if normalized != v:
-                changed = True
-            data[name] = normalized
-        if changed:
-            with open(USERS_FILE, "w") as f:
-                json.dump(data, f, ensure_ascii=False)
-        return data
-    return {}
+def create_user(username, password_hash, nationality, native_language, consented_at):
+    get_supabase().table("users").insert({
+        "username": username,
+        "password": password_hash,
+        "nationality": nationality,
+        "native_language": native_language,
+        "consented_at": consented_at,
+    }).execute()
 
-def save_users(users):
-    os.makedirs(os.path.dirname(USERS_FILE), exist_ok=True)
-    with open(USERS_FILE, "w") as f:
-        json.dump(users, f, ensure_ascii=False)
+def update_user_password(username, password_hash):
+    get_supabase().table("users").update({"password": password_hash}).eq("username", username).execute()
+
+def update_user_profile(username, nationality, native_language):
+    get_supabase().table("users").update({
+        "nationality": nationality,
+        "native_language": native_language,
+    }).eq("username", username).execute()
 
 def get_user_profile(username):
     """Helper to fetch user attributes, used when saving quiz_results, etc."""
-    users = load_users()
-    record = users.get(username) or {}
+    record = get_user(username) or {}
     return {
-        "nationality": record.get("nationality", ""),
-        "native_language": record.get("native_language", ""),
+        "nationality": record.get("nationality") or "",
+        "native_language": record.get("native_language") or "",
     }
 
-def load_sessions():
-    if os.path.exists(SESSIONS_FILE) and os.path.getsize(SESSIONS_FILE) > 0:
-        with open(SESSIONS_FILE) as f:
-            return json.load(f)
-    return {}
-
-def save_sessions(sessions):
-    os.makedirs(os.path.dirname(SESSIONS_FILE), exist_ok=True)
-    with open(SESSIONS_FILE, "w") as f:
-        json.dump(sessions, f, ensure_ascii=False)
+def get_all_quiz_results_df():
+    """All quiz_results rows as a DataFrame. Supabase caps a single select at 1000
+    rows by default, so page through with .range() until a page comes back short."""
+    sb = get_supabase()
+    all_rows = []
+    page_size = 1000
+    start = 0
+    while True:
+        res = sb.table("quiz_results").select("*").range(start, start + page_size - 1).execute()
+        rows = res.data
+        all_rows.extend(rows)
+        if len(rows) < page_size:
+            break
+        start += page_size
+    import pandas as pd
+    df = pd.DataFrame(all_rows)
+    if not df.empty and "id" in df.columns:
+        df = df.drop(columns=["id", "created_at"], errors="ignore")
+    return df
 
 def create_session(username):
-    """Generate a token, set it in the URL, and save it to file"""
+    """Generate a token, set it in the URL, and save it in the sessions table."""
     token = secrets.token_urlsafe(32)
-    sessions = load_sessions()
-    sessions[token] = username
-    save_sessions(sessions)
+    get_supabase().table("sessions").insert({"token": token, "username": username}).execute()
     st.query_params["session"] = token
     return token
 
@@ -490,18 +469,16 @@ def delete_session():
     """Remove the token on logout"""
     token = st.query_params.get("session")
     if token:
-        sessions = load_sessions()
-        sessions.pop(token, None)
-        save_sessions(sessions)
+        get_supabase().table("sessions").delete().eq("token", token).execute()
         st.query_params.clear()
 
 # ---------- Restore session on reload ----------
 if "username" not in st.session_state:
     token = st.query_params.get("session")
     if token:
-        sessions = load_sessions()
-        if token in sessions:
-            st.session_state.username = sessions[token]
+        res = get_supabase().table("sessions").select("username").eq("token", token).limit(1).execute()
+        if res.data:
+            st.session_state.username = res.data[0]["username"]
 
 # ---------- Login page ----------
 if "username" not in st.session_state:
@@ -520,20 +497,19 @@ if "username" not in st.session_state:
             if not name or not pw:
                 st.warning("Please enter both username and password.")
             else:
-                users = load_users()
-                if name not in users:
+                user = get_user(name)
+                if user is None:
                     log_auth("login", name, False, "username not found")
                     st.error(f"❌ '{name}' is not registered yet.")
                     st.info("👉 Go to the **Register** tab above to create a new account!")
-                elif users[name]["password"] is None:
+                elif not user.get("password"):
                     # Legacy data (no password set) -> auto-set password and log in
-                    users[name]["password"] = hash_pw(pw)
-                    save_users(users)
+                    update_user_password(name, hash_pw(pw))
                     log_auth("login", name, True, "legacy account - password set")
                     st.session_state.username = name
                     create_session(name)
                     st.rerun()
-                elif users[name]["password"] == hash_pw(pw):
+                elif user["password"] == hash_pw(pw):
                     log_auth("login", name, True, "")
                     st.session_state.username = name
                     create_session(name)
@@ -619,23 +595,27 @@ If you have any questions, please contact the researcher (Riko Homma / gmail: a2
                 elif pw != pw2:
                     st.error("❌ Passwords do not match.")
                 else:
-                    with file_lock(USERS_FILE):
-                        users = load_users()
-                        if name in users and users[name].get("password") is not None:
-                            log_auth("register", name, False, "username already taken")
-                            st.error(f"❌ '{name}' is already taken. Please choose a different username.")
-                        else:
-                            users[name] = {
+                    existing = get_user(name)
+                    if existing is not None and existing.get("password"):
+                        log_auth("register", name, False, "username already taken")
+                        st.error(f"❌ '{name}' is already taken. Please choose a different username.")
+                    else:
+                        consented_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                        if existing is not None:
+                            # Legacy row with no password yet -> fill it in rather than
+                            # inserting a second row for the same username.
+                            get_supabase().table("users").update({
                                 "password": hash_pw(pw),
                                 "nationality": nationality,
                                 "native_language": native_lang,
-                                "consented_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-                            }
-                            save_users(users)
-                            log_auth("register", name, True, "")
-                            st.session_state.username = name
-                            create_session(name)
-                            st.rerun()
+                                "consented_at": consented_at,
+                            }).eq("username", name).execute()
+                        else:
+                            create_user(name, hash_pw(pw), nationality, native_lang, consented_at)
+                        log_auth("register", name, True, "")
+                        st.session_state.username = name
+                        create_session(name)
+                        st.rerun()
 
     st.stop()
 
@@ -824,23 +804,16 @@ if "category" not in st.session_state:
                 if not new_nationality or not new_native_lang:
                     st.warning("Please fill in both fields. / 両方とも入力してください。")
                 else:
-                    with file_lock(USERS_FILE):
-                        users = load_users()
-                        record = users.get(st.session_state.username) or {}
-                        record["nationality"] = new_nationality
-                        record["native_language"] = new_native_lang
-                        users[st.session_state.username] = record
-                        save_users(users)
+                    update_user_profile(st.session_state.username, new_nationality, new_native_lang)
                     st.success("Saved! / 保存しました。")
                     st.rerun()
 
-        RESULTS_PATH = os.path.join(os.path.dirname(__file__), "results", "quiz_results.csv")
-        if not os.path.exists(RESULTS_PATH) or os.path.getsize(RESULTS_PATH) == 0:
+        df_all = get_all_quiz_results_df()
+        if df_all.empty:
             st.info("No results yet. Complete a quiz to see your portfolio!")
         else:
             import pandas as pd
             import datetime as dt
-            df_all = pd.read_csv(RESULTS_PATH)
             df_all = df_all[df_all["username"] == st.session_state.username].copy()
             df_all = df_all[df_all["q_num"].notna()].copy()
 
@@ -924,19 +897,17 @@ if "category" not in st.session_state:
             if st.button("🔄 最新のデータに更新"):
                 st.rerun()
             st.caption("※このページは自動更新されません。新しい回答を反映したいときはこのボタンを押してください（ブラウザの再読み込みでも同じです）。")
-            RESULTS_PATH = os.path.join(os.path.dirname(__file__), "results", "quiz_results.csv")
-            if not os.path.exists(RESULTS_PATH) or os.path.getsize(RESULTS_PATH) == 0:
+            df = get_all_quiz_results_df()
+            if df.empty:
                 st.info("まだ結果がありません。")
             else:
-                with open(RESULTS_PATH, "rb") as f:
-                    st.download_button(
-                        "📥 quiz_results.csv をダウンロード",
-                        data=f.read(),
-                        file_name="quiz_results.csv",
-                        mime="text/csv",
-                        help="Streamlit Community Cloudの保存領域は一時的です。アプリが再起動するとデータが消えることがあるので、定期的にダウンロードしてください。",
-                    )
-                df = read_csv(RESULTS_PATH)
+                st.download_button(
+                    "📥 quiz_results.csv をダウンロード",
+                    data=df.to_csv(index=False).encode("utf-8"),
+                    file_name="quiz_results.csv",
+                    mime="text/csv",
+                    help="Supabase上の全データをその場でCSVに変換してダウンロードします。",
+                )
                 # Older rows saved before these columns existed won't have them;
                 # add them as all-NaN so the analysis below doesn't KeyError.
                 for col in ["selected_tag", "reason_category_before", "reason_text_before",
@@ -1122,10 +1093,6 @@ if current_idx >= len(order):
     # Auto-save (once only)
     if not st.session_state.get("score_saved"):
         now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        results_dir = os.path.join(os.path.dirname(__file__), "results")
-        os.makedirs(results_dir, exist_ok=True)
-        path = os.path.join(results_dir, "quiz_results.csv")
-
         profile = get_user_profile(st.session_state.username)
 
         rows = []
@@ -1136,11 +1103,11 @@ if current_idx >= len(order):
                 "nationality": profile["nationality"],
                 "native_language": profile["native_language"],
                 "category": st.session_state.category,
-                "q_num": log["q_num"],
+                "q_num": str(log["q_num"]),
                 "question": log["question"],
                 "user_answer": log["user_answer"],
                 "correct_answer": log["correct_answer"],
-                "is_correct": log["is_correct"],
+                "is_correct": str(log["is_correct"]),
                 "selected_tag": log.get("selected_tag"),
                 "reason_category_before": log.get("reason_category_before"),
                 "reason_text_before": log.get("reason_text_before", ""),
@@ -1148,14 +1115,10 @@ if current_idx >= len(order):
                 "reason_text_after": log.get("reason_text_after", ""),
                 "score": f"{corrects} out of {total}",
             })
-        df = DataFrame(rows)
-        with file_lock(path):
-            if os.path.exists(path) and os.path.getsize(path) > 0:
-                df_old = read_csv(path)
-                df_write = concat([df_old, df], ignore_index=True)
-            else:
-                df_write = df
-            df_write.to_csv(path, index=False)
+        # A single batch insert -- no read-modify-write, so there's no race even
+        # when many participants finish a category at the same moment.
+        if rows:
+            get_supabase().table("quiz_results").insert(rows).execute()
         st.session_state.score_saved = True
 
     st.title("🎉 You Finished All Questions!")
